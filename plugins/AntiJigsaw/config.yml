@@ -1,8 +1,8 @@
-#Configure how the exploit is detected
+#Configurar como se detecta la vulnerabilidad
 channels: ["MC|BEdit", "MC|BSign"]
 max-size: 30000
 
-#Commands to dispatch when the exploit is detected.
-#%player% will be replaced with the player name.
+#Comanda a despachar cuando la explotación es detectada.
+#%player% será reemplazado con el nombre del jugador.
 commands:
   - 'ban %player% Jigsaw Crash'

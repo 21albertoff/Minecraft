@@ -1,49 +1,49 @@
-# This file lists the values for various blocks that are used to calculate the
-# island level. Level = total of all blocks in island boundary / 100.
-# Players with the permission askyblock.island.multiplier.# will have their blocks
-# multiplied in value by that amount.
+# Este archivo lista los valores de varios bloques que se usan para calcular el
+# nivel de la isla. Nivel = total de todos los bloques en el límite de la isla / 100.
+# Los jugadores con el permiso askyblock.island.multiplier. # tendrán sus bloques
+# multiplicado en valor por esa cantidad.
 
-# Underwater block multiplier
-# If blocks are below sea-level, they can have a higher value. e.g. 2x
-# Promotes under-water development if there is a sea. Value can be fractional.
+# Multiplicador de bloque submarino
+# Si los bloques están por debajo del nivel del mar, pueden tener un valor más alto, por ejemplo, 2x
+# Promueve el desarrollo bajo el agua si hay un mar. El valor puede ser fraccionario.
 underwater: 1.0
 
-# Value of one island level. Default 100. Minimum value is 1.
+# Valor de un nivel de la isla. Por defecto 100. El valor mínimo es 1.
 levelcost: 100
 
-# Death penalty
-# How many block values a player will lose per death.
-# Default value of 100 means that for every death, the player will lose 1 level (if levelcost is 100)
-# Set to zero to not use this feature
+# Penalizacion de muerte
+# Cuántos valores de bloque perderá un jugador por muerte.
+# El valor por defecto de 100 significa que por cada muerte, el jugador perderá 1 nivel (si el coste de nivel es 100)
+# Poner a cero para no usar esta función
 deathpenalty: 100
-# Sum team deaths - if true, all the teams deaths are summed
-# If false, only the leader's deaths counts
+# Suma las muertes de los equipos - si es cierto, todas las muertes de los equipos se suman
+# Si es falso, sólo cuenta la muerte del líder
 sumteamdeaths: false
-# Max deaths
-# If player dies more than this, it doesn't count anymore
-# Stops players from getting into an impossible situation
+# Max muertes
+# Si el jugador muere más que esto, no cuenta más
+# Evita que los jugadores se pongan en una situación imposible
 maxdeaths: 10
-# Reset deaths on island reset
+# Reiniciar las muertes en la isla reiniciar
 islandresetdeathreset: true
-# Reset deaths on team join
+# Reajustar las muertes en el equipo unirse
 teamjoindeathreset: true
 
 
-# This section lists the limits for any particular block. Blocks over this amount
-# are not counted.
-# Format:
-# MATERIAL: limit or MATERIAL:DATA: limit.
-# If DATA is used, there MUST be a corresponding block:data value in the blocks list.
-# For example, if you limit Jungle Logs LOG:3, then there must be a value for LOG:3
-# in the blocks section. If there is not, then LOG:3 would have no value.
+# Esta sección enumera los límites para cualquier bloque en particular. Los bloques que superen esta cantidad
+# no se cuentan.
+# Formato:
+# MATERIAL: límite o MATERIAL: DATOS: límite.
+# Si se usan DATOS, debe haber un valor correspondiente a block:data en la lista de bloques.
+# Por ejemplo, si se limita el LOG:3 de Jungla, entonces debe haber un valor para LOG:3
+# en la sección de bloques. Si no lo hay, entonces LOG:3 no tendría ningún valor.
 limits:
   COBBLESTONE: 10000
   NETHERRACK: 1000
   #LOG:3: 10
   
-# This section lists the value of a block. Value must be an integer.
-# Any blocks not listed will have a value of zero.
-# Format is MATERIAL: value or MATERIAL:DATA: value.
+# Esta sección enumera el valor de un bloque. El valor debe ser un número entero.
+# Cualquier bloque que no esté en la lista tendrá un valor de cero.
+# El formato es MATERIAL: valor o MATERIAL:DATA: valor.
 
 blocks:
   ACACIA_DOOR: 1

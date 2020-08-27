@@ -1,166 +1,166 @@
 ##########################################################################################
-# Challenges
-# Rewards and required items have to be described using Bukkit Materials
-# and be exactly correct
-# Do not use Type Id's - they will not work
-# Challenges can be one of three types - inventory, island or level.
-# inventory - means the player must have the items on them
-# island - means the items have to be on the island and within 10 blocks of the player
-#          entities are also supported, e.g., COW.
-# level - means the island level has to be equal or over this amount.
-#         If level is set as nothing '', then the challenge is a free challenge and can be
-#         done at any time.
-# Challenges can be repeatable only if they are inventory challenges
-# permissions can be given as a reward
+# Desafíos
+# Las recompensas y los artículos requeridos tienen que ser descritos usando los materiales de Bukkit
+# y ser exactamente correcto
+# No uses las identificaciones de tipo - no funcionarán
+# Los desafíos pueden ser de tres tipos: inventario, isla o nivel.
+# Inventario - significa que el jugador debe tener los artículos en ellos
+# Isla - significa que los artículos tienen que estar en la isla y dentro de 10 cuadras del jugador
+# entidades también son apoyadas, por ejemplo, COW.
+# nivel - significa que el nivel de la isla tiene que ser igual o superior a esta cantidad.
+# Si el nivel se establece como nada '', entonces el desafío es un desafío libre y puede ser
+# hecho en cualquier momento.
+# Los desafíos pueden ser repetibles sólo si son desafíos de inventario
+# Los permisos pueden ser dados como una recompensa
 #
-# Reward Commands - commands can be run when a challenge is completed and repeated
-# Commands are:
-#    rewardcommands:
-#      - command1
-#      - command2
-#    repeatrewardcommands:
-#      - command1
-#      - command2      
-# The commands are listed and run in order. Do not put a / in front of the command.
-# The token [player] will be replaced with the player's name.
-# Example:
-#    rewardcommands:
-#      - pex promote [player]
-#      - heal [player]
-#      - warp winner_circle [player]
-# If a command fails, it will be noted in the console.
+# Comandos de recompensa - los comandos se pueden ejecutar cuando un desafío se completa y se repite
+# Los comandos son:
+# Comandos de recompensa:
+# - comando1
+# - comando2
+# Repetición de comandos:
+# - comando1
+# - comando2      
+# Los comandos están listados y se ejecutan en orden. No pongas una / delante del comando.
+# La ficha [jugador] será reemplazada por el nombre del jugador.
+# Ejemplo:
+# Comandos de recompensa:
+# - pex promote [jugador]
+# - curar [jugador]
+# - círculo de ganadores de la urdimbre [jugador]
+# Si un comando falla, se anotará en la consola.
 #
-# The format for POTIONS is as follows:
+# El formato de las POCIONES es el siguiente:
 #
-# Format POTION:NAME:<LEVEL>:<EXTENDED>:<SPLASH/LINGER>:QTY
-# LEVEL, EXTENDED, SPLASH, LINGER are optional.
-# LEVEL is a number, 1 or 2
-# LINGER is for V1.9 servers and later
-# Examples:
-# POTION:STRENGTH:1:EXTENDED:SPLASH:1
-# POTION:INSTANT_DAMAGE:2::LINGER:2
-# POTION:JUMP:2:NOTEXTENDED:NOSPLASH:1
-# POTION:WEAKNESS::::1   -  any weakness potion
+# Formato POCIÓN:NOMBRE:<NIVEL>:<EXTENDIDO>:<SPLASH/LINGER>:QTY
+# LEVEL, EXTENDED, SPLASH, LINGER son opcionales.
+# NIVEL es un número, 1 o 2
+# LINGER es para los servidores V1.9 y posteriores
+# Ejemplos:
+# POCIÓN:FUERZA:1:EXTENDIDA:SALPICADURA:1
+# POCIÓN:DAÑO_INSTANTÁNEO:2::PERSISTIR:2
+# POCIÓN:SALTO:2:NOTA EXTENDIDA:SALPICADURA:1
+# POCIÓN:DEBILIDAD:::1 - cualquier poción de debilidad
 # 
-# Valid potion names are:
-# WATER, REGEN, SPEED, FIRE_RESISTANCE, POISON, INSTANT_HEAL, NIGHT_VISION, WEAKNESS,
-# STRENGTH, SLOWNESS, JUMP, INSTANT_DAMAGE, WATER_BREATHING, INVISIBILITY
-# For V1.9 these are also available:
-# LUCK, MUNDANE, THICK, AWKWARD
+# Los nombres válidos de las pociones son:
+# AGUA, REGENERACIÓN, VELOCIDAD, RESISTENCIA AL FUEGO, VENENO, CURACIÓN INSTANTÁNEA, VISIÓN NOCTURNA, DEBILIDAD,
+# FUERZA, LENTITUD, SALTO, DAÑO INSTANTÁNEO, RESPIRACIÓN DE AGUA, INVISIBILIDAD #
+# Para la V1.9 también están disponibles:
+# SUERTE, MUNDANA, GRUESA, TORPE
 #
 #
-# Reseting islands and challenges - usually challenges are reset when a player resets
-# their island (see resetchallenges in config.yml). You can stop some challenges from
-# being reset by using resetallowed:false in the challenge.
+# Reajustar islas y desafíos - normalmente los desafíos se reajustan cuando un jugador se reajusta
+# su isla (ver reajustes en config.yml). Puedes detener algunos desafíos de
+# siendo reiniciado mediante el uso de resetallowed:false en el desafío.
 ##########################################################################################
 
 challenges:
-  # Challenge levels - list as many as you like. If a challenge's level is '' it can
-  # be done anytime. You cannot name a challenge the same as a level.
+  # Niveles de desafío - enumera todos los que quieras. Si el nivel de un desafío es '' puede
+  # se hará en cualquier momento. No puedes nombrar un desafío igual que un nivel.
   levels: 'Novice Competent Expert Advanced Elite'
     
-  # The number of undone tasks that can be left on a level before unlocking next level
+  # El número de tareas deshechas que pueden dejarse en un nivel antes de desbloquear el siguiente nivel #
   waiveramount: 1
   
-  # Free levels - which levels above should be auto done when reached, therefore unlocking next level.
-  # Example:
-  # freelevels: 'Novice' will immediately put player onto Competent level challenges 
-  # freelevels: 'Novice Competent' will make all Novice, Competent and Expert challenges available immediately.
-  # freelevels: 'Competent' will open Competent and Expert levels once Novice is complete
+  # Niveles libres - que los niveles superiores deben hacerse automáticamente cuando se alcanza, por lo tanto desbloquear el siguiente nivel.
+  # Ejemplo:
+  # Niveles libres: "Novato" pondrá inmediatamente al jugador en desafíos de nivel competente 
+  # freelevels: 'Novato competente' hará que todos los retos de novato, competente y experto estén disponibles inmediatamente.
+  # freelevels: 'Competente' abrirá los niveles de Competente y Experto una vez que el Novato esté completo
   freelevels: ''
   
-  # This section determines what happens when a player unlocks a new level
-  # The subname should correspond to the levels listed above
-  # Note that there is no section for the first level as it is automatically unlocked
+  # Esta sección determina lo que pasa cuando un jugador desbloquea un nuevo nivel
+  # El subnombre debe corresponder a los niveles listados arriba
+  # Note que no hay sección para el primer nivel ya que se desbloquea automáticamente
   levelUnlock:
     Competent:
-      # What additional message to send player
-      message: 'Congratulations - you unlocked the &9Competent level!'
-      rewardDesc: 'A diamond!'
+      # Mensaje adicional para enviar al jugador
+      message: 'Enhorabuena - has desbloqueado el nivel &9Competent!'
+      rewardDesc: 'Un diamante'
       itemReward: 'DIAMOND:1'
       moneyReward: 100
       expReward: 100
-      # List permissions separated by spaces
+      # Lista de permisos separados por comas
       permissionReward: ''
-      # Commands to run on this player. Use [player] for their name.
+      # Ordena que se ejecute en este jugador. Usa [jugador] para su nombre.
       commands:
-      #- kit tools [player]
-      #- some other command
+      #- herramientas del kit [player]
+      #- algun otro comando
     Expert:
-      # What additional message to send player
-      message: 'Congratulations - you unlocked the &aExpert level!'
-      rewardDesc: '3 diamonds!'
+      # Mensaje adicional para enviar al jugador
+      message: 'Enhorabuena - has desbloqueado el nivel &9Expert!'
+      rewardDesc: '3 diamantes'
       itemReward: 'DIAMOND:3'
       moneyReward: 100
       expReward: 100
       permissionReward: ''
-      # Commands to run on this player. Use [player] for their name.
+      # Ordena que se ejecute en este jugador. Usa [jugador] para su nombre.
       commands:
-      #- kit tools [player]
-      #- some other command
+      #- herramientas del kit [player]
+      #- algun otro comando
     Advanced:
-      # What additional message to send player
-      message: 'Congratulations - you unlocked the &bAdvanced level!'
-      rewardDesc: '5 diamonds!'
+      # Mensaje adicional para enviar al jugador
+      message: 'Enhorabuena - has desbloqueado el nivel &9Advanced!'
+      rewardDesc: '5 diamantes'
       itemReward: 'DIAMOND:5'
       moneyReward: 100
       expReward: 100
       permissionReward: ''
-      # Commands to run on this player. Use [player] for their name.
+      # Ordena que se ejecute en este jugador. Usa [jugador] para su nombre.
       commands:
-      #- kit tools [player]
-      #- some other command
+      #- herramientas del kit [player]
+      #- algun otro comando
     Elite:
-      # What additional message to send player
-      message: 'Congratulations - you unlocked the &dElite level!'
-      rewardDesc: '7 diamonds!'
+      # Mensaje adicional para enviar al jugador
+      message: 'Enhorabuena - has desbloqueado el nivel &9Elite!'
+      rewardDesc: '7 diamantes'
       itemReward: 'DIAMOND:7'
       moneyReward: 100
       expReward: 100
       permissionReward: ''
-      # Commands to run on this player. Use [player] for their name.
+      # Ordena que se ejecute en este jugador. Usa [jugador] para su nombre.
       commands:
-      #- kit tools [player]
-      #- some other command
+      #- herramientas del kit [player]
+      #- algun otro comando
       
-  # Challenge list
-  # Challenge names must be in lowercase. Do not use the same name as a level!
+  # Lista de desafíos
+  # Los nombres de los desafíos deben estar en minúsculas. ¡No uses el mismo nombre que un nivel!
   challengeList:
     glassmaker:
-      friendlyname: 'Glass Maker'
-      description: 'Create 1 block of glass'
+      friendlyname: 'Fabricante de vidrio'
+      description: 'Crear un bloque de vidrio'
       icon: GLASS
       level: 'Novice'
       type: inventory
       requiredItems: 'GLASS:1'
-      # You can require the player has a certain amount of money for inventory challenges.
-      # Remember to mention it in the description!
-      # If takeItems is true, the money will be removed, so you may want to give it
-      # back in the reward.
-      #requiredMoney: 10
+      # Puedes requerir que el jugador tenga una cierta cantidad de dinero para los desafíos de inventario.
+      # ¡Recuerda mencionarlo en la descripción!
+      # Si takeItems es cierto, el dinero será retirado, así que puede que quieras darlo
+      # de vuelta en la recompensa.
+      # requeridoDinero: 10
       takeItems: true
       itemReward: 'ICE:1'
-      rewardText: '1 block of ice'
-      #rewardcommands:
-      #- kit tools [player]
+      rewardText: '1 bloque de hielo'
+      #recompensación de comandos:
+      #- herramientas del kit [jugador]
       moneyReward: 10
       expReward: 30
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'ICE:1'
-      repeatRewardText: '1 block of ice'
+      repeatRewardText: '1 bloque de hielo'
       repeatMoneyReward: 5
       repeatExpReward: 10
-      #repeatrewardcommands:
-      # Max times limits how many times a challenge can be done. Comment out to make unlimited
+      #repetición de comandos:
+      #Máximo de veces limita la cantidad de veces que se puede hacer un desafío. Comentar para hacer ilimitado
       maxtimes: 2
-      # Allow this challenge to reset when the player resets their island
-      # Default is true. Set to false to keep this challenge completed.
-      # Admins can always reset challenges even if this is set to false.
+      # Permitir que este desafío se reinicie cuando el jugador reinicie su isla
+      # El defecto es cierto. Ponlo en falso para mantener este desafío completado.
+      # Los administradores siempre pueden reiniciar los desafíos incluso si está configurado en falso.
       resetallowed: true
     breadmaker:
-      friendlyname: 'Bread Maker'
-      description: 'Bake 21 loaves of bread'
+      friendlyname: 'Panadero'
+      description: 'Hornea 21 barras de pan'
       icon: BREAD
       level: 'Novice'
       type: inventory
@@ -176,11 +176,11 @@ challenges:
       repeatRewardText: '1 dirt'
       repeatMoneyReward: 5
       repeatExpReward: 10
-      # Max times limits how many times a challenge can be done. Comment out to make unlimited
+      # El máximo de veces limita la cantidad de veces que se puede hacer un desafío. Comentar para hacer ilimitado
       maxtimes: 100
     dyemaker:
-      friendlyname: 'Dye Maker'
-      description: 'Craft 32 cactus green dyes'
+      friendlyname: 'Fabricante de tintes'
+      description: 'Crafteo 32 tintes de cactus verde'
       icon: INK_SACK:2
       level: 'Novice'
       type: inventory
