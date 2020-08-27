@@ -1,0 +1,72 @@
+Name: vip
+Cooldown: 150
+Permission: greatkits.kits.vip
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_SWORD
+  - ==: org.bukkit.inventory.ItemStack
+    type: GOLDEN_APPLE
+    amount: 3
+  - ==: org.bukkit.inventory.ItemStack
+    type: GRILLED_PORK
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16417
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16421
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_HELMET

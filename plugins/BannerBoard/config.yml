@@ -1,0 +1,497 @@
+# This is the BannerBoard configuration
+# Make sure to always make a backup of this file before making any changes!
+# Made by BigTeddy98
+# 
+# Every BannerBoard has some internal settings stored in this file.
+# Please do not make any changes to whatever is in the internal section.
+
+lastUsedId: 25
+skins:
+  profileLookupURL: https://sessionserver.mojang.com/session/minecraft/profile/
+  offlineMode:
+    uuidLookupURL: https://api.mojang.com/users/profiles/minecraft/
+    isOfflineMode: false
+idrange:
+  startid: 25000
+  amount: 5000
+skinserver: http://www.skinrender.com:2798/
+skinrender_key: INSERT_SKINRENDER_KEY_HERE
+bannerboards:
+  '1':
+    internal:
+      frames:
+      - Lobby_-1.0_68.0_-19.0_0.0_0.0
+      - Lobby_-1.0_67.0_-19.0_0.0_0.0
+      - Lobby_-1.0_66.0_-19.0_0.0_0.0
+      - Lobby_0.0_68.0_-19.0_0.0_0.0
+      - Lobby_0.0_67.0_-19.0_0.0_0.0
+      - Lobby_0.0_66.0_-19.0_0.0_0.0
+      - Lobby_1.0_68.0_-19.0_0.0_0.0
+      - Lobby_1.0_67.0_-19.0_0.0_0.0
+      - Lobby_1.0_66.0_-19.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,255,220
+      - IMAGE -src survival.png -width 400 -height 400
+  '2':
+    internal:
+      frames:
+      - Lobby_-1.0_70.0_-18.0_0.0_0.0
+      - Lobby_0.0_70.0_-18.0_0.0_0.0
+      - Lobby_1.0_70.0_-18.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,255,220
+      - IMAGE -src surv.png -width 383 -height 130
+  '3':
+    internal:
+      frames:
+      - Lobby_3.0_68.0_-18.0_0.0_0.0
+      - Lobby_3.0_67.0_-18.0_0.0_0.0
+      - Lobby_3.0_66.0_-18.0_0.0_0.0
+      - Lobby_4.0_68.0_-18.0_0.0_0.0
+      - Lobby_4.0_67.0_-18.0_0.0_0.0
+      - Lobby_4.0_66.0_-18.0_0.0_0.0
+      - Lobby_5.0_68.0_-18.0_0.0_0.0
+      - Lobby_5.0_67.0_-18.0_0.0_0.0
+      - Lobby_5.0_66.0_-18.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src skyblocks.png -width 400 -height 400
+  '4':
+    internal:
+      frames:
+      - Lobby_3.0_70.0_-17.0_0.0_0.0
+      - Lobby_4.0_70.0_-17.0_0.0_0.0
+      - Lobby_5.0_70.0_-17.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src skyblocks2.png -width 383 -height 130
+  '5':
+    internal:
+      frames:
+      - Lobby_-5.0_68.0_-18.0_0.0_0.0
+      - Lobby_-5.0_67.0_-18.0_0.0_0.0
+      - Lobby_-5.0_66.0_-18.0_0.0_0.0
+      - Lobby_-4.0_68.0_-18.0_0.0_0.0
+      - Lobby_-4.0_67.0_-18.0_0.0_0.0
+      - Lobby_-4.0_66.0_-18.0_0.0_0.0
+      - Lobby_-3.0_68.0_-18.0_0.0_0.0
+      - Lobby_-3.0_67.0_-18.0_0.0_0.0
+      - Lobby_-3.0_66.0_-18.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src skywars.png -width 400 -height 400
+  '6':
+    internal:
+      frames:
+      - Lobby_-5.0_70.0_-17.0_0.0_0.0
+      - Lobby_-4.0_70.0_-17.0_0.0_0.0
+      - Lobby_-3.0_70.0_-17.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src skywars2.png -width 383 -height 130
+  '7':
+    internal:
+      frames:
+      - Lobby_-9.0_68.0_-17.0_0.0_0.0
+      - Lobby_-9.0_67.0_-17.0_0.0_0.0
+      - Lobby_-9.0_66.0_-17.0_0.0_0.0
+      - Lobby_-8.0_68.0_-17.0_0.0_0.0
+      - Lobby_-8.0_67.0_-17.0_0.0_0.0
+      - Lobby_-8.0_66.0_-17.0_0.0_0.0
+      - Lobby_-7.0_68.0_-17.0_0.0_0.0
+      - Lobby_-7.0_67.0_-17.0_0.0_0.0
+      - Lobby_-7.0_66.0_-17.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src kitpvp.png -width 400 -height 400
+  '8':
+    internal:
+      frames:
+      - Lobby_-9.0_70.0_-16.0_0.0_0.0
+      - Lobby_-8.0_70.0_-16.0_0.0_0.0
+      - Lobby_-7.0_70.0_-16.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,255,0
+      - IMAGE -src kitpvp2.png -width 383 -height 130
+  '9':
+    internal:
+      frames:
+      - Lobby_-4.0_77.0_-17.0_0.0_0.0
+      - Lobby_-4.0_76.0_-17.0_0.0_0.0
+      - Lobby_-4.0_75.0_-17.0_0.0_0.0
+      - Lobby_-4.0_74.0_-17.0_0.0_0.0
+      - Lobby_-4.0_73.0_-17.0_0.0_0.0
+      - Lobby_-3.0_77.0_-17.0_0.0_0.0
+      - Lobby_-3.0_76.0_-17.0_0.0_0.0
+      - Lobby_-3.0_75.0_-17.0_0.0_0.0
+      - Lobby_-3.0_74.0_-17.0_0.0_0.0
+      - Lobby_-3.0_73.0_-17.0_0.0_0.0
+      - Lobby_-2.0_77.0_-17.0_0.0_0.0
+      - Lobby_-2.0_76.0_-17.0_0.0_0.0
+      - Lobby_-2.0_75.0_-17.0_0.0_0.0
+      - Lobby_-2.0_74.0_-17.0_0.0_0.0
+      - Lobby_-2.0_73.0_-17.0_0.0_0.0
+      - Lobby_-1.0_77.0_-17.0_0.0_0.0
+      - Lobby_-1.0_76.0_-17.0_0.0_0.0
+      - Lobby_-1.0_75.0_-17.0_0.0_0.0
+      - Lobby_-1.0_74.0_-17.0_0.0_0.0
+      - Lobby_-1.0_73.0_-17.0_0.0_0.0
+      - Lobby_0.0_77.0_-17.0_0.0_0.0
+      - Lobby_0.0_76.0_-17.0_0.0_0.0
+      - Lobby_0.0_75.0_-17.0_0.0_0.0
+      - Lobby_0.0_74.0_-17.0_0.0_0.0
+      - Lobby_0.0_73.0_-17.0_0.0_0.0
+      - Lobby_1.0_77.0_-17.0_0.0_0.0
+      - Lobby_1.0_76.0_-17.0_0.0_0.0
+      - Lobby_1.0_75.0_-17.0_0.0_0.0
+      - Lobby_1.0_74.0_-17.0_0.0_0.0
+      - Lobby_1.0_73.0_-17.0_0.0_0.0
+      - Lobby_2.0_77.0_-17.0_0.0_0.0
+      - Lobby_2.0_76.0_-17.0_0.0_0.0
+      - Lobby_2.0_75.0_-17.0_0.0_0.0
+      - Lobby_2.0_74.0_-17.0_0.0_0.0
+      - Lobby_2.0_73.0_-17.0_0.0_0.0
+      - Lobby_3.0_77.0_-17.0_0.0_0.0
+      - Lobby_3.0_76.0_-17.0_0.0_0.0
+      - Lobby_3.0_75.0_-17.0_0.0_0.0
+      - Lobby_3.0_74.0_-17.0_0.0_0.0
+      - Lobby_3.0_73.0_-17.0_0.0_0.0
+      - Lobby_4.0_77.0_-17.0_0.0_0.0
+      - Lobby_4.0_76.0_-17.0_0.0_0.0
+      - Lobby_4.0_75.0_-17.0_0.0_0.0
+      - Lobby_4.0_74.0_-17.0_0.0_0.0
+      - Lobby_4.0_73.0_-17.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src logodelserver.png -width 1200 -height 650
+  '10':
+    internal:
+      frames:
+      - Lobby_-13.0_68.0_-16.0_0.0_0.0
+      - Lobby_-13.0_67.0_-16.0_0.0_0.0
+      - Lobby_-13.0_66.0_-16.0_0.0_0.0
+      - Lobby_-12.0_68.0_-16.0_0.0_0.0
+      - Lobby_-12.0_67.0_-16.0_0.0_0.0
+      - Lobby_-12.0_66.0_-16.0_0.0_0.0
+      - Lobby_-11.0_68.0_-16.0_0.0_0.0
+      - Lobby_-11.0_67.0_-16.0_0.0_0.0
+      - Lobby_-11.0_66.0_-16.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src creativo.png -width 400 -height 400
+  '11':
+    internal:
+      frames:
+      - Lobby_-13.0_70.0_-15.0_0.0_0.0
+      - Lobby_-12.0_70.0_-15.0_0.0_0.0
+      - Lobby_-11.0_70.0_-15.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src creativo2.png -width 383 -height 130
+  '12':
+    internal:
+      frames:
+      - Lobby_7.0_68.0_-17.0_0.0_0.0
+      - Lobby_7.0_67.0_-17.0_0.0_0.0
+      - Lobby_7.0_66.0_-17.0_0.0_0.0
+      - Lobby_8.0_68.0_-17.0_0.0_0.0
+      - Lobby_8.0_67.0_-17.0_0.0_0.0
+      - Lobby_8.0_66.0_-17.0_0.0_0.0
+      - Lobby_9.0_68.0_-17.0_0.0_0.0
+      - Lobby_9.0_67.0_-17.0_0.0_0.0
+      - Lobby_9.0_66.0_-17.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src thebridge.png -width 400 -height 400
+  '13':
+    internal:
+      frames:
+      - Lobby_7.0_70.0_-16.0_0.0_0.0
+      - Lobby_8.0_70.0_-16.0_0.0_0.0
+      - Lobby_9.0_70.0_-16.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src thebridge2.png -width 383 -height 130
+  '14':
+    internal:
+      frames:
+      - Lobby_11.0_68.0_-16.0_0.0_0.0
+      - Lobby_11.0_67.0_-16.0_0.0_0.0
+      - Lobby_11.0_66.0_-16.0_0.0_0.0
+      - Lobby_12.0_68.0_-16.0_0.0_0.0
+      - Lobby_12.0_67.0_-16.0_0.0_0.0
+      - Lobby_12.0_66.0_-16.0_0.0_0.0
+      - Lobby_13.0_68.0_-16.0_0.0_0.0
+      - Lobby_13.0_67.0_-16.0_0.0_0.0
+      - Lobby_13.0_66.0_-16.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src skypvp.png -width 400 -height 400
+  '15':
+    internal:
+      frames:
+      - Lobby_11.0_70.0_-15.0_0.0_0.0
+      - Lobby_12.0_70.0_-15.0_0.0_0.0
+      - Lobby_13.0_70.0_-15.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src skypvp2.png -width 383 -height 130
+  '16':
+    internal:
+      frames:
+      - Lobby_16.0_68.0_-13.0_0.0_0.0
+      - Lobby_16.0_67.0_-13.0_0.0_0.0
+      - Lobby_16.0_66.0_-13.0_0.0_0.0
+      - Lobby_16.0_68.0_-12.0_0.0_0.0
+      - Lobby_16.0_67.0_-12.0_0.0_0.0
+      - Lobby_16.0_66.0_-12.0_0.0_0.0
+      - Lobby_16.0_68.0_-11.0_0.0_0.0
+      - Lobby_16.0_67.0_-11.0_0.0_0.0
+      - Lobby_16.0_66.0_-11.0_0.0_0.0
+      facing: EAST
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src tntrun.png -width 400 -height 400
+  '17':
+    internal:
+      frames:
+      - Lobby_15.0_70.0_-13.0_0.0_0.0
+      - Lobby_15.0_70.0_-12.0_0.0_0.0
+      - Lobby_15.0_70.0_-11.0_0.0_0.0
+      facing: EAST
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src tntrun2.png -width 383 -height 130
+  '18':
+    internal:
+      frames:
+      - Lobby_-16.0_68.0_-11.0_0.0_0.0
+      - Lobby_-16.0_67.0_-11.0_0.0_0.0
+      - Lobby_-16.0_66.0_-11.0_0.0_0.0
+      - Lobby_-16.0_68.0_-12.0_0.0_0.0
+      - Lobby_-16.0_67.0_-12.0_0.0_0.0
+      - Lobby_-16.0_66.0_-12.0_0.0_0.0
+      - Lobby_-16.0_68.0_-13.0_0.0_0.0
+      - Lobby_-16.0_67.0_-13.0_0.0_0.0
+      - Lobby_-16.0_66.0_-13.0_0.0_0.0
+      facing: WEST
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src fullpvp.png -width 400 -height 400
+  '19':
+    internal:
+      frames:
+      - Lobby_-15.0_70.0_-11.0_0.0_0.0
+      - Lobby_-15.0_70.0_-12.0_0.0_0.0
+      - Lobby_-15.0_70.0_-13.0_0.0_0.0
+      facing: WEST
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src fullpvp2.png -width 383 -height 130
+  '20':
+    internal:
+      frames:
+      - world_-1005.0_15.0_-1003.0_0.0_0.0
+      - world_-1005.0_14.0_-1003.0_0.0_0.0
+      - world_-1005.0_13.0_-1003.0_0.0_0.0
+      - world_-1005.0_12.0_-1003.0_0.0_0.0
+      - world_-1005.0_11.0_-1003.0_0.0_0.0
+      - world_-1005.0_10.0_-1003.0_0.0_0.0
+      - world_-1004.0_15.0_-1003.0_0.0_0.0
+      - world_-1004.0_14.0_-1003.0_0.0_0.0
+      - world_-1004.0_13.0_-1003.0_0.0_0.0
+      - world_-1004.0_12.0_-1003.0_0.0_0.0
+      - world_-1004.0_11.0_-1003.0_0.0_0.0
+      - world_-1004.0_10.0_-1003.0_0.0_0.0
+      - world_-1003.0_15.0_-1003.0_0.0_0.0
+      - world_-1003.0_14.0_-1003.0_0.0_0.0
+      - world_-1003.0_13.0_-1003.0_0.0_0.0
+      - world_-1003.0_12.0_-1003.0_0.0_0.0
+      - world_-1003.0_11.0_-1003.0_0.0_0.0
+      - world_-1003.0_10.0_-1003.0_0.0_0.0
+      - world_-1002.0_15.0_-1003.0_0.0_0.0
+      - world_-1002.0_14.0_-1003.0_0.0_0.0
+      - world_-1002.0_13.0_-1003.0_0.0_0.0
+      - world_-1002.0_12.0_-1003.0_0.0_0.0
+      - world_-1002.0_11.0_-1003.0_0.0_0.0
+      - world_-1002.0_10.0_-1003.0_0.0_0.0
+      - world_-1001.0_15.0_-1003.0_0.0_0.0
+      - world_-1001.0_14.0_-1003.0_0.0_0.0
+      - world_-1001.0_13.0_-1003.0_0.0_0.0
+      - world_-1001.0_12.0_-1003.0_0.0_0.0
+      - world_-1001.0_11.0_-1003.0_0.0_0.0
+      - world_-1001.0_10.0_-1003.0_0.0_0.0
+      - world_-1000.0_15.0_-1003.0_0.0_0.0
+      - world_-1000.0_14.0_-1003.0_0.0_0.0
+      - world_-1000.0_13.0_-1003.0_0.0_0.0
+      - world_-1000.0_12.0_-1003.0_0.0_0.0
+      - world_-1000.0_11.0_-1003.0_0.0_0.0
+      - world_-1000.0_10.0_-1003.0_0.0_0.0
+      - world_-999.0_15.0_-1003.0_0.0_0.0
+      - world_-999.0_14.0_-1003.0_0.0_0.0
+      - world_-999.0_13.0_-1003.0_0.0_0.0
+      - world_-999.0_12.0_-1003.0_0.0_0.0
+      - world_-999.0_11.0_-1003.0_0.0_0.0
+      - world_-999.0_10.0_-1003.0_0.0_0.0
+      - world_-998.0_15.0_-1003.0_0.0_0.0
+      - world_-998.0_14.0_-1003.0_0.0_0.0
+      - world_-998.0_13.0_-1003.0_0.0_0.0
+      - world_-998.0_12.0_-1003.0_0.0_0.0
+      - world_-998.0_11.0_-1003.0_0.0_0.0
+      - world_-998.0_10.0_-1003.0_0.0_0.0
+      - world_-997.0_15.0_-1003.0_0.0_0.0
+      - world_-997.0_14.0_-1003.0_0.0_0.0
+      - world_-997.0_13.0_-1003.0_0.0_0.0
+      - world_-997.0_12.0_-1003.0_0.0_0.0
+      - world_-997.0_11.0_-1003.0_0.0_0.0
+      - world_-997.0_10.0_-1003.0_0.0_0.0
+      - world_-996.0_15.0_-1003.0_0.0_0.0
+      - world_-996.0_14.0_-1003.0_0.0_0.0
+      - world_-996.0_13.0_-1003.0_0.0_0.0
+      - world_-996.0_12.0_-1003.0_0.0_0.0
+      - world_-996.0_11.0_-1003.0_0.0_0.0
+      - world_-996.0_10.0_-1003.0_0.0_0.0
+      - world_-995.0_15.0_-1003.0_0.0_0.0
+      - world_-995.0_14.0_-1003.0_0.0_0.0
+      - world_-995.0_13.0_-1003.0_0.0_0.0
+      - world_-995.0_12.0_-1003.0_0.0_0.0
+      - world_-995.0_11.0_-1003.0_0.0_0.0
+      - world_-995.0_10.0_-1003.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src registrate.png -width 1400 -height 850
+  '21':
+    internal:
+      frames:
+      - Skypvp_-2.0_5.0_-8.0_0.0_0.0
+      - Skypvp_-2.0_4.0_-8.0_0.0_0.0
+      - Skypvp_-2.0_3.0_-8.0_0.0_0.0
+      - Skypvp_-1.0_5.0_-8.0_0.0_0.0
+      - Skypvp_-1.0_4.0_-8.0_0.0_0.0
+      - Skypvp_-1.0_3.0_-8.0_0.0_0.0
+      - Skypvp_0.0_5.0_-8.0_0.0_0.0
+      - Skypvp_0.0_4.0_-8.0_0.0_0.0
+      - Skypvp_0.0_3.0_-8.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,255,220
+      - IMAGE -src survival.png -width 400 -height 400
+  '22':
+    internal:
+      frames:
+      - Skypvp_-2.0_7.0_-7.0_0.0_0.0
+      - Skypvp_-1.0_7.0_-7.0_0.0_0.0
+      - Skypvp_0.0_7.0_-7.0_0.0_0.0
+      facing: NORTH
+    configurable:
+      renderers:
+      - COLOR -color 0,255,220
+      - IMAGE -src surv.png -width 383 -height 130
+  '23':
+    internal:
+      frames:
+      - Lobby_2.0_68.0_115.0_0.0_0.0
+      - Lobby_2.0_67.0_115.0_0.0_0.0
+      - Lobby_2.0_66.0_115.0_0.0_0.0
+      - Lobby_2.0_65.0_115.0_0.0_0.0
+      - Lobby_2.0_64.0_115.0_0.0_0.0
+      - Lobby_2.0_63.0_115.0_0.0_0.0
+      - Lobby_2.0_62.0_115.0_0.0_0.0
+      - Lobby_1.0_68.0_115.0_0.0_0.0
+      - Lobby_1.0_67.0_115.0_0.0_0.0
+      - Lobby_1.0_66.0_115.0_0.0_0.0
+      - Lobby_1.0_65.0_115.0_0.0_0.0
+      - Lobby_1.0_64.0_115.0_0.0_0.0
+      - Lobby_1.0_63.0_115.0_0.0_0.0
+      - Lobby_1.0_62.0_115.0_0.0_0.0
+      - Lobby_0.0_68.0_115.0_0.0_0.0
+      - Lobby_0.0_67.0_115.0_0.0_0.0
+      - Lobby_0.0_66.0_115.0_0.0_0.0
+      - Lobby_0.0_65.0_115.0_0.0_0.0
+      - Lobby_0.0_64.0_115.0_0.0_0.0
+      - Lobby_0.0_63.0_115.0_0.0_0.0
+      - Lobby_0.0_62.0_115.0_0.0_0.0
+      - Lobby_-1.0_68.0_115.0_0.0_0.0
+      - Lobby_-1.0_67.0_115.0_0.0_0.0
+      - Lobby_-1.0_66.0_115.0_0.0_0.0
+      - Lobby_-1.0_65.0_115.0_0.0_0.0
+      - Lobby_-1.0_64.0_115.0_0.0_0.0
+      - Lobby_-1.0_63.0_115.0_0.0_0.0
+      - Lobby_-1.0_62.0_115.0_0.0_0.0
+      - Lobby_-2.0_68.0_115.0_0.0_0.0
+      - Lobby_-2.0_67.0_115.0_0.0_0.0
+      - Lobby_-2.0_66.0_115.0_0.0_0.0
+      - Lobby_-2.0_65.0_115.0_0.0_0.0
+      - Lobby_-2.0_64.0_115.0_0.0_0.0
+      - Lobby_-2.0_63.0_115.0_0.0_0.0
+      - Lobby_-2.0_62.0_115.0_0.0_0.0
+      facing: SOUTH
+    configurable:
+      renderers:
+      - COLOR -color 0,255,220
+      - IMAGE -src survival3.png -width 650 -height 900
+  '24':
+    internal:
+      frames:
+      - Lobby_-17.0_68.0_-7.0_0.0_0.0
+      - Lobby_-17.0_67.0_-7.0_0.0_0.0
+      - Lobby_-17.0_66.0_-7.0_0.0_0.0
+      - Lobby_-17.0_68.0_-8.0_0.0_0.0
+      - Lobby_-17.0_67.0_-8.0_0.0_0.0
+      - Lobby_-17.0_66.0_-8.0_0.0_0.0
+      - Lobby_-17.0_68.0_-9.0_0.0_0.0
+      - Lobby_-17.0_67.0_-9.0_0.0_0.0
+      - Lobby_-17.0_66.0_-9.0_0.0_0.0
+      facing: WEST
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src practice.png -width 400 -height 400
+  '25':
+    internal:
+      frames:
+      - Lobby_-16.0_70.0_-7.0_0.0_0.0
+      - Lobby_-16.0_70.0_-8.0_0.0_0.0
+      - Lobby_-16.0_70.0_-9.0_0.0_0.0
+      facing: WEST
+    configurable:
+      renderers:
+      - COLOR -color 0,0,255
+      - IMAGE -src practice2.png -width 383 -height 130

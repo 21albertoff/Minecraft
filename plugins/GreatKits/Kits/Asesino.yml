@@ -1,0 +1,77 @@
+Name: Asesino
+Cooldown: 150
+Permission: greatkits.kits.Asesino
+Order: 0
+FirstTimeJoinKit: false
+OneTimeUse: false
+Inventory:
+  Main:
+  - ==: org.bukkit.inventory.ItemStack
+    type: DIAMOND_SWORD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      enchants:
+        DAMAGE_ALL: 1
+  - ==: org.bukkit.inventory.ItemStack
+    type: GRILLED_PORK
+    amount: 5
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - ==: org.bukkit.inventory.ItemStack
+    type: POTION
+    damage: 16453
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  - null
+  Armor:
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_BOOTS
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_LEGGINGS
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_CHESTPLATE
+  - ==: org.bukkit.inventory.ItemStack
+    type: IRON_HELMET

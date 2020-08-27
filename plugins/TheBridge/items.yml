@@ -1,0 +1,9 @@
+game-leave:
+  Enabled: true
+  Material: BED
+  Data: 0
+  Slot: 8
+  Amount: 1
+  DisplayName: '&aLeave from arena'
+  Lore:
+  - ''

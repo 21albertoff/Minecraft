@@ -1,0 +1,34 @@
+StartingDisplay: '&fStarting in &a<time>s'
+SearchingDisplay: '&fSearching players...'
+DisplayMode:
+  1v1: 1vs1
+  2v2: 2vs
+  3v3: 3vs3
+  4v4: 4vs4
+InWaiting-Enabled: true
+InWaiting-Title: '&e THE BRIDGE'
+InWaiting:
+  Lines:
+  - ''
+  - '&eJugadores: &a<inGame>/<maxPlayers>'
+  - ''
+  - '&e<waitingState>'
+  - ''
+  - '&eModo: &a<displayMode>'
+  - ' '
+  - ''
+  - '&eyoutubecraft.me'
+InGame-Enabled: true
+InGame-Title: '&e THE BRIDGE'
+InGame:
+  Lines:
+  - ''
+  - '&c<firstTeamName> Team &7: &e<firstTeamGoals>&e/5'
+  - '&9<secondTeamName> Team &7: &e<secondTeamGoals>&e/5'
+  - ''
+  - '&eKills: &a<playerKills>'
+  - '&eGoles: &a<playerGoals>'
+  - ' '
+  - '&eModo: &a<displayMode>'
+  - ''
+  - '&eyoutubecraft.me'

@@ -1,0 +1,15 @@
+# enable player's heads to be dropped
+enable_head_drop: true
+items:
+  '1':
+    number: 1
+    item:
+      id: 388
+      data: 0
+      amount: 1
+  '2':
+    number: 2
+    item:
+      id: 384
+      data: 0
+      amount: 5

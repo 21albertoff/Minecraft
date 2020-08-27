@@ -1,0 +1,227 @@
+# Please do not delete version-configuration section otherwise it will broke the plugin!
+mysql:
+  use: false
+  host: localhost
+  port: 3306
+  name: DatabaseName
+  user: root
+  password: Password
+design:
+  fancy_blocks: true
+  glass_signs: true
+  state:
+    WAITING: '&aWaiting'
+    STARTING: '&eStarting'
+    PLAYING: '&c&lIN-GAME'
+    ENDING: '&lEnding'
+  signs:
+  - '&c&lTNTRun'
+  - '&a%arena%'
+  - '&e%players%&7/&c%max%'
+  - '%status%'
+countdown:
+  '30':
+    title: ''
+    subtitle: '&a&l%time%'
+    fadeIn: 10
+    stay: 10
+    fadeOut: 10
+  '15':
+    title: ''
+    subtitle: '&a&l%time%'
+    fadeIn: 10
+    stay: 10
+    fadeOut: 10
+  '10':
+    title: '&c&lStarting soon!'
+    subtitle: '&a&l%time%'
+    fadeIn: 10
+    stay: 10
+    fadeOut: 10
+  '5':
+    title: '&c&lGet Ready!'
+    subtitle: '&a&l%time%'
+    fadeIn: 5
+    stay: 10
+    fadeOut: 5
+  '4':
+    title: ''
+    subtitle: '&6&l%time%'
+    fadeIn: 5
+    stay: 10
+    fadeOut: 5
+  '3':
+    title: ''
+    subtitle: '&6&l%time%'
+    fadeIn: 5
+    stay: 10
+    fadeOut: 5
+  '2':
+    title: ''
+    subtitle: '&c&l%time%'
+    fadeIn: 5
+    stay: 10
+    fadeOut: 5
+  '1':
+    title: ''
+    subtitle: '&c&l%time%'
+    fadeIn: 5
+    stay: 10
+    fadeOut: 5
+  '0':
+    title: '&c&lRun Forrest!'
+    subtitle: '&c&lRUN!'
+    fadeIn: 15
+    stay: 25
+    fadeOut: 15
+stats:
+  message:
+  - '&a&lYour TNTRun stats:'
+  - ' '
+  - '&cVictories &a&l{VICTORIES}'
+  - '&cLoses &a&l{LOSES}'
+  - '&cPlayed Games &a&l{PLAYED}'
+  - '&cBlocks destroyed &a&l{BLOCKS_DESTROYED}'
+commands:
+  win:
+  - eco give %player% 100
+  - tell %player% You got 100 money!
+vault:
+  enabled: true
+  win: 100
+bungeemode:
+  enabled: false
+  lobbyServers:
+  - Lobby1
+  - Lobby2
+  maps:
+    prefered: NORMAL
+allowedCommands:
+- tntrun
+- tr
+- tr leave
+- tntrun leave
+- tntrunkits
+- trkits
+- tr shop
+- tkits
+- tkit
+- tr stats
+- tntrun stats
+scoreboard:
+  settings:
+    enabled: true
+    textUpdate: 5
+    titleUpdate: 4
+  WAITING:
+    title:
+    - '&6&lWelcome to TNTRun'
+    - '&6&lWelcome to TNTRun'
+    - '&6&lWelcome to TNTRun'
+    - '&6&lWelcome to TNTRun'
+    - '&6&lWelcome to TNTRun'
+    - '&e&lWelcome to TNTRun'
+    - '&e&lWelcome to TNTRun'
+    - '&e&lWelcome to TNTRun'
+    - '&e&lWelcome to TNTRun'
+    - '&e&lWelcome to TNTRun'
+    text:
+    - ''
+    - Welcome &e%player%
+    - ''
+    - Playing &e%players%&7/&c%maxplayers%
+    - on Arena &e%arena%
+    - ''
+    - Waiting...
+    - ''
+    - '&ewww.example.com'
+  STARTING:
+    title:
+    - '&6&lStarting TNTRun Game'
+    - '&6&lStarting TNTRun Game'
+    - '&6&lStarting TNTRun Game'
+    - '&6&lStarting TNTRun Game'
+    - '&6&lStarting TNTRun Game'
+    - '&e&lStarting TNTRun Game'
+    - '&e&lStarting TNTRun Game'
+    - '&e&lStarting TNTRun Game'
+    - '&e&lStarting TNTRun Game'
+    - '&e&lStarting TNTRun Game'
+    text:
+    - ''
+    - Welcome &e%player%
+    - ''
+    - Playing &e%players%&7/&c%maxplayers%
+    - on Arena &e%arena%
+    - ''
+    - Start in &e%time%
+    - ''
+    - '&ewww.example.com'
+  PLAYING:
+    title:
+    - '&6&lTNTRun'
+    - '&6&lTNTRun'
+    - '&6&lTNTRun'
+    - '&6&lTNTRun'
+    - '&6&lTNTRun'
+    - '&e&lNow Playing'
+    - '&e&lNow Playing'
+    - '&e&lNow Playing'
+    - '&e&lNow Playing'
+    - '&e&lNow Playing'
+    text:
+    - ''
+    - Welcome &e%player%
+    - ''
+    - Playing &e%players%&7/&c%maxplayers%
+    - on Arena &e%arena%
+    - ''
+    - Spectators &e%spectators%
+    - ''
+    - Blocks Destroyed &e%blocks%
+    - ''
+    - '&ewww.example.com'
+special:
+  FancyBlockBreak: true
+  UseBarApi: true
+  UseTitle: true
+info:
+  list:
+  - '&6&lThe TNTRun plugin by The_TadeSK'
+  - '&6 '
+  - '&6&lNow try and play'
+shop:
+  name: '&6&lTNTRun &f&lSHOP'
+  size: 27
+commandsonwin:
+- say {PLAYER} won tntrun
+- say Congratulations...
+items:
+  vote:
+    use: true
+    ID: '264:0'
+    name: '&cVOTE'
+  info:
+    use: true
+    ID: '388:0'
+    name: '&cINFO'
+  shop:
+    use: true
+    ID: '399:0'
+    name: '&cSHOP'
+  leave:
+    ID: '355:0'
+    name: '&cLEAVE'
+version-configuration:
+  version: 2.1.1
+  time: 1586898536738
+signs:
+  Arena1:
+    '0':
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1044.0
+      y: 33.0
+      z: -1083.0
+      pitch: 0.0
+      yaw: 0.0

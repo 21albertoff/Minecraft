@@ -1,0 +1,221 @@
+parcelas:
+  location: Parcelas, 959.114, 68.553, 958.536
+  lines:
+  - '&uTutorial'
+  - '&fCrea Parcelas &u/plot auto'
+  - '&fVe A Tu Parcela &u/plot home'
+  - '&fDa Permisos &u/plot add elnickdetuamigo'
+  - '&uVips &fPon Musica &u/plot music'
+  - '&fMas Comandos /plot help'
+survialparcelas:
+  location: Survival, -23.480, 67.905, -3.495
+  lines:
+  - '&u&lPARCELAS'
+  - '&aJugando {world: Parcelas }'
+survialnether:
+  location: Survival, -23.450, 67.904, -5.478
+  lines:
+  - '&u&lNETHER'
+  - '&aJugando {world: Nether }'
+end:
+  location: Survival, -23.304, 67.894, -1.517
+  lines:
+  - '&u&lEND'
+  - '&aJugando {world: end }'
+creativotuto:
+  location: Creativo, 1029.398, 7.910, 959.996
+  lines:
+  - '&uTutorial'
+  - '&fCrea Parcelas &u/plot auto'
+  - '&fVe A Tu Parcela &u/plot home'
+  - '&fDa Permisos &u/plot add elnickdetuamigo'
+  - '&uVips &fPon Musica &u/plot music'
+  - '&fMas Comandos /plot help'
+gamemakertuto:
+  location: MegaCreativo, 5056.871, 7.537, 5061.579
+  lines:
+  - '&fQue es &eMegacreativo??'
+  - '&eEs como &aCreativo &ePero 3 Veces'
+  - '&eMas Grande Y No Hay Suelo,'
+  - '&fContruye aqui Mapas Enormes Para'
+  - '&fAyudar Al Server O solo Por Gusto'
+gamemakertuto2:
+  location: MegaCreativo, 5058.612, 8.200, 5057.582
+  lines:
+  - '&uTutorial'
+  - '&fCrea Parcelas &u/plot auto'
+  - '&fVe A Tu Parcela &u/plot home'
+  - '&fDa Permisos &u/plot add elnickdetuamigo'
+  - '&uVips &fPon Musica &u/plot music'
+  - '&fMas Comandos /plot help'
+  - '&eSi Ya Tienes Una Parcela En Creativo'
+  - '&eUsa /plot home 2 o /plot home 3'
+skyblocktuto:
+  location: ASkyBlock, 0.579, 3.126, 2.418
+  lines:
+  - '&u&oTutorial'
+  - '&f&oRegresa a tu isla &u/is'
+  - '&f&otienda &u/is minishop'
+  - '&f&oMas comandos &u/is help'
+survival:
+  location: Lobby, 0.448, 69.553, -16.461
+  lines:
+  - '&e&lSURVIVAL 1.16.1'
+  - '&aAcercate Para Entrar'
+skyblocks:
+  location: Lobby, 4.505, 69.591, -15.456
+  lines:
+  - '&e&lSkyBlocks'
+  - '&aAcercate Para Entrar'
+skywars:
+  location: Lobby, -3.532, 69.522, -15.442
+  lines:
+  - '&b&lSkyWars'
+  - '&aJugando {world: world }'
+mobs:
+  location: world, -6.469, 51.057, 7.453
+  lines:
+  - '&e&l- &u&lAYUDANTES &e&l-'
+  - '&fEncuentralos En Cofres'
+  - '&fColocalos y Te Protegeran'
+mobs2:
+  location: world, -6.469, 52.557, 7.453
+  lines:
+  - 'ICON: monster egg:51'
+luckyisland:
+  location: world, -1014.482, 14.564, -1007.444
+  lines:
+  - '&e&lLUCKYISLAND'
+  - '&aJugando {world: world }'
+kitpvp:
+  location: Lobby, -7.522, 69.534, -14.586
+  lines:
+  - '&e&lKitPvP'
+  - '&aJugando {world: FullPvP }'
+fullpvp:
+  location: Lobby, -13.509, 69.553, -11.513
+  lines:
+  - '&e&lFULLPVP'
+  - '&aJugando {world: fullpvp2 }'
+skypvp:
+  location: Lobby, 12.487, 69.496, -13.562
+  lines:
+  - '&e&lSKYPVP OP'
+  - '&aJugando {world: Skypvp }'
+tntrun:
+  location: Lobby, 14.528, 69.590, -11.480
+  lines:
+  - '&e&lTNTRUN'
+  - '&aJugando {world: SpawnTNT }'
+creativo:
+  location: Lobby, -11.530, 69.546, -13.556
+  lines:
+  - '&e&lCREATIVO'
+  - '&aJugando {world: Creativo }'
+salirskywars:
+  location: world, 9.485, 53.413, -4.484
+  lines:
+  - '&e&lSALIR DE'
+  - '&a&lSkywars/LuckyIsland'
+kitpvpkills:
+  location: FullPvP, -619.438, 11.135, -299.408
+  lines:
+  - '&e&lTop Kills'
+kitpvpdeaths:
+  location: FullPvP, -619.416, 11.135, -303.561
+  lines:
+  - '&e&lTop Muertes'
+kitpvpkills2:
+  location: FullPvP, -619.380, 11.163, -307.582
+  lines:
+  - '&e&lTop Kills'
+  - '&a&lSEMANAL'
+kitpvpdeaths2:
+  location: FullPvP, -619.356, 11.184, -311.593
+  lines:
+  - '&e&lTop Muertes'
+  - '&a&lSEMANAL'
+ranks:
+  location: FullPvP, -635.507, 11.267, -306.039
+  lines:
+  - '&b&l&nRangos Existentes'
+  - '&bSuperNoob'
+  - '&bNoob'
+  - '&bLuchador'
+  - '&bSoldado'
+  - '&bGuerrero'
+  - '&bVikingo'
+  - '&bMaestro'
+  - '&bSupremo'
+  - '&bLegendario'
+  - '&bHacker'
+  - '&bElMejorDeTodos'
+tiendakitpvp:
+  location: FullPvP, -635.541, 9.184, -298.679
+  lines:
+  - '&bTienda De /balance'
+  - '&cNO SE ACEPTAN COINS'
+tiendafullpvp:
+  location: fullpvp2, -576.393, 18.182, 2096.211
+  lines:
+  - '&a- &e&lTIENDA &a-'
+  - '&a!'
+  - '&a!'
+  - '&e&lV'
+zonatienda:
+  location: Skypvp, 13.030, 8.112, -11.803
+  lines:
+  - '&a&lTienda Abandonada'
+  - '&e&l- Zona Segura -'
+skypvppvp1:
+  location: Skypvp, 11.621, 5.050, -0.084
+  lines:
+  - '&c&l- PELIGRO -'
+  - '&6&lZONA PVP'
+skypvppvp2:
+  location: Skypvp, -0.229, 4.415, 13.519
+  lines:
+  - '&c&l- PELIGRO -'
+  - '&6&lZONA PVP'
+skypvppvp3:
+  location: Skypvp, -13.264, 4.415, 0.366
+  lines:
+  - '&c&l- PELIGRO -'
+  - '&6&lZONA PVP'
+skypvppvp4:
+  location: Skypvp, -4.674, 4.310, -11.517
+  lines:
+  - '&c&l- PELIGRO -'
+  - '&6&lZONA PVP'
+skypvptiendaop:
+  location: Skypvp, 18.566, 3.094, -24.482
+  lines:
+  - '&0&lMercado Negro'
+  - "&8&lSolo Para Pro\xc2\xa8s"
+zonatienda2:
+  location: Skypvp, -14.685, 8.536, -17.461
+  lines:
+  - '&b&lLibreria Abandonada'
+  - '&e&l- Zona Segura -'
+server:
+  location: spawn, 45.193, 40.239, -11.027
+  lines:
+  - '&u&oPatrocinadores Del Server'
+  - '&f&oDona Hasta 1 Dolar Para'
+  - '&f&oGanarte Un Puesto Aqui'
+thebridge:
+  location: Lobby, 8.562, 69.543, -14.530
+  lines:
+  - '&e&lTheBridge'
+  - '&aJugando {world: bridge-maps }'
+protecciones:
+  location: Survival, -16.571, 66.904, 0.524
+  lines:
+  - '&e&l- Tienda -'
+  - '&u&lProtecciones'
+  - '&e&l- - - - - - - - -'
+practice:
+  location: Lobby, -14.160, 69.640, -7.532
+  lines:
+  - '&e&lPRACTICE'
+  - '&aJugando {world: LOBBY1vs1 }'

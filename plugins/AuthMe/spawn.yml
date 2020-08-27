@@ -1,0 +1,14 @@
+spawn:
+  world: TestWorld1
+  x: -1.6119311805114354
+  y: 75.0
+  z: 50.98968113386613
+  yaw: 44.700024
+  pitch: 33.099987
+firstspawn:
+  world: ''
+  x: ''
+  y: ''
+  z: ''
+  yaw: ''
+  pitch: ''

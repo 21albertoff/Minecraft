@@ -1,0 +1,8 @@
+leave:
+  id: WHITE_BED
+  subid: 0
+  name: '&c&lLeave Arena'
+  command: tntrun leave
+  slot: 9
+  lore:
+  - '&7Leave this arena'

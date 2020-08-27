@@ -1,0 +1,80 @@
+#Welcome to the LuckyBlocks config! Need help? Check out the wiki: http://bit.ly/luckyblocks
+block:
+  luckyblockid: SPONGE
+  luckyblockdatavalue: 0
+  crafting: true
+  
+#For now you can only have 12 suprices! In the next update you can add suprices up to 20!
+#Suprice 1 to 8 has an 10% change, 9 to 12 an 5% change!
+suprices:
+  1:
+    type: 'items'
+    itemcount: 1
+    items:
+    - DIAMOND_SWORD
+    - DIAMOND_LEGS
+  2:
+    type: 'creeper'
+  3:
+    type: 'items'
+    itemcount: 6
+    items:
+    - WOOD
+    - STONE
+    - GRASS
+    - SAND
+    - LOG
+  4:
+    type: 'items'
+    itemcount: 6
+    items:
+    - WOOD
+    - STONE
+    - GRASS
+    - SAND
+    - LOG
+  5:
+    type: 'items'
+    itemcount: 3
+    items:
+    - HAY_BLOCK
+    - IRON_HOE
+    - SEEDS
+    - SEEDS
+    - SEEDS
+    - SEEDS
+  6:
+    type: 'lightning'
+  7:
+    type: 'items'
+    itemcount: 6
+    items:
+    - WOOD
+    - STONE
+    - GRASS
+    - SAND
+    - LOG
+  8:
+    type: 'items'
+    itemcount: 6
+    items:
+    - DIAMOND_SWORD
+    - DIAMOND_LEGS
+    - STONE
+  9:
+    type: 'explode'
+  10:
+    type: 'items'
+    itemcount: 6
+    items:
+    - DIAMOND_SWORD
+    - DIAMOND_LEGS
+    - STONE
+  11:
+    type: 'command'
+    executer: 'console'
+    commands:
+    - '/say $p is an awesome player!'
+    - '/tell $p you are the coolest player!'
+  12:
+    type: 'anvil'

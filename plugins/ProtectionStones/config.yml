@@ -1,0 +1,68 @@
+ConfVer: 1
+#Protection Stones Configuration Page
+#Protection Stones for MC 1.10 is brought to you by Dragoboss
+#Please do not edit the ConfVer number unless told to do so in update message on spigotmc.org
+
+#Specify the block you want to use to protect regions. Use names from https://goo.gl/EBM8w5
+#You can specify multiple block types, divided by comma's (NO SPACES!)
+#If you wish to have sub-block-types as pstones, you can use -#. # is the number of
+#subtype similar to the number you'd use in a /give command. I.E. stone:2 --> STONE-2
+Blocks: EMERALD_ORE
+#If you define multiple block types be sure to define their specs below
+
+#Specify the default flags to be set when a new protected region is created..
+Flags:
+  - use deny
+  - pvp deny
+  - greeting Entrando a la zona %player%'
+  - farewell Saliendo de la zona %player%'
+
+#List all the flags that can be set by region owners. Separate them with a comma, no space.
+Allowed Flags: use,pvp,greeting,farewell,mob-spawning
+
+#Toggle UUID support for protected regions.
+#NOTE: This does NOT convert existing PStones to UUID Format!!
+UUID: true
+
+#Disable the use of pStones in certain worlds.
+Worlds Denied:
+    - EggWars
+    - Acuatico
+    - angeles_1
+    - arboles_2
+    - atlantis_3
+    - caramelo_4
+    - cristal_5
+    - estrellas_6
+    - gravedad_7
+    - hielo_8
+    - huesos_9
+    - kfc_10
+    - minas_11
+    - mystico_12
+    - pajaros_13
+    - paris_14
+    - raimbow_15
+    - reloj_16
+    - sabana_17
+    - sonda_18
+    - templo_19
+    - tron_20
+    - vista_21
+
+#Protected Region Configuration, defined per block type (refer to list defined above)
+Region:
+  #Default block type
+  EMERALD_ORE:
+    X Radius: 25
+    #Set Y to 0 if you want it to protect from sky to bedrock.
+    Y Radius: 300
+    Z Radius: 25
+    #Hide pstone right away when placed?
+    Auto Hide: false
+    #Disable returning the block when the pstone is removed/reclaimed?
+    No Drop: false
+    #Block Piston pushing of pstones by default; recommend to set to true if "No Drop" is false, as it can be abused to gain more pstones.
+    Block Piston: true
+    #Default priority type for this block type pstone
+    Priority: 0

@@ -1,0 +1,22 @@
+lastAccountName: SuzuMods
+timestamps:
+  login: 1596800882047
+  lastteleport: 1596803102114
+  logout: 1596803677240
+ipAddress: 192.168.0.4
+afk: false
+lastlocation:
+  world: Lobby
+  x: 0.37711620044517963
+  y: 65.5
+  z: -14.501253179902506
+  yaw: -175.99979
+  pitch: -9.449987
+money: '8.875'
+logoutlocation:
+  world: Lobby
+  x: 0.6396254173268627
+  y: 67.0
+  z: 3.0378287179197137
+  yaw: -355.50836
+  pitch: -22.049917

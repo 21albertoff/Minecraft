@@ -1,0 +1,2214 @@
+kits:
+  gapple:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    name: gapple
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Gapple
+        lore:
+        - Kit Gapple
+    permission-required: false
+    permission: TrainingPvP.kit.gapple
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+            FIRE_ASPECT: 1
+          repair-cost: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  Gapple:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 1
+        repair-cost: 1
+    name: Gapple
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      damage: 1
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Gapple
+    permission-required: false
+    permission: TrainingPvP.kit.Gapple
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+            FIRE_ASPECT: 1
+          repair-cost: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        damage: 1
+        amount: 64
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  Vanilla:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          PROTECTION_FALL: 4
+        repair-cost: 7
+    name: Vanilla
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16388
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: Vanilla
+    permission-required: false
+    permission: TrainingPvP.kit.Vanilla
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 2
+            FIRE_ASPECT: 2
+          repair-cost: 255
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 15
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_CARROT
+        amount: 64
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16426
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8259
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item11:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item12:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item13:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item14:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item15:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item16:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item17:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16388
+      item18:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item19:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item20:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item21:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item22:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item23:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item24:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item25:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16424
+      item26:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item27:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item28:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item29:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item30:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item31:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item32:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item33:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item34:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item35:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  vanilla:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          PROTECTION_FALL: 4
+        repair-cost: 7
+    name: vanilla
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16388
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: Vanilla
+        lore:
+        - Kit Vanilla
+    permission-required: false
+    permission: TrainingPvP.kit.vanilla
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 2
+            FIRE_ASPECT: 2
+          repair-cost: 255
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 15
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_CARROT
+        amount: 64
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8259
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item11:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item12:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item13:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item14:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item15:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item16:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16388
+      item17:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16426
+      item18:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item19:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item20:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item21:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item22:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item23:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item24:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item25:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16424
+      item26:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item27:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item28:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item29:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item30:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item31:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item32:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item33:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item34:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item35:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  nodebuff:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          PROTECTION_FALL: 4
+        repair-cost: 7
+    name: nodebuff
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: NoDebuff
+        lore:
+        - Kit NoDebuff
+    permission-required: false
+    permission: TrainingPvP.kit.nodebuff
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 2
+            FIRE_ASPECT: 2
+          repair-cost: 255
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 15
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_CARROT
+        amount: 64
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8259
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item11:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item12:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item13:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item14:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item15:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item16:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item17:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item18:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item19:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item20:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item21:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item22:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item23:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item24:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item25:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item26:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item27:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item28:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item29:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item30:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item31:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item32:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item33:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item34:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item35:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  NoDebuff:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          PROTECTION_FALL: 4
+        repair-cost: 7
+    name: NoDebuff
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: POTION
+      damage: 16421
+      meta:
+        ==: ItemMeta
+        meta-type: POTION
+        display-name: NoDebuff
+        lore:
+        - Kit NoDebuff
+    permission-required: false
+    permission: TrainingPvP.kit.NoDebuff
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        amount: 0
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+            DURABILITY: 2
+            FIRE_ASPECT: 2
+          repair-cost: 255
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 15
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_CARROT
+        amount: 64
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8259
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item11:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item12:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item13:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item14:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item15:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item16:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item17:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item18:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item19:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item20:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item21:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item22:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item23:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item24:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item25:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item26:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item27:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item28:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item29:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item30:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item31:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item32:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item33:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 16421
+      item34:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8265
+      item35:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  Builduhc:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    name: Builduhc
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: BuildUHC
+        lore:
+        - Kit BuildUHC
+    permission-required: false
+    permission: TrainingPvP.kit.Builduhc
+    own-item: false
+    ranked: false
+    regen: false
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 3
+          repair-cost: 1
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 8
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_AXE
+      item18:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+        amount: 64
+      item27:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64
+  BuildUHC:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    name: BuildUHC
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: BuildUHC
+        lore:
+        - Kit BuildUHC
+    permission-required: false
+    permission: TrainingPvP.kit.BuildUHC
+    own-item: false
+    ranked: true
+    regen: false
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 3
+          repair-cost: 1
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 8
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_AXE
+      item18:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+        amount: 64
+      item27:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64
+  sg:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BOOTS
+    name: sg
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: SG
+        lore:
+        - Kit SG
+    permission-required: false
+    permission: TrainingPvP.kit.sg
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 16
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT_AND_STEEL
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+  SG:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: CHAINMAIL_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BOOTS
+    name: SG
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: FISHING_ROD
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: SG
+        lore:
+        - Kit SG
+    permission-required: false
+    permission: TrainingPvP.kit.SG
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 16
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: BREAD
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKIE
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: FLINT_AND_STEEL
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+  axe:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+        repair-cost: 7
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+        repair-cost: 7
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+        repair-cost: 7
+    name: axe
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Axe
+        lore:
+        - Kit Axe
+    permission-required: false
+    permission: TrainingPvP.kit.axe
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+            DURABILITY: 1
+          repair-cost: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  Axe:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 3
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+        repair-cost: 7
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+        repair-cost: 7
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+          DURABILITY: 1
+        repair-cost: 7
+    name: Axe
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_AXE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Axe
+        lore:
+        - Kit Axe
+    permission-required: false
+    permission: TrainingPvP.kit.Axe
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_AXE
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 1
+            DURABILITY: 1
+          repair-cost: 3
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: POTION
+        damage: 8226
+  archer:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          DURABILITY: 2
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_FIRE: 4
+          DURABILITY: 2
+        repair-cost: 7
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          DURABILITY: 2
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_FALL: 4
+        repair-cost: 1
+    name: archer
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Arquero
+        lore:
+        - Kit Arquero
+    permission-required: false
+    permission: TrainingPvP.kit.archer
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 2
+            DAMAGE_UNDEAD: 1
+            DURABILITY: 2
+            ARROW_FIRE: 1
+            KNOCKBACK: 1
+            FIRE_ASPECT: 2
+            THORNS: 2
+          repair-cost: 1023
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64
+  Archer:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          DURABILITY: 2
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_FIRE: 4
+          DURABILITY: 2
+        repair-cost: 7
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          DURABILITY: 2
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: LEATHER_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: LEATHER_ARMOR
+        enchants:
+          PROTECTION_FALL: 4
+        repair-cost: 1
+    name: Archer
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: BOW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Arquero
+        lore:
+        - Kit Arquero
+    permission-required: false
+    permission: TrainingPvP.kit.Archer
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 2
+            DAMAGE_UNDEAD: 1
+            DURABILITY: 2
+            ARROW_FIRE: 1
+            KNOCKBACK: 1
+            FIRE_ASPECT: 2
+            THORNS: 2
+          repair-cost: 1023
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: ENDER_PEARL
+        amount: 16
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64
+  diamante:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+    name: diamante
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Diamante
+        lore:
+        - Kit Diamante
+    permission-required: false
+    permission: TrainingPvP.kit.diamante
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 16
+  Diamante:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+    name: Diamante
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Diamante
+        lore:
+        - Kit Diamante
+    permission-required: false
+    permission: TrainingPvP.kit.Diamante
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 16
+  hierro:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    name: hierro
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Hierro
+        lore:
+        - Kit Hierro
+    permission-required: false
+    permission: TrainingPvP.kit.hierro
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 16
+  Hierro:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_BOOTS
+    name: Hierro
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: IRON_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Hierro
+        lore:
+        - Kit Hierro
+    permission-required: false
+    permission: TrainingPvP.kit.Hierro
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: IRON_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 16
+  uhc:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+    name: uhc
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: UHC
+        lore:
+        - Kit UHC
+    permission-required: false
+    permission: TrainingPvP.kit.uhc
+    own-item: false
+    ranked: false
+    regen: false
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 6
+  UHC:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    name: UHC
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLDEN_APPLE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: UHC
+        lore:
+        - Kit UHC
+    permission-required: false
+    permission: TrainingPvP.kit.UHC
+    own-item: false
+    ranked: true
+    regen: false
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 3
+          repair-cost: 1
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 8
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_AXE
+      item18:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+        amount: 64
+      item27:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64
+  oro:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BOOTS
+    name: oro
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Oro
+        lore:
+        - Kit Oro
+    permission-required: false
+    permission: TrainingPvP.kit.oro
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+  Oro:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_HELMET
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_CHESTPLATE
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_LEGGINGS
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_BOOTS
+    name: Oro
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: GOLD_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: Oro
+        lore:
+        - Kit Oro
+    permission-required: false
+    permission: TrainingPvP.kit.Oro
+    own-item: false
+    ranked: true
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLD_SWORD
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: COOKED_BEEF
+        amount: 64
+  builduhcparty:
+    helmet:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_HELMET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    chestplate:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_CHESTPLATE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    leggings:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_LEGGINGS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_ENVIRONMENTAL: 2
+        repair-cost: 1
+    boots:
+      ==: org.bukkit.inventory.ItemStack
+      type: DIAMOND_BOOTS
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        enchants:
+          PROTECTION_PROJECTILE: 3
+        repair-cost: 1
+    name: builduhcparty
+    gui-item:
+      ==: org.bukkit.inventory.ItemStack
+      type: LAVA_BUCKET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: BUILDUHC
+        repair-cost: 1
+    permission-required: false
+    permission: TrainingPvP.kit.builduhcparty
+    own-item: false
+    ranked: false
+    regen: true
+    build: true
+    items:
+      item0:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_SWORD
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            DAMAGE_ALL: 3
+          repair-cost: 1
+      item1:
+        ==: org.bukkit.inventory.ItemStack
+        type: FISHING_ROD
+      item2:
+        ==: org.bukkit.inventory.ItemStack
+        type: BOW
+        meta:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            ARROW_DAMAGE: 3
+          repair-cost: 1
+      item3:
+        ==: org.bukkit.inventory.ItemStack
+        type: WOOD
+        amount: 64
+      item4:
+        ==: org.bukkit.inventory.ItemStack
+        type: GOLDEN_APPLE
+        amount: 8
+      item5:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+        amount: 0
+      item6:
+        ==: org.bukkit.inventory.ItemStack
+        type: LAVA_BUCKET
+      item7:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item8:
+        ==: org.bukkit.inventory.ItemStack
+        type: WATER_BUCKET
+      item9:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_PICKAXE
+      item10:
+        ==: org.bukkit.inventory.ItemStack
+        type: DIAMOND_AXE
+      item11:
+        ==: org.bukkit.inventory.ItemStack
+        type: COBBLESTONE
+        amount: 64
+      item12:
+        ==: org.bukkit.inventory.ItemStack
+        type: ARROW
+        amount: 64

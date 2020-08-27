@@ -1,0 +1,54 @@
+Arena1:
+  minPlayers: 2
+  maxPlayers: 22
+  startTime: 15
+  spawn:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -1502.7134481912226
+    y: 77.2
+    z: -1035.5460387512862
+    pitch: 6.7499967
+    yaw: 1.5005283
+  spectate:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -1502.5325203426166
+    y: 81.2
+    z: -1020.7485465549618
+    pitch: 13.350004
+    yaw: -180.29948
+  bounds:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1520.0
+      y: 0.0
+      z: -1059.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1482.0
+      y: 107.0
+      z: -1019.0
+      pitch: 0.0
+      yaw: 0.0
+  loselevel:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1520.0
+      y: 0.0
+      z: -1059.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1482.0
+      y: 0.0
+      z: -1019.0
+      pitch: 0.0
+      yaw: 0.0

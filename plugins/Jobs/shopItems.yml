@@ -1,0 +1,108 @@
+Items:
+  SuperPickAxe:
+    # (REQUIRED) Item price in Jobs Points
+    Price: 10000.0
+    Icon:
+      # (REQUIRED) Icon item id
+      Id: 278
+      # (Optional - Default: 0) Icon item data value
+      Data: 0
+      # (Optional - Default: 1) Icon item amount
+      Amount: 1
+      # (Optional) Icon name. Supports usual color codes
+      Name: "&ePico Mejorado!"
+      # (Optional) Icon lore. Supports usual color codes
+      Lore:
+      - "&6Eficiencia V"
+      - "&6Unbreaking III"
+      - "&eY una sabrosa manzana!"
+      # (Optional - default: false) Hides icon if player dont have permission to get this item
+      HideWithoutPermission: false
+    # (Optional) List of permissions required to buy this item
+    RequiredPermission:
+    - jobs.item.pickaxe
+    # (Optional) List of jobs and levels to buy this item
+    RequiredJobLevels:
+    - Minero-50
+    - Talador-10
+    # (Optional) Performs comands on item purchase
+    # use 'msg ' at start of command to send nice message to player
+    # all other commands will be performed normaly as they would be executed from console
+    # use [player] variable to include buyers name
+    PerformCommands:
+    - "msg &eGracias por la compra de esta super pico!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      # Can be any word
+      PickAxe:
+        # (Required) Item id
+        Id: 278
+        # (Optional - Default: 0) Item data
+        Data: 0
+        # (Optional - Default: 1) Item amount
+        Amount: 1
+        # (Optional) Item name
+        Name: "&eSuper Pico"
+        # (Optional) Item lore
+        Lore:
+        - "&eSuper Pico"
+        # (Optional) Item enchants
+        Enchants:
+        - DIG_SPEED=5
+        - DURABILITY=3
+      # Can be any word
+      Apple:
+        # (Required) Item id
+        Id: 260
+  WoodenShovel:
+    Price: 100.0
+    Icon:
+      Id: 269
+      Name: "&ePala De Madera"
+      HideWithoutPermission: false
+    RequiredPermission:
+    - jobs.item.shovel
+    RequiredJobLevels:
+    - Excavador-5
+    PerformCommands:
+    - "msg &eGracias por la compra de esta Pala!"
+    - "give [player] 269 1"
+  LureEnchantBook:
+    Price: 100.0
+    Icon:
+      Id: 403
+      Name: "&eLibro Encantado"
+      Lore:
+      - "&eContiene Lure 3 de encantamiento"
+      HideWithoutPermission: false
+    RequiredPermission:
+    - jobs.item.LureBook
+    RequiredJobLevels:
+    - Pescador-100
+    PerformCommands:
+    - "msg &eGracias [player] Por la compra de este libro!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      # Can be any word
+      Book:
+        # (Required) Item id
+        Id: 403
+        # (Optional) Item enchants
+        Enchants:
+        - LURE=3
+  Elytra:
+    Price: 100000.0
+    Icon:
+      Id: 443
+      Name: "&eAlas De Angel"
+      HideWithoutPermission: false
+    RequiredPermission:
+    - jobs.item.elytra
+    PerformCommands:
+    - "msg &eGracias [player] Por comprar Alas De Angel!"
+    # (Optional) Gives items by defined criteria
+    GiveItems:
+      # Can be any word
+      Elytra:
+        # (Required) Item id
+        Id: 443

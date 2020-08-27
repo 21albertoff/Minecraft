@@ -1,0 +1,30 @@
+Config:
+  player_log_remove: 7
+  player_log_save_when_leave: false
+  new-version-reminder: true
+  save_join_leave: true
+  save_chat: true
+  save_commands: true
+  save_worldChange: true
+  save_blockBreak:
+    enabled: true
+    block_list:
+    - DIAMOND_ORE
+    - EMERALD_ORE
+  save_drops: false
+  save_playerKill_playerDeath: true
+  save_cancelled_events: false
+  save_data_permission:
+    enabled: false
+    permission: playercontrol.savedata
+Messages:
+  log_message_join: '[%time%] <joined the server (IP: %ip%)>'
+  log_message_leave: '[%time%] <left the server>'
+  log_message_chat: '[%time%] <chat: %message%>'
+  log_message_commands: '[%time%] <command: %command%>'
+  log_message_worldChange: '[%time%] <world change: FROM (%worldFrom%) TO (%worldTo%)'
+  log_message_blockBreak: '[%time%] <block break: %block% (%block_x% %block_y% %block_z%
+    %block_world%)'
+  log_message_playerKill: '[%time%] <killed: %victim%>'
+  log_message_playerDeath: '[%time%] <killed by: %killer%>'
+  log_message_drops: '[%time%] <drop: x%amount% %item%>'

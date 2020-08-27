@@ -1,0 +1,74 @@
+config:
+  prefix-brackets: true
+  return-items-after-game: true
+  maxpartysize: 8
+  enabled:
+    1v1: true
+    2v2: true
+    PvP: true
+    PFFA: false
+    PB: true
+  spawn:
+    x: 0
+    y: 51
+    z: 0
+    world: lobby1vs1
+    yaw: 0
+    pitch: -3
+  tag: true
+  pvpprotection: 10
+  scoreboard: true
+  endercountdown: 5
+  stats: true
+  trainingpvp-items: false
+  time-till-tp-after-game-finished: 10
+  blocked-commands:
+    command1: /spawn
+    command2: /say
+  prefix: '&6Practice'
+gui:
+  queue-item-name: '&aDejar la cola'
+  show-used: true
+  same-order: true
+  item1v1:
+    item: 402
+    name: COLOR:AQUASOLO-1VS1
+    lore:
+      lore1: COLOR:DARK_PURPLEIniciar una batalla 1v1
+      lore2: COLOR:DARK_PURPLEcontra un oponente al azar
+  item2v2:
+    item: 276
+    name: COLOR:AQUAPARTY-2v2
+    lore:
+      lore1: COLOR:DARK_PURPLEIniciar una batalla 2v2
+      lore2: COLOR:DARK_PURPLEfrente a 2 jugadores al azar !
+      lore3: COLOR:DARK_REDTIENES QUE SER EL LIDER DE LA PARTY,
+      lore4: COLOR:DARK_REDy la party, debe tener dos miembros!
+  itemffa:
+    item: 283
+    name: COLOR:AQUAParty Free For All
+    lore:
+      lore1: COLOR:DARK_PURPLEStart a free for all battle
+      lore2: "COLOR:DARK_PURPLEwith all your party\xe2\u20ac\u2122s members!"
+      lore3: COLOR:DARK_REDYou have to be in a party,
+      lore4: COLOR:DARK_REDand you have to be the leader!
+  itempvp:
+    item: 417
+    name: COLOR:AQUAParty VS Party
+    lore:
+      lore1: COLOR:DARK_PURPLEIniciar una batalla con otra party aleatoria!
+      lore2: COLOR:DARK_REDDEBES SER EL LIDER DE LA PARTY,
+      lore3: "COLOR:DARK_REDno importa el tama\xc3\xb1o de la party!"
+  itempb:
+    item: 272
+    name: COLOR:AQUAParty Battle
+    lore:
+      lore1: COLOR:DARK_PURPLEYour party will be split,
+      lore2: "COLOR:DARK_PURPLEand you\xe2\u20ac\u2122ll fight against"
+      lore3: COLOR:DARK_PURPLEsome other party members!
+      lore4: COLOR:DARK_REDYou must be the party leader!
+plugin-metrics: true
+max-ranked-games-enabled: true
+server-spawn: true
+duel-cooldown: 0
+ranked-cooldown: 0

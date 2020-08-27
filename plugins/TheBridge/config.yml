@@ -1,0 +1,64 @@
+BungeeCord:
+  Enabled: false
+  RandomLobbyServer:
+    Enabled: false
+    Servers:
+    - Hub
+    - Hub-1
+    - Hub-2
+  LobbyServer: Hub
+  RestartCommand: restart
+  RestartMessage: '&aThe server is going to restart in 10 seconds.'
+  MOTD:
+    Display: <gameState>,&a<inGame>/<maxPlayers>
+    InGameState: '&cIN_GAME'
+    InWaitingState: '&aIN_WAITING'
+GoldenApple:
+  DisplayName: '&bGolden Apple'
+  Lore:
+  - '&7Instantly heals you to full'
+  - '&7health and grants &aAbsorption'
+  - '&aI&7.'
+Bow:
+  DisplayName: '&6Bow'
+  Lore:
+  - '&7Arrows regenerate every'
+  - '&a3.5s&7. You can have a maximum'
+  - '&7of &a1 &7arrow at a time.'
+Arrow:
+  DisplayName: '&6Arrow'
+  Lore:
+  - '&7Regenerates every &a3.5s&7!'
+CountdownTitle:
+  Enabled: true
+  Title: '&a<seconds>'
+  SubTitle: ' '
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+CagesOpenTitle:
+  Enabled: true
+  Title: '&7Cages open in &a<seconds>s&7...'
+  SubTitle: ' '
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+GoalScoredTitle:
+  Enabled: true
+  Title: '&f<player> scored!'
+  SubTitle: '&7Cages open in &a<seconds>s&7...'
+  Stay: 20
+  FadeIn: 20
+  FadeOut: 20
+ArenaSign:
+  FirstLine: '&5&lTheBridge'
+  SecondLine: <mode>
+  ThirdLine: <arenaName>
+  FourthLine: '&7<inGame>/<maxPlayers>'
+  InGameDisplay: '&cIn Game'
+  InWaitingDisplay: '&aIn waiting'
+  RestartingDisplay: '&cRestarting...'
+ModifiedChat:
+  Enabled: true
+  Format: '<playerTeamColor>[<playerTeamNameUpperCase>] &f<playerName>: <message>'
+LobbyLocation: Lobby,0.6220611590487123,67.5,0.21472074034211874,-178.40001,-2.2500029

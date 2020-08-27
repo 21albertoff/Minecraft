@@ -1,0 +1,691 @@
+arena:
+  normal:
+    creator: xFruty
+    spawn1:
+      x: 19
+      y: 4
+      z: 0
+      pitch: 8
+      yaw: 272
+      world: arenas2
+    spawn2:
+      x: 77
+      y: 4
+      z: 0
+      pitch: 1
+      yaw: 92
+      world: arenas2
+    type: 1v1
+    name: normal
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  normal2:
+    creator: xFruty
+    spawn1:
+      x: 77
+      y: 4
+      z: 0
+      pitch: 1
+      yaw: 92
+      world: arenas2
+    spawn2:
+      x: 19
+      y: 4
+      z: 0
+      pitch: 2
+      yaw: 269
+      world: arenas2
+    type: 2v2
+    name: normal2
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  normal3:
+    creator: xFruty
+    spawn1:
+      x: 19
+      y: 4
+      z: 0
+      pitch: 2
+      yaw: 269
+      world: arenas2
+    spawn2:
+      x: 77
+      y: 4
+      z: 0
+      pitch: 4
+      yaw: 90
+      world: arenas2
+    type: pvp
+    name: normal3
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  normal4:
+    creator: xFruty
+    spawn1:
+      x: 77
+      y: 4
+      z: 0
+      pitch: 4
+      yaw: 90
+      world: arenas2
+    spawn2:
+      x: 19
+      y: 4
+      z: 0
+      pitch: 2
+      yaw: 270
+      world: arenas2
+    type: pb
+    name: normal4
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arcilla:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: 18
+      pitch: 12
+      yaw: 1
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: 76
+      pitch: 4
+      yaw: 180
+      world: arenas2
+    type: 1v1
+    name: arcilla
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arcilla2:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: 18
+      pitch: 0
+      yaw: 0
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: 76
+      pitch: 10
+      yaw: 180
+      world: arenas2
+    type: 2v2
+    name: arcilla2
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arcilla3:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: 76
+      pitch: -3
+      yaw: 180
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: 18
+      pitch: -3
+      yaw: 1
+      world: arenas2
+    type: pvp
+    name: arcilla3
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arcilla4:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: 18
+      pitch: -2
+      yaw: 2
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: 76
+      pitch: 3
+      yaw: 181
+      world: arenas2
+    type: pb
+    name: arcilla4
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  hongos:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: -17
+      pitch: -5
+      yaw: 179
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: -75
+      pitch: 0
+      yaw: 1
+      world: arenas2
+    type: 1v1
+    name: hongos
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  Hongos:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: -75
+      pitch: 0
+      yaw: 1
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: -17
+      pitch: 3
+      yaw: 179
+      world: arenas2
+    type: 2v2
+    name: Hongos
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  Hongos2:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: -17
+      pitch: 3
+      yaw: 179
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: -75
+      pitch: -3
+      yaw: 0
+      world: arenas2
+    type: pvp
+    name: Hongos2
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  Hongos3:
+    creator: xFruty
+    spawn1:
+      x: 1
+      y: 4
+      z: -75
+      pitch: -3
+      yaw: 0
+      world: arenas2
+    spawn2:
+      x: 1
+      y: 4
+      z: -17
+      pitch: 0
+      yaw: 179
+      world: arenas2
+    type: pb
+    name: Hongos3
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena1:
+    creator: Netoh
+    spawn1:
+      x: -36
+      y: 65
+      z: 443
+      pitch: 9
+      yaw: -140
+      world: MapasBuildUHC
+    spawn2:
+      x: 19
+      y: 67
+      z: 363
+      pitch: 21
+      yaw: -299
+      world: MapasBuildUHC
+    type: PvP
+    name: arena1
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena2:
+    creator: Netoh
+    spawn1:
+      x: 302
+      y: 35
+      z: 559
+      pitch: 0
+      yaw: 359
+      world: MapasBuildUHC
+    spawn2:
+      x: 305
+      y: 35
+      z: 642
+      pitch: 2
+      yaw: 179
+      world: MapasBuildUHC
+    type: PvP
+    name: arena2
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena3:
+    creator: Netoh
+    spawn1:
+      x: 180
+      y: 57
+      z: 753
+      pitch: -3
+      yaw: 4
+      world: MapasBuildUHC
+    spawn2:
+      x: 180
+      y: 57
+      z: 809
+      pitch: 0
+      yaw: 183
+      world: MapasBuildUHC
+    type: 1v1
+    name: arena3
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena4:
+    creator: Netoh
+    spawn1:
+      x: 5
+      y: 64
+      z: 837
+      pitch: 0
+      yaw: -179
+      world: MapasBuildUHC
+    spawn2:
+      x: 3
+      y: 64
+      z: 756
+      pitch: -1
+      yaw: -359
+      world: MapasBuildUHC
+    type: PB
+    name: arena4
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena5:
+    creator: Netoh
+    spawn1:
+      x: -189
+      y: 40
+      z: 788
+      pitch: 4
+      yaw: 221
+      world: MapasBuildUHC
+    spawn2:
+      x: -137
+      y: 40
+      z: 716
+      pitch: 5
+      yaw: 19
+      world: MapasBuildUHC
+    type: 2v2
+    name: arena5
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  ARENA6:
+    creator: Netoh
+    spawn1:
+      x: -433
+      y: 124
+      z: -391
+      pitch: 19
+      yaw: -327
+      world: lobby1vs1
+    spawn2:
+      x: -456
+      y: 122
+      z: -337
+      pitch: 9
+      yaw: -153
+      world: lobby1vs1
+    type: 1v1
+    name: ARENA6
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena7:
+    creator: Netoh
+    spawn1:
+      x: 1011
+      y: 75
+      z: 991
+      pitch: 0
+      yaw: 204
+      world: lobby1vs1
+    spawn2:
+      x: 1033
+      y: 77
+      z: 938
+      pitch: 19
+      yaw: 208
+      world: lobby1vs1
+    type: 1v1
+    name: arena7
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena8:
+    creator: Netoh
+    spawn1:
+      x: 1534
+      y: 66
+      z: 1437
+      pitch: 25
+      yaw: -322
+      world: lobby1vs1
+    spawn2:
+      x: 1510
+      y: 64
+      z: 1491
+      pitch: 8
+      yaw: -164
+      world: lobby1vs1
+    type: 1v1
+    name: arena8
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena9:
+    creator: Netoh
+    spawn1:
+      x: 2028
+      y: 73
+      z: 1959
+      pitch: 39
+      yaw: 40
+      world: lobby1vs1
+    spawn2:
+      x: 2007
+      y: 71
+      z: 2012
+      pitch: 32
+      yaw: 40
+      world: lobby1vs1
+    type: 1v1
+    name: arena9
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena10:
+    creator: Netoh
+    spawn1:
+      x: 2332
+      y: 96
+      z: 2238
+      pitch: 37
+      yaw: 28
+      world: lobby1vs1
+    spawn2:
+      x: 2311
+      y: 94
+      z: 2291
+      pitch: -11
+      yaw: 217
+      world: lobby1vs1
+    type: 1v1
+    name: arena10
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena11:
+    creator: Netoh
+    spawn1:
+      x: 2991
+      y: 95
+      z: 2917
+      pitch: 6
+      yaw: 86
+      world: lobby1vs1
+    spawn2:
+      x: 2904
+      y: 95
+      z: 2918
+      pitch: 2
+      yaw: 272
+      world: lobby1vs1
+    type: PvP
+    name: arena11
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena12:
+    creator: Netoh
+    spawn1:
+      x: 3406
+      y: 97
+      z: 3525
+      pitch: 2
+      yaw: 271
+      world: lobby1vs1
+    spawn2:
+      x: 3491
+      y: 97
+      z: 3526
+      pitch: 1
+      yaw: 91
+      world: lobby1vs1
+    type: PvP
+    name: arena12
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena13:
+    creator: Netoh
+    spawn1:
+      x: 3904
+      y: 98
+      z: 4024
+      pitch: -4
+      yaw: 271
+      world: lobby1vs1
+    spawn2:
+      x: 3991
+      y: 98
+      z: 4025
+      pitch: 0
+      yaw: 89
+      world: lobby1vs1
+    type: PvP
+    name: arena13
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena14:
+    creator: Netoh
+    spawn1:
+      x: 4490
+      y: 98
+      z: 4523
+      pitch: 9
+      yaw: 89
+      world: lobby1vs1
+    spawn2:
+      x: 4404
+      y: 98
+      z: 4524
+      pitch: 12
+      yaw: 268
+      world: lobby1vs1
+    type: PvP
+    name: arena14
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena15:
+    creator: Netoh
+    spawn1:
+      x: 5008
+      y: 52
+      z: 4994
+      pitch: -5
+      yaw: 228
+      world: lobby1vs1
+    spawn2:
+      x: 5069
+      y: 52
+      z: 4932
+      pitch: 1
+      yaw: 44
+      world: lobby1vs1
+    type: PB
+    name: arena15
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena16:
+    creator: Netoh
+    spawn1:
+      x: 5507
+      y: 52
+      z: 5494
+      pitch: 0
+      yaw: -126
+      world: lobby1vs1
+    spawn2:
+      x: 5570
+      y: 52
+      z: 5432
+      pitch: 5
+      yaw: 46
+      world: lobby1vs1
+    type: PB
+    name: arena16
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena17:
+    creator: Netoh
+    spawn1:
+      x: 5956
+      y: 93
+      z: 6097
+      pitch: 2
+      yaw: -180
+      world: lobby1vs1
+    spawn2:
+      x: 5956
+      y: 93
+      z: 6013
+      pitch: 12
+      yaw: -5
+      world: lobby1vs1
+    type: 2v2
+    name: arena17
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}
+  arena18:
+    creator: Netoh
+    spawn1:
+      x: 6469
+      y: 83
+      z: 6586
+      pitch: 1
+      yaw: 182
+      world: lobby1vs1
+    spawn2:
+      x: 6471
+      y: 83
+      z: 6505
+      pitch: 1
+      yaw: 3
+      world: lobby1vs1
+    type: 2v2
+    name: arena18
+    kit: Default
+    force-kit: false
+    forced-kit: Default
+    inventory: {}
+    armor: {}

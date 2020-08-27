@@ -1,0 +1,572 @@
+economy:
+  error:
+    nomoney: "&c\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdz\xc3\u0192\xc2\
+      \xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdr dileriz, bankanizda para kalmamis!"
+limitedItem:
+  error:
+    levelup: "&cBunun i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdin [meslek]\
+      \ mesleginde level atlaman lazim!"
+general:
+  info:
+    toplineseparator: '&7*********************** &6%playername% &7***********************'
+    separator: '&7*******************************************************'
+  admin:
+    error: '&cKomut uygulanirken bir hata olustu.'
+    success: '&eKomut basariyla uygulandi.'
+  error:
+    noHelpPage: '&cBu sayida bir yardim sayfasi yok!'
+    notNumber: "&eL\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdtfen sayilari\
+      \ kullanin!"
+    job: "&cB\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdyle bir meslek\
+      \ bulunmamaktadir!"
+    permission: "&cBunun i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdin\
+      \ yetkiniz bulunmamaktadir!"
+    noinfo: '&cBilgi bulunamadi!'
+    noinfoByPlayer: '&cSuan [%playername%] adli oyuncunun bilgisi yok!'
+    ingame: '&cBu komutu sadece oyundakiler kullanabilir!'
+    fromconsole: '&cBu komutu sadece konsoldan kullanabilirsiniz!'
+    worldisdisabled: "&cBu d\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+      nyada bu komut kullanilamaz!"
+command:
+  moneyboost:
+    help:
+      info: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm oyunculara para\
+        \ avansi verir."
+      args: '[meslek] [rate]'
+    output:
+      allreset: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm oyuncularin\
+        \ para avansi kapatildi."
+      jobsboostreset: "Para avansi %jobname% meslegi i\xc3\u0192\xc2\xaf\xc3\u201a\
+        \xc2\xbf\xc3\u201a\xc2\xbdin kapatildi."
+      nothingtoreset: Resetlenecek birsey yok.
+      boostalladded: "Para avansi %boost% t\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\
+        \u201a\xc2\xbdm mesleklere eklendi!"
+      boostadded: Para avansi &e%boost% &asuan &e%jobname% &ameslegine eklendi!
+      infostats: '&c-----> &aPara avansi x%boost% aktif&c <-------'
+  pointboost:
+    help:
+      info: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm oyunculara puan\
+        \ avansi verir."
+      args: '[meslek] [rate]'
+    output:
+      allreset: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm puan avanslari\
+        \ kapatildi"
+      jobsboostreset: "Puan avansi %jobname% meslegi i\xc3\u0192\xc2\xaf\xc3\u201a\
+        \xc2\xbf\xc3\u201a\xc2\xbdin kapatildi."
+      nothingtoreset: Resetlenecek birsey yok.
+      boostalladded: "Puan avansi %boost% t\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\
+        \u201a\xc2\xbdm mesleklere eklendi!"
+      boostadded: Puan avansi &e%boost% &asuan &e%jobname% &ameslegine eklendi!
+      infostats: '&c-----> &aPuan avansi x%boost% aktif&c <-------'
+  expboost:
+    help:
+      info: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm oyunculara exp\
+        \ avansi verir."
+      args: '[meslek] [rate]'
+    output:
+      allreset: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm exp avanslari\
+        \ kapatildi."
+      jobsboostreset: "Exp avansi %jobname% meslegi i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\
+        \xbf\xc3\u201a\xc2\xbdin kapatildi."
+      nothingtoreset: Resetlenecek birsey yok.
+      boostalladded: "Exp avansi %boost% t\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\
+        \u201a\xc2\xbdm mesleklere eklendi!"
+      boostadded: Exp avansi &e%boost% &asuan &e%jobname% &ameslegine eklendi!
+      infostats: '&c-----> &aExp avansi x%boost% aktif&c <-------'
+  bonus:
+    help:
+      info: "Meslek bonuslarini g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+        \xbdsterir"
+      args: '[meslek]'
+    output:
+      topline: '&7**************** &2[money] &6[points] &e[exp] &7****************'
+      permission: ' &eYetki bonusu: %money% %points% %exp%'
+      item: ' &eItem bonusu: %money% %points% %exp%'
+      global: ' &eGenell bonus: %money% %points% %exp%'
+      dynamic: " &eDinamik \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        deme bonus: %money% %points% %exp%"
+      area: ' &eAlan bonusu: %money% %points% %exp%'
+      final: ' &eFinal bonus: %money% %points% %exp%'
+  convert:
+    help:
+      info: "Veri tabanini d\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        n\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdst\xc3\u0192\xc2\xaf\
+        \xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdr\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\
+        \u201a\xc2\xbdr. Eger SQLite kullaniyorsaniz MYSQL veritabanina d\xc3\u0192\
+        \xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdn\xc3\u0192\xc2\xaf\xc3\u201a\xc2\
+        \xbf\xc3\u201a\xc2\xbdst\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+        \xbdrebilirsiniz."
+      args: ''
+  limit:
+    help:
+      info: "Mesleklerin harcama limitlerini g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\
+        \xc3\u201a\xc2\xbdsterir."
+      args: ''
+    output:
+      lefttime: '&eHarcama limitlerinin resetlenmesine son: &2%hour% &esaat &2%min%
+        &edakika &2%sec% &esaniye'
+      moneylimit: '&ePara limiti: &2%money%&e/&2%totalmoney%'
+      leftexptime: '&eExp limitlerinin resetlenmesine son: &2%hour% &esaat &2%min%
+        &edakika &2%sec% &esaniye'
+      explimit: '&eExp limit: &2%exp%&e/&2%totalexp%'
+      leftpointtime: '&ePuan limitlerinin resetlenmesine son: &2%hour% &esaat &2%min%
+        &edakika &2%sec% &esaniye'
+      pointlimit: '&ePuan limit: &2%current%&e/&2%total%'
+      reachedlimit: '&4Suan para limitine ulastin!'
+      reachedlimit2: "&eLimitleri kontrol etmek i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\
+        \xc3\u201a\xc2\xbdin &2/jobs limit &eyazabilirsin"
+      reachedExplimit: '&4Suan exp limitine ulastin!'
+      reachedExplimit2: "&eLimitleri kontrol etmek i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\
+        \xbf\xc3\u201a\xc2\xbdin &2/jobs limit &eyazabilirsin"
+      reachedPointlimit: '&4Suan puan limitine ulastin!'
+      reachedPointlimit2: "&eLimitleri kontrol etmek i\xc3\u0192\xc2\xaf\xc3\u201a\
+        \xc2\xbf\xc3\u201a\xc2\xbdin &2/jobs limit &eyazabilirsin"
+      notenabled: '&ePara limiti suan deaktif.'
+  help:
+    output:
+      info: /jobs [komut] ? yazarak komut hakkinda bilgi alabilirsin.
+      usage: 'Kullanim: %usage%'
+      title: '&e-------&e ======= &6Jobs &e======= &e-------'
+      page: '&e-----&e ====== Sayfa &6[1] &eof &6[2] &e====== &e-----'
+      prev: "&e--- <<<<< &6\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        nceki Sayfa &e|"
+      next: '&e|&6 Sonraki Sayfa &e>>>> ---'
+  points:
+    help:
+      info: "Oyuncunun ka\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd puani\
+        \ oldugunu g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdsterir."
+      args: '[oyuncu]'
+    currentpoints: ' &eSuanki Puan: &6%currentpoints%'
+    totalpoints: ' &eToplam Puan: &6%totalpoints%'
+  editpoints:
+    help:
+      info: Oyuncunun puanini degistir.
+      args: '[set/add/take] [oyuncu] [miktar]'
+    output:
+      set: '&eOyuncu (&6%playername%&e) puani artik &6%amount% &eoldu!'
+      add: '&eOyuncu (&6%playername%&e) suan &6%amount% &epuan eklendi. Artik &6%total%
+        &epuani var!'
+      take: '&eOyuncu (&6%playername%&e) suan &6%amount% &epuani alindi. Suanki puani
+        &6%total%'
+  blockinfo:
+    help:
+      info: "Baktigin blogun bilgilerini g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\
+        \u201a\xc2\xbdsterir."
+      args: ''
+    output:
+      name: ' &eBlok ismi: &6%blockname%'
+      id: ' &eBlok kodu: &6%blockid%'
+      data: ' &eBlok datasi: &6%blockdata%'
+      usage: ' &eKullanim: &6%first% &eveya &6%second%'
+  stats:
+    help:
+      info: "Hangi meslekte ne kadar gelistigini g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\
+        \xbf\xc3\u201a\xc2\xbdsterir."
+      args: '[oyuncu]'
+    error:
+      nojob: "L\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdtfen \xc3\u0192\
+        \xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdnce bir meslege giriniz."
+    output: ' lvl%joblevel% %jobname% : %jobxp%/%jobmaxxp% xp'
+  shop:
+    help:
+      info: "\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdzel meslek marketini\
+        \ a\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdar."
+      args: ''
+    info:
+      title: '&e------- &8Meslek Marketi &e-------'
+      currentPoints: '&ePuanin: &6%currentpoints%'
+      price: "&e\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdcret: &6%price%"
+      reqJobs: '&eGereken Meslekler:'
+      reqJobsList: '  &6%jobsname%&e: &e%level% lvl'
+      cantOpen: '&cCan''t open this page'
+      NoPermForItem: "&cBunu kullanmak i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\
+        \xc2\xbdin yetkin yok!"
+      NoPermToBuy: "&cBu item i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        in yetkin yok"
+      NoJobReqForitem: "&cBunu kullanman i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\
+        \u201a\xc2\xbdin (&6%jobname%&e) mesleginin (&6%joblevel%&e) leveline sahip\
+        \ olman gerek"
+      NoPoints: '&cYeterli puanin yok!'
+      Paid: "&eAldigin iteme karsilik verdigin \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\
+        \xc3\u201a\xc2\xbdcret &6%amount%"
+  archive:
+    help:
+      info: "Oyuncunun t\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm meslekleri\
+        \ g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdsterilir."
+      args: '[oyuncu]'
+    error:
+      nojob: Herhangi bir meslek bulunamadi.
+    output: lvl %joblevel% (%getbackjoblevel%) %jobname%
+  give:
+    help:
+      info: Meslek marketinden item verir. Oyuncu ismi opsiyoneldir
+      args: '[oyuncu] [meslekismi] [itemismi]'
+    output:
+      notonline: "&4Oyuncu [%playername%] suan a\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\
+        \xc3\u201a\xc2\xbdik degil!"
+      noitem: "&4B\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdyle bir item\
+        \ bulunamadi!"
+  info:
+    help:
+      title: '&2*** &eMeslekler&2 ***'
+      info: "Meslegin ne kadar \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        cret verdigini g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdsterir."
+      penalty: "&eBu meslek &c[penalty]% &ekdv keser \xc3\u0192\xc2\xaf\xc3\u201a\xc2\
+        \xbf\xc3\u201a\xc2\xbd\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        nk\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd zaten \xc3\u0192\xc2\
+        \xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdok fazla oyuncu bu meslekte."
+      bonus: "&eBu meslek &2[bonus]% &ebonus verir \xc3\u0192\xc2\xaf\xc3\u201a\xc2\
+        \xbf\xc3\u201a\xc2\xbd\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        nk\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd bu meslekte pek oyuncu\
+        \ yok."
+      args: '[meslek] [action]'
+      actions: "&eGe\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbderli Aksiyonlar:\
+        \ &f%actions%"
+      max: ' - &emax level:&f '
+      material: '&7%material%'
+      levelRange: ' &a(&e%levelFrom% &a- &e%levelUntil% &alevel)'
+      levelFrom: ' &a(dan &e%levelFrom% &alevel)'
+      levelUntil: ' &a(kadar &e%levelUntil% &alevel)'
+      money: ' &2%money%?'
+      points: ' &6%points%puan'
+      exp: ' &e%exp%xp'
+    gui:
+      pickjob: '&eMeslek edin!'
+      jobinfo: '&e[meslek] bilgi!'
+      actions: '&eYapilabilen Aksiyonlar:'
+      leftClick: '&eSol tiklayarak bilgi al'
+      rightClick: '&eSag tiklayarak katil'
+      leftSlots: '&eKalan Slotlar:&f '
+      working: '&2&nZaten alinmis'
+      max: '&eMaximum level:&f '
+      back: '&e<<< Geri'
+    output:
+      break:
+        info: Kirmak
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      tntbreak:
+        info: TNTKirmak
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      place:
+        info: Yerlestirmek
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      kill:
+        info: "\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdld\xc3\u0192\xc2\
+          \xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdrmek"
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      mmkill:
+        info: MMKill
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      fish:
+        info: Balik
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      craft:
+        info: "H\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdner"
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      smelt:
+        info: Isitmak
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      brew:
+        info: Iksircilik
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      eat:
+        info: Yemek
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      dye:
+        info: Boyama
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      enchant:
+        info: "B\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdy\xc3\u0192\xc2\
+          \xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd"
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      repair:
+        info: Tamir
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      breed:
+        info: "\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdiftlestirme"
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      tame:
+        info: Evcillestirme
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      milk:
+        info: Sagma
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      shear:
+        info: Kirpmak
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      explore:
+        info: Kesfetme
+        none: "%jobname% bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+          \xbdin para vermez."
+      custom-kill:
+        info: "Rastgele \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdld\xc3\
+          \u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdrme"
+        none: "%jobname% meslegi bu is i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\
+          \xc2\xbdin para vermez."
+  playerinfo:
+    help:
+      info: "Bir oyuncunun hangi meslekten ne kadar kazandigini g\xc3\u0192\xc2\xaf\
+        \xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdsterir."
+      args: '[oyuncu] [meslek] [komut]'
+  join:
+    help:
+      info: "Se\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdilen meslege\
+        \ girer."
+      args: '[meslek]'
+    error:
+      alreadyin: Zaten %jobname% meslegindesin.
+      fullslots: "Suan %jobname% meslegine katilamazsin \xc3\u0192\xc2\xaf\xc3\u201a\
+        \xc2\xbf\xc3\u201a\xc2\xbd\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+        \xbdnk\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd yeterli yer yok."
+      maxjobs: Zaten maksimum meslek sayisina ulastin.
+    success: Basariyla %jobname% meslegine katildin.
+  leave:
+    help:
+      info: Mesleginden ayrilirsin.
+      args: '[meslek]'
+    success: "Basariyla \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdiktigin\
+      \ meslek %jobname%."
+  leaveall:
+    help:
+      info: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm mesleklerden\
+        \ \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdikar."
+    error:
+      nojobs: Ayrilacak bir meslegin yok!
+    success: "Basariyla t\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm mesleklerden\
+      \ ayrildin."
+  browse:
+    help:
+      info: "Katilabilecegin meslekleri g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\
+        \xc2\xbdsterir."
+    error:
+      nojobs: Maksimum meslege ulastin.
+    output:
+      header: 'Meslek hakkinda bilgi verir:'
+      footer: "Daha fazla bilgi i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+        \xbdin /jobs info [meslek]"
+      totalWorkers: " &7Is\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdi:\
+        \ &e[amount]"
+      penalty: ' &4Ceza: &c[amount]%'
+      bonus: ' &2Bonus: &a[amount]%'
+  fire:
+    help:
+      info: Fire the player from the job.
+      args: '[oyuncu] [meslek]'
+    error:
+      nojob: Oyuncunun %jobname% meslegi silindi.
+    output:
+      target: Meslekleri silindi %jobname%.
+  fireall:
+    help:
+      info: "Oyuncunun t\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm mesleklerini\
+        \ siler."
+      args: '[oyuncu]'
+    error:
+      nojobs: "Suan hi\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdbir meslegi\
+        \ yok!"
+    output:
+      target: "T\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdm meslekleri\
+        \ silindi."
+  employ:
+    help:
+      info: Oyuncuyu bir meslege sok.
+      args: '[oyuncu] [meslek]'
+    error:
+      alreadyin: Oyuncu zaten %jobname% mesleginde.
+    output:
+      target: Oyuncu basariyla %jobname% meslegine sokuldu.
+  top:
+    help:
+      info: "Belirlenen bir meslege sahip en iyi 15 oyuncu g\xc3\u0192\xc2\xaf\xc3\
+        \u201a\xc2\xbf\xc3\u201a\xc2\xbdsterilir."
+      args: '[meslek]'
+    error:
+      nojob: Bu isimde bir meslek bulunamadi.
+    output:
+      topline: "&aTop&e 15 &aoyuncu &e%jobname% &amesleginde g\xc3\u0192\xc2\xaf\xc3\
+        \u201a\xc2\xbf\xc3\u201a\xc2\xbdsteriliyor"
+      list: '&e%number%&a. &e%playername% &alvl &e%level% &ave&e %exp% &aexp'
+      prev: "&e<<<<< \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdnceki Sayfa\
+        \ &2|"
+      next: '&2|&e Sonraki Sayfa >>>>'
+      show: "&2Suan &e[from] &2kadar &e[until] &2kadari g\xc3\u0192\xc2\xaf\xc3\u201a\
+        \xc2\xbf\xc3\u201a\xc2\xbdsteriliyor"
+  gtop:
+    help:
+      info: "Genel olarak en y\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        ksek meslege sahip 15 oyuncuyu g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\
+        \xc2\xbdsterir."
+      args: ''
+    error:
+      nojob: Bir bilgi bulunamadi.
+    output:
+      topline: '&aTop&e 15 &aoyuncunun meslek levelleri'
+      list: '&e%number%&a. &e%playername% &alvl &e%level% &ave&e %exp% &aexp'
+      prev: "&e<<<<< \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdnceki Sayfa\
+        \ &2|"
+      next: '&2|&e Sonraki Sayfa >>>>'
+      show: "&2Suan &e[from] &2kadar &e[until] &2kadari g\xc3\u0192\xc2\xaf\xc3\u201a\
+        \xc2\xbf\xc3\u201a\xc2\xbdsteriliyor"
+  log:
+    help:
+      info: "Istatistigi g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdsterir."
+      args: '[oyuncu]'
+    output:
+      topline: '&7************************* &6%playername% &7*************************'
+      list: '&7* &6%number%. &3%action%: &6%item% &eqty: %qty% &6money: %money% &eexp:
+        %exp%'
+      bottomline: '&7***********************************************************'
+      prev: "&e<<<<< \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdnceki Sayfa\
+        \ &2|"
+      next: '&2|&e Sonraki Sayfa >>>>'
+      nodata: '&cVeri bulunamadi'
+  glog:
+    help:
+      info: "Genel istatistigi g\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\
+        \xbdsterir."
+      args: ''
+    output:
+      topline: '&7*********************** &6Genel Istatistik &7***********************'
+      list: '&7* &6%number%. &3%username% &e%action%: &6%item% &eqty: %qty% &6money:
+        %money% &eexp: %exp%'
+      bottomline: '&7**************************************************************'
+      nodata: '&cVeri bulunamadi'
+  transfer:
+    help:
+      info: Oyuncunun meslegini degistirir.
+      args: '[oyuncu] [eskimeslek] [yenimeslek]'
+    output:
+      target: Artik %oldjobname% mesleginden %newjobname% meslegine aktarildiniz.
+  promote:
+    help:
+      info: Belirli bir miktarda belirlenen oyuncuya level verir.
+      args: '[oyuncu] [meslek] [level]'
+    output:
+      target: "Tebrikler, suan %levelsgained% kadar leveli %jobname% meslegi i\xc3\
+        \u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdin aldiniz."
+  demote:
+    help:
+      info: "Belirli bir miktarda belirlenen oyuncunun leveli d\xc3\u0192\xc2\xaf\xc3\
+        \u201a\xc2\xbf\xc3\u201a\xc2\xbds\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\
+        \xc2\xbdr\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdl\xc3\u0192\
+        \xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdr."
+      args: '[oyuncu] [meslek] [level]'
+    output:
+      target: Maalese f%levelslost% levelini %jobname% mesleginde kaybettin.
+  grantxp:
+    help:
+      info: Belirli bir miktarda belirlenen oyuncuya exp verir.
+      args: '[oyuncu] [meslek] [xp]'
+    output:
+      target: "Tebrikler, suan %xpgained% expsini %jobname% meslegi i\xc3\u0192\xc2\
+        \xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdin aldiniz."
+  removexp:
+    help:
+      info: Belirli bir miktarda belirlenen oyuncunun expsini alir.
+      args: '[oyuncu] [meslek] [xp]'
+    output:
+      target: Maalesef %xplost% expsini %jobname% mesleginden kaybettin.
+  signupdate:
+    help:
+      info: Belirli bir meslegin tabelalarini manuel yeniler
+      args: '[meslekismi]'
+  bp:
+    help:
+      info: Shows Block protection arround you in 10 block radius
+      args: ''
+    output:
+      found: '&eFound &6%amount% &eprotected blocks around you'
+      notFound: '&eNo protected blocks found around you'
+  reload:
+    help:
+      info: "Ayarlari yeniden y\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbd\
+        kler."
+  toggle:
+    help:
+      info: "Aldigin \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdcreti assagidaki\
+        \ bara yansitir."
+      args: ''
+    output:
+      turnedoff: "&4Bu \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdzellik\
+        \ devre disi!"
+      paid:
+        main: '&aAldigin:'
+        money: '&e[amount] para'
+        exp: '&7[exp] exp'
+        points: '&6[points] puan'
+      'on': "&aDurum: &aA\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdIK"
+      'off': '&aDurum: &4KAPALI'
+message:
+  skillup:
+    broadcast: '%playername% adli oyuncu %titlename% skilini %jobname% mesleginde
+      kazandi.'
+    nobroadcast: Tebrikler, kazandiginiz yetenek %titlename% %jobname%.
+  levelup:
+    broadcast: '%playername% adli oyuncu %jobname% mesleginde %joblevel% leveline
+      ulasti.'
+    nobroadcast: Tebrikler, suan %jobname% mesleginde %joblevel% levelsin.
+  cowtimer: "&eSuan \xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbddeme alabilmen\
+    \ i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdin &6%time% &esaniye\
+    \ beklemen gerek."
+  blocktimer: "&e\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbddeme yapabilmen\
+    \ i\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdin gereken s\xc3\u0192\
+    \xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdre: &3[time] !"
+  placeblocktimer: '&eYou cant place block faster than &6[time] &esec interval in
+    same place!'
+  taxes: '&3[amount] &ekadar vergi hesabiniza eklendi'
+  boostStarted: '&eMeslek avansi suan basladi!'
+  boostStoped: '&eMeslek avansi suan sona erdi!'
+  crafting:
+    fullinventory: Envanterin dolu!
+signs:
+  List: '&0[number].&8[player]&7:&4[level]'
+  SpecialList:
+    '1':
+      '1': '&b** &8Birinci &b**'
+      '2': '&9[player]'
+      '3': '&8[level] level'
+      '4': '&b************'
+    '2':
+      '1': '&b** &8Ikinci &b**'
+      '2': '&9[player]'
+      '3': '&8[level] level'
+      '4': '&b************'
+    '3':
+      '1': '&b** &8Ucuncu &b**'
+      '2': '&9[player]'
+      '3': '&8[level] level'
+      '4': '&b************'
+  cantcreate: '&4Bir tabela yaratamazsin!'
+  cantdestroy: '&4Bir tabela yok edemezsin!'
+  topline: '&2[Jobs]'
+  secondline:
+    join: '&2Katil'
+    leave: "&4\xc3\u0192\xc2\xaf\xc3\u201a\xc2\xbf\xc3\u201a\xc2\xbdik"
+    toggle: '&2Durum'
+    top: '&2Top'
+    browse: '&2Meslekler'
+    stats: '&2Istatistik'
+    limit: '&2Limit'
+    info: '&2Bilgi'
+    archive: '&2Arsiv'
+scoreboard:
+  topline: '&2Top &e%jobname%'
+  gtopline: '&2Genel en listesi'
+  lines: '&2%number%. &e%playername%'

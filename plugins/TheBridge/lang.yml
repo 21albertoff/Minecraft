@@ -1,0 +1,40 @@
+Game:
+  StartCancelled: '&cWe don''t have enough players!Start cancelled.'
+  AlreadyInGame: '&cYou''re already in a game.'
+  GameFull: '&cThis arena is full.'
+  NullGame: '&cThis game doesn''t exist.'
+  AlreadyStarted: '&cThis arena is in game.'
+  PlayerLeft: '&7<player>&e left the game (&b<inGame>&e/&b<max>&e)!'
+  PlayerJoin: '&7<player>&e has joined (&b<inGame>&e/&b<max>&e)!'
+  StartingIn: '&eThe game is starting in <seconds> seconds.'
+  StartMessage:
+  - '&a&l--------------------------------------'
+  - '&f&lThe Bridge &7- &a<gameType>'
+  - ''
+  - '&eCross the bridge to score for your team'
+  - '&eFend off opposing players that get in your way.'
+  - ''
+  - '&eFirst team to score 5 goals wins!'
+  - ''
+  - '&a&l--------------------------------------'
+  GameEnd:
+  - '&a&l--------------------------------------'
+  - '&f&lThe Bridge &7- &a<displayMode>'
+  - ''
+  - <winnerTeamColor><winnerTeamName> WINS!
+  - <firstTeamGoals> &7- &f<secondTeamGoals>
+  - ''
+  - '&a&l--------------------------------------'
+  PlayerKilled: <killerTeamColor><killerTeamName> <killerName> &7killed <playerTeamColor><playerTeamName> <playerName> .
+  PlayerSniped: <playerTeamColor><playerTeamName> <playerName> &7was sniped into the void by <killerTeamColor><killerTeamName> <killerName> .
+  PlayerKnocked: <playerTeamColor><playerTeamName> <playerName> &7was knocked into the void by <killerTeamColor><killerTeamName> <killerName> .
+  PlayerDied: <playerTeamColor><playerTeamName> <playerName> &7died .
+  PlayerFell: <playerTeamColor><playerTeamName> <playerName> &7fell into the void .
+  GoalScored:
+  - '&6--------------------------------'
+  - '&f<player> &escored!'
+  - <firstTeamGoals> - <secondTeamGoals>
+  - ''
+  - '&6--------------------------------'
+  BlockPlace: '&cYou can''t place blocks here'
+  MatchRestart: "&e\xe2\u2021\xa8 The match has been end due to restart/reload."

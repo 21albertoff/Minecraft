@@ -1,0 +1,358 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '     &5Creativo   &5MegaCreativo'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 1
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: 'creativo'
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 5
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: 'sound: note pling'
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    id: 132132132
+    left-click: true
+    right-click: true
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+Creative10:
+  COMMAND: 'op:warp megacreativo'
+  open-action: 'sound: note pling'
+  NAME: '&3&lMega&d&lCreativo'
+  LORE:
+   - '&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a'
+   - '&6&oEl modo &3&lMega&d&lCreativo&6&o es como &e&lcreativo'
+   - '&6&opero 5 veces mas grande suficiente para crear mapas'
+   - '&6&oenormes y sacar todo tu conocimiento de builder y'
+   - '&6&orestregarselo a otros en la cara :D '
+   - '&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a'
+  ID: jukebox
+  ENCHANTMENT: durability, 10
+  POSITION-X: 7
+  POSITION-Y: 1
+
+Creativo:
+  COMMAND: 'op:warp creativo'
+  open-action: 'sound: note pling'
+  NAME: '&e&lCreativo'
+  LORE:
+   - '&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a'
+   - '&6&o&d&lCreativo&6&o aqui podras contruir a tu'
+   - '&6&ogusto en modo creativo desde casas hasta '
+   - '&6&opixelart, Demuestra tu ingenio y '
+   - '&6&orestregarselo a otros en la cara :D '
+   - '&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a-&b-&c-&e-&a'
+  ID: noteblock
+  ENCHANTMENT: durability, 10
+  POSITION-X: 3
+  POSITION-Y: 1
+
+1:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 
+  POSITION-Y: 
+  
+2:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+ 
+3:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+
+4:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+ 
+5:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+
+6:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+ 
+7:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+
+8:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 
+  POSITION-Y: 
+ 
+9:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+
+10:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+ 
+11:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5
+
+12:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 6
+13:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+
+14:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 
+  POSITION-Y: 
+ 
+15:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+
+16:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 4
+ 
+17:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+
+18:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 6
+ 
+19:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+
+20:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+ 
+21:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3
+
+22:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 4
+ 
+23:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 5
+
+24:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 6
+25:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5
+ 
+26:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 5
+
+27:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+ 
+28:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5
+
+29:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+  
+30:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+ 
+31:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+
+32:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+ 
+33:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 
+  POSITION-Y: 
+
+34:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 
+  POSITION-Y: 
+
+35:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 5
+ 
+36:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+
+37:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 2
+ 
+38:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+
+39:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 5
+
+40:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+ 
+41:
+  ID: stained_glass_pane:5
+  ENCHANTMENT: durability, 10
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2

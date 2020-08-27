@@ -1,0 +1,216 @@
+Arena1:
+  minPlayers: 2
+  maxPlayers: 22
+  startTime: 15
+  bounds:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1520.0
+      y: 0.0
+      z: -1059.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1482.0
+      y: 107.0
+      z: -1019.0
+      pitch: 0.0
+      yaw: 0.0
+  loselevel:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1520.0
+      y: 0.0
+      z: -1053.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1486.0
+      y: 0.0
+      z: -1019.0
+      pitch: 0.0
+      yaw: 0.0
+  spawn:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -1502.4781173668314
+    y: 77.2
+    z: -1035.253535368577
+    pitch: 20.399979
+    yaw: 0.45046997
+  spectate:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -1502.4781173668314
+    y: 77.2
+    z: -1035.253535368577
+    pitch: 20.399979
+    yaw: 0.45046997
+Arena2:
+  minPlayers: 2
+  maxPlayers: 22
+  startTime: 15
+  bounds:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2042.0
+      y: 34.0
+      z: -1042.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1958.0
+      y: 106.0
+      z: -958.0
+      pitch: 0.0
+      yaw: 0.0
+  loselevel:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2042.0
+      y: 34.0
+      z: -1042.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -1958.0
+      y: 34.0
+      z: -958.0
+      pitch: 0.0
+      yaw: 0.0
+  spawn:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -2001.3451025240552
+    y: 76.2
+    z: -999.3894159341535
+    pitch: 10.649999
+    yaw: 270.29932
+  spectate:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -2001.3451025240552
+    y: 76.2
+    z: -999.3894159341535
+    pitch: 10.649999
+    yaw: 270.29932
+Arena3:
+  minPlayers: 2
+  maxPlayers: 22
+  startTime: 15
+  bounds:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2557.0
+      y: 0.0
+      z: -1057.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2441.0
+      y: 108.0
+      z: -937.0
+      pitch: 0.0
+      yaw: 0.0
+  loselevel:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2565.0
+      y: 0.0
+      z: -1075.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2441.0
+      y: 0.0
+      z: -937.0
+      pitch: 0.0
+      yaw: 0.0
+  spawn:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -2499.16093348502
+    y: 65.2
+    z: -997.332501555801
+    pitch: -3.750038
+    yaw: 180.75684
+  spectate:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -2499.16093348502
+    y: 65.2
+    z: -997.332501555801
+    pitch: -3.750038
+    yaw: 180.75684
+Arena4:
+  minPlayers: 2
+  maxPlayers: 22
+  startTime: 15
+  bounds:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -3031.0
+      y: 87.0
+      z: -1017.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2974.0
+      y: 113.0
+      z: -982.0
+      pitch: 0.0
+      yaw: 0.0
+  spawn:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -2998.893608758553
+    y: 100.2
+    z: -998.3530771897385
+    pitch: 8.399992
+    yaw: 270.5968
+  spectate:
+    ==: org.bukkit.Location
+    world: SpawnTnT
+    x: -2998.893608758553
+    y: 100.2
+    z: -998.3530771897385
+    pitch: 8.399992
+    yaw: 270.5968
+  loselevel:
+    min:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -3026.0
+      y: 86.0
+      z: -1018.0
+      pitch: 0.0
+      yaw: 0.0
+    max:
+      ==: org.bukkit.Location
+      world: SpawnTnT
+      x: -2976.0
+      y: 86.0
+      z: -981.0
+      pitch: 0.0
+      yaw: 0.0

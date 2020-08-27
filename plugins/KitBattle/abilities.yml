@@ -1,0 +1,83 @@
+# Please do not delete any ability! only modify the available options for it
+
+Abilities:
+  Kangaroo:
+    Cooldown: 5
+  Fisherman:
+    Cooldown: 5
+  Dracula:
+    Cooldown: 45
+    Lasts-For: 15
+  Hades:
+    Cooldown: 45
+    Amount-Of-Dogs: 3
+    Dogs-Last-For: 10
+  Thor:
+    Cooldown: 10
+    Lightning-Damage: 4
+    Strike-Radius: 5
+  Stomper:
+    Stomp-Radius: 5
+    Max-Fall-Damage: 2
+    Max-Damage-Dealt-When-Stomped-While-Shifting: 2
+  Spiderman:
+    Cooldown: 30
+    Webs-Last-For: 10
+  Prisoner:
+    Cooldown: 60
+    Prison-Lasts-For: 6
+  Climber:
+    Cooldown: 30
+    Time-Until-Chicken-Disappear: 5
+  Dragon:
+    Cooldown: 30
+    Amount-Of-Bursts: 3
+    Damage-Dealt: 4
+    Fire-Lasts-For: 5
+    Fire-Range: 10
+  Phantom:
+    Cooldown: 45
+    Flight-Lasts-For: 5
+  Timelord:
+    Cooldown: 45
+    Freeze-Radius: 7
+    Freeze-Time: 10
+  Burrower:
+    Cooldown: 60
+    Room-Lasts-For: 8
+  Zen:
+    Cooldown: 60
+    Max-Range: 60
+  Viper:
+    Poison-Chance: 5%
+    Poison-Lasts-For: 10
+    Poison-Level: 1
+  Monk:
+    Cooldown: 45
+  Hulk:
+    Cooldown: 30
+    Damage-Dealt: 5
+    Damage-Radius: 3
+  Rider:
+    Cooldown: 45
+    Horse-Lasts-For: 10
+  Summoner:
+    Cooldown: 70
+    Golem-Lasts-For: 20
+  Suicidal:
+    Cooldown: 30
+  Souper:
+    Cooldown: 15
+  Bane:
+    Cooldown: 45
+    Duration: 8
+  Sunder:
+    Cooldown: 30
+  Centaur:
+    Cooldown: 30
+    Damage-Radius: 4
+    Damage: 18
+    Regen-Level: 2
+    Regen-Duration: 5
+  Blinker:
+    Cooldown: 25

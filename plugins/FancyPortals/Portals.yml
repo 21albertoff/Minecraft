@@ -1,0 +1,77 @@
+Portals:
+  survival:
+    Bungee Target: survival
+    Coords:
+    - Lobby,1,67,-16
+    - Lobby,0,67,-16
+    - Lobby,-1,67,-16
+    - Lobby,-1,66,-16
+    - Lobby,0,66,-16
+    - Lobby,1,66,-16
+    - Lobby,2,66,-16
+    - Lobby,2,67,-16
+    - Lobby,2,68,-16
+    - Lobby,1,68,-16
+    - Lobby,0,68,-16
+    - Lobby,-1,68,-16
+    - Lobby,-1,69,-16
+    - Lobby,0,69,-16
+    - Lobby,1,69,-16
+    - Lobby,2,69,-16
+    - Lobby,2,70,-16
+    - Lobby,1,70,-16
+    - Lobby,0,70,-16
+    - Lobby,-1,70,-16
+    Type: BUNGEE
+  survival2:
+    Bungee Target: survival
+    Coords:
+    - Lobby,-1,66,0
+    - Lobby,0,66,0
+    - Lobby,1,66,0
+    - Lobby,1,66,-1
+    - Lobby,0,66,-1
+    - Lobby,-1,66,-1
+    - Lobby,1,66,1
+    - Lobby,0,66,1
+    - Lobby,-1,66,1
+    Type: BUNGEE
+  presurvival:
+    Command: warp survival
+    Coords:
+    - Lobby,-1,63,114
+    - Lobby,-2,63,114
+    - Lobby,-2,62,114
+    - Lobby,-1,62,114
+    - Lobby,0,62,114
+    - Lobby,1,62,114
+    - Lobby,2,62,114
+    - Lobby,2,63,114
+    - Lobby,1,63,114
+    - Lobby,0,63,114
+    - Lobby,0,64,114
+    - Lobby,-1,64,114
+    - Lobby,-2,64,114
+    - Lobby,-2,65,114
+    - Lobby,-1,65,114
+    - Lobby,0,65,114
+    - Lobby,1,65,114
+    - Lobby,2,65,114
+    - Lobby,2,64,114
+    - Lobby,1,64,114
+    - Lobby,2,66,114
+    - Lobby,1,66,114
+    - Lobby,0,66,114
+    - Lobby,-1,66,114
+    - Lobby,-2,66,114
+    - Lobby,-2,67,114
+    - Lobby,-1,67,114
+    - Lobby,0,67,114
+    - Lobby,1,67,114
+    - Lobby,2,67,114
+    - Lobby,2,68,114
+    - Lobby,1,68,114
+    - Lobby,0,68,114
+    - Lobby,-1,68,114
+    - Lobby,-2,68,114
+    Type: PLAYER_COMMAND

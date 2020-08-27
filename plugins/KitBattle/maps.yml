@@ -1,0 +1,11 @@
+Maps:
+  kitpvp:
+    Type: normal
+    Enabled: true
+    Spawnpoints:
+      '1': FullPvP, -627.5, 9, -301.5, 180.90051, 7.799945
+  skypvp:
+    Type: normal
+    Enabled: true
+    Spawnpoints:
+      '1': Skypvp, 7.5, 7, 8.5, -224.70251, 7.7999773

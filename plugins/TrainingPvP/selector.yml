@@ -1,0 +1,20 @@
+ARENA1v1:
+  name: '&8[&41vs1&8]'
+  lore: '&eEntra a Duelos de 1vs1!'
+  item: 276
+ARENA2v2:
+  name: '&8[&42vs2&8]'
+  lore: '&eEntra a Duelos de 2vs2, tienes que estar en una Party!'
+  item: 267
+ARENAPvP:
+  name: '&8[&4Party vs Party&8]'
+  lore: '&eDuelos de Party vs Party BETA!'
+  item: 272
+ARENAFFA:
+  name: ARENAFFA
+  lore: OFFLINE
+  item: 276
+ARENAPB:
+  name: PARTYFIGHT
+  lore: Duelos entre miembros de la party.
+  item: 276

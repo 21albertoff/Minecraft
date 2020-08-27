@@ -1,0 +1,20 @@
+'1':
+  name: '&7Default double jump'
+  cost: 100
+  ID: 288
+  subID: 0
+  amount: 1
+  permission: shop.default
+  lore:
+  - Basic kit
+  - Cost 100 coins
+  items:
+    '1':
+      ID: 0
+      subID: 0
+      amount: 1
+      displayname: '&cDefault'
+      lore:
+      - Basic kit - double jump
+      enchantments:
+      - KNOCKBACK:1

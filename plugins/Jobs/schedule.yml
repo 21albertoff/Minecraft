@@ -1,0 +1,71 @@
+# Enabled - with this false this schedule will be ignored
+# From and Until is in 24 hours format with : signs to separate minutes and seconds
+# Exp and Money determines how big is boost, to reset it. keep it at 1.0. so if you use 2.0 that means all money/exp is doubled
+# Days variables: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday, All
+# Jobs can be any of your settup job or use All to give for all jobs at once
+# BroadcastOnStart or BroadcastOnStop - set it false to disable message when boost starts/stops
+# MessageOnStart or MessageOnStop - optional messages, if not given, then message from locale file will be shown
+# BroadcastInterval - how often in minutes to broadcast message about money/exp boost for jobs
+# BroadcastMessage - message to show every x minutes
+
+Boost:
+  NightBoost:
+    Enabled: true
+    From: '23:00:00'
+    Until: '07:00:00'
+    Exp: 2.0
+    Money: 2.0
+    Days:
+    - All
+    Jobs:
+    - All
+    BroadcastOnStart: true
+    MessageOnStart:
+    - '&e******************************************************'
+    - '&e* Todos los trabajos conseguiran Doble paga de'
+    - '&e* Experiencia y Dinero Hasta las 7:00am!'
+    - '&e* &8"&6Solo Aplica Trabajos En Horas Nocturnas&8"'
+    - '&e******************************************************'
+    BroadcastOnStop: true
+    MessageOnStop:
+    - '&e******************************************************'
+    - '&e* El tiempo de Trabajo Nocturno con Doble Paga'
+    - '&e* Ha terminado. Regresamos a las tarifas normales'
+    - '&e* &8"&6Solo Aplica Trabajos En Horas Nocturnas&8"'
+    - '&e******************************************************'
+    BroadcastInterval: 15
+    BroadcastMessage:
+    - '&e******************************************************'
+    - '&e* Doble Paga De Experiencia y Trabajo Se Activa Hasta [until]*'
+    - '&e******************************************************'
+  ShortMoneyBoost:
+    Enabled: true
+    From: '07:00:00'
+    Until: '08:00:00'
+    Exp: 1.0
+    Money: 2.0
+    Days:
+    - Sunday
+    - Saturday
+    Jobs:
+    - Minero
+    - Talador
+    BroadcastOnStart: true
+    MessageOnStart:
+    - '&e******************************************************'
+    - '&e* Minero y Talador Conseguiran Doble Paga de Dinero!'
+    - '&e* hasta las 8AM! &8"&6Solo Fines De Semana&8"'
+    - '&e******************************************************'
+    BroadcastOnStop: true
+    MessageOnStop:
+    - '&e******************************************************'
+    - '&e* Tiempo de Doble Paga para el Minero y el Talador'
+    - '&e* Ha terminado. Regresamos a las tarifas normales'
+    - '&e* &8"&6Solo Fines De Semana&8"'
+    - '&e******************************************************'
+    BroadcastInterval: 15
+    BroadcastMessage:
+    - '&e******************************************************'
+    - '&e* Tiempo de Doble Paga para el Minero y el Talador'
+    - '&e* Se activa hasta [until]'
+    - '&e******************************************************'

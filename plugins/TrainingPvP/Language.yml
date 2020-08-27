@@ -1,0 +1,90 @@
+ALREADY_IN_A_GAME: Ya estas en juego!
+COMBAT_TAGGED: '&aEntraste en combate!'
+STATS_DISABLED: '&4Lo siento! Las estadisticas estan deshabilitadas!'
+DEATH_COUNT: 'Muertes:'
+KILL_COUNT: 'Bajas:'
+WIN_COUNT: 'Ganadas:'
+ELO_NUMBER: 'ELO:'
+NO_DUEL_WHILE_SPECTATING: '&4No puedes enviar un duelo espectando!'
+NO_DUEL_WHILE_IN_PARTY: '&4No puedes hacer esto estando en una party!'
+IN_A_QUEUE: '&4No puedes hacer esto estando en la lista de espera!'
+OTHER_ALREADY_IN_A_GAME: '&d%player% &aya esta en juego!'
+OTHER_ALREADY_WAITING_FOR_GAME: '&d%player% &aya esta en la lista de espera!'
+DUEL_ACCEPTED: '&aAceptaste el duelo!'
+NOT_INVITED: That player didn't invite you for a duel, or the duel expired! Do /duel to challenge him!
+DUEL_UNKNOWN_COMMAND: /duel <Player> || /duel accept <Player>
+ALREADY_WAITING: '&4Ya estas en la lista de espera!'
+NO_PERMISSION: '&4No tienes permiso para hacer esto!'
+UNKNOWN_PLAYER: '&4Jugador desconocido!'
+ALREADY_INVITED: '&4Ya has invitado a ese jugador!'
+DUEL_EXPIRY_WARNING: '&4La solicitud expira en 30 segundos!'
+DUEL_EXPIRED: '&4La solicitud de duelo ha expirado!'
+DUEL_CHALLENGE: '&d%player% &ate ha invitado a un duelo! usa /duel accept &d%player%
+  &apara aceptar!'
+DUEL_INVITE_SEND: '&aEl duelo ha sido enviado!'
+CLICK_TO_ACCEPT_DUEL: 'Haga clic aqui para aceptar el duelo '
+ELO_UNKNOWN_COMMAND: /elo || /elo <Player>
+YOUR_ELO: 'ELO:'
+PARTY_LIST: 'Party List:'
+PLAYER_NOT_IN_PARTY: Ese jugador no se encuentra en una party!
+ALREADY_IN_PARTY: Ya estas en una party!
+PARTY_FULL: Esta party esta llena!
+NOT_INVITED_FOR_PARTY: '&aNo has sido invitado a esta party!'
+NOT_IN_PARTY: '&aNo estas en una party!'
+PLAYER_JOINED_PARTY: '&d%player% &aingreso a la party!'
+OTHER_PLAYER_NOT_PARTY_LEADER: '&aEse jugador no es lider de la party!'
+PARTY_LEADER_IS: '&aEl lider de la party es %player%'
+NOT_PARTY_LEADER: '&4No eres lider de la party!'
+OTHER_ALREADY_IN_PARTY: '&aEste jugador ya esta en su party!'
+PARTY_CREATED: '&aParty creada!'
+GAME_START_MESSAGE: '&aEstas luchando contra <LIST>, &bno tengas piead!'
+PVP_PROTECTION_REMOVED: '&aLa proteccion de PvP se ha removido!'
+GAME_BOSSBAR_MESSAGE: '&aEstas luchando en StartGame Network!'
+NO_KIT_AVAILABLE: '&4No hay kits disponibles para este tipo de arena!'
+KIT_SELECTOR_GUI_TITLE: '&aSelector de kits'
+MODE_SELECTOR_GUI_TITLE: '&aSelector de modo'
+DUEL_OPPONENT_OFFLINE: '&4El oponente se desconecto!'
+ADMIN_GAME_END: '&aSu juego ha sido terminado por un administrador!'
+PARTY_TOO_SMALL: '&aSu party necesita al menos 2 jugadores para hacer esto!'
+PARTY_TOO_BIG: '&aSu partido debe tener 2 jugadores para hacer esto!'
+JOINED_QUEUE: '&aTe has unido a la lista de espera!'
+ALREADY_IN_QUEUE: '&aYa estas en la lista de espera!'
+GROUP_WIN: '&aEl juego ha terminado! Los ganadores son:'
+PVP_ENABLED: '&4PvP habilitado!'
+PLAYER_QUIT: '&d%player% ha abandonado el juego!'
+NEW_COMMANDS: '&aLa batalla se ha cambiado a /unranked! Quieres jugar en rankeds?
+  Usa /ranked!'
+NO_ARENA_AVAILABLE: '&aActualmente no existe una arena disponible!'
+SPECTATE_DISABLED: "\xa7aSpectating has been temporarily disabled. Will return soon."
+WIN_1V1: '&aGanador:'
+ELO_UPDATE: "\xa7aELO after this match: \xa7b%WINNER% \xa7a[%WINNER_ELO%] \xa7a(%WINNER_CHANGE%)\
+  \ \xa7e- \xa7b%LOSER% \xa7a[%LOSER_ELO%] \xa7c(%LOSER_CHANGE%\xa7c)"
+RANKED_COOLDOWN: "\xa7aYou have to wait %amount% more seconds before you can do another\
+  \ ranked match!"
+DUEL_COOLDOWN: "\xa7aYou have to wait %amount% more seconds before you can do another\
+  \ duel!"
+PARTY_KICKED: '&aUsted ha sido expulsado de la party!'
+OTHER_KICKED: '&d%player% ha sido expulsado de la party!'
+PARTY_LEFT: '&aHas abandonado la party!'
+PARTY_LEFT_OTHER: '&d%player% ha dejado la party!'
+PARTY_DELETED: '&aSu party ha sido eliminada!'
+NOT_IN_QUEUE: '&aUsted no esta actualmente en la lista de espera!'
+QUEUE_LEFT: '&aHas dejado la lista de espera!'
+UNRANKED_SELECTOR_ITEM: '&aUnranked'
+RANKED_SELECTOR_ITEM: '&aRanked'
+QUEUE_LEAVE_ITEM: '&cSalir de la lista!'
+PARTY_CREATE_ITEM: '&aCrear Party!'
+PARTY_VIEW_ITEM: '&bMostrar party!'
+PARTY_LIST_ITEM: '&bMostrar todas las partys!'
+PARTY_LEAVE_ITEM: '&cAbandonar party!'
+CANT_DUEL_YOURSELF: '&aNo puedes hacer duelos a lo tonto!'
+NO_SPECTATING_WHILE_IN_GAME: "\xa7aYou are currently in a game! You can only spectate\
+  \ if you are not in a game!"
+DUEL_TOGGLED_ON: "\xa7aEnabled duel requests!"
+DUEL_TOGGLED_OFF: "\xa7aDisabled duel requests!"
+OTHER_TOGGLED_REQUESTS: "\xa7aCan't send the request as \xa7b%player% \xa7ahas duel\
+  \ requests disabled!"
+LOGGED_INGAME: "\xa7aYou logged off during a game, so you lost!"
+PARTY_INVITED_MSG: "\xa7aYou have been invited for \xa7e%player%\xa7a's party! Do\
+  \ \xa7e/party join \xa7ato join the party!"
+PARTY_INVITED_OTHER: "\xa7a%player% has been invited for your party!"

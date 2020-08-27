@@ -1,0 +1,404 @@
+[07-06 16:58:07]: [INFO] Created column 'regdate' and set the current timestamp, 1594079887151, to all 0 rows
+[07-06 16:58:08]: [INFO] SQLite Setup finished
+[07-06 16:58:09]: [INFO] Hooked into PermissionsEx!
+[07-06 16:58:09]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-06 16:58:09]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-06 16:58:09]: [INFO] Hooked successfully into Essentials
+[07-06 16:58:09]: [INFO] Hooked successfully into Multiverse-Core
+[07-06 16:58:09]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\server de juegos nuevo\plugins\Essentials\spawn.yml'
+[07-06 16:58:10]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-06 16:58:10]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-06 16:58:10]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-06 17:41:15]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[07-06 17:44:47]: [INFO] SQLite Setup finished
+[07-06 17:44:48]: [INFO] Hooked into PermissionsEx!
+[07-06 17:44:48]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-06 17:44:48]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-06 17:44:48]: [INFO] Hooked successfully into Essentials
+[07-06 17:44:48]: [INFO] Hooked successfully into Multiverse-Core
+[07-06 17:44:48]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\server de juegos nuevo\plugins\Essentials\spawn.yml'
+[07-06 17:44:49]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-06 17:44:49]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-06 17:44:49]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-06 17:52:14]: [FINE] SuzuMods registered 192.168.0.4
+[07-06 17:52:15]: [FINE] SuzuMods logged in!
+[07-06 17:52:36]: [FINE] SuzuMods logged in!
+[07-07 12:40:42]: [INFO] SQLite Setup finished
+[07-07 12:40:42]: [INFO] Hooked into PermissionsEx!
+[07-07 12:40:43]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-07 12:40:43]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-07 12:40:43]: [INFO] Hooked successfully into Essentials
+[07-07 12:40:43]: [INFO] Hooked successfully into Multiverse-Core
+[07-07 12:40:43]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-07 12:40:44]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-07 12:40:44]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-07 12:40:44]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-07 12:42:40]: [WARN] Could not get LimboPlayer for 'SuzuMods' [JsonSyntaxException]: java.lang.IllegalStateException: Not a JSON Object: "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+[07-07 12:42:40]: fr.xephi.authme.libs.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Not a JSON Object: "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+	at fr.xephi.authme.libs.google.gson.Gson.fromJson(Gson.java:900)
+	at fr.xephi.authme.libs.google.gson.Gson.fromJson(Gson.java:853)
+	at fr.xephi.authme.libs.google.gson.Gson.fromJson(Gson.java:802)
+	at fr.xephi.authme.libs.google.gson.Gson.fromJson(Gson.java:774)
+	at fr.xephi.authme.data.limbo.persistence.IndividualFilesPersistenceHandler.getLimboPlayer(IndividualFilesPersistenceHandler.java:50)
+	at fr.xephi.authme.data.limbo.persistence.LimboPersistence.getLimboPlayer(LimboPersistence.java:36)
+	at fr.xephi.authme.data.limbo.LimboService.createLimboPlayer(LimboService.java:57)
+	at fr.xephi.authme.process.join.AsynchronousJoin.lambda$processJoinSync$6(AsynchronousJoin.java:160)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:71)
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:350)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.B(MinecraftServer.java:723)
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:374)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:654)
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:557)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.IllegalStateException: Not a JSON Object: "\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+	at fr.xephi.authme.libs.google.gson.JsonElement.getAsJsonObject(JsonElement.java:91)
+	at fr.xephi.authme.data.limbo.persistence.LimboPlayerDeserializer.deserialize(LimboPlayerDeserializer.java:49)
+	at fr.xephi.authme.data.limbo.persistence.LimboPlayerDeserializer.deserialize(LimboPlayerDeserializer.java:37)
+	at fr.xephi.authme.libs.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69)
+	at fr.xephi.authme.libs.google.gson.Gson.fromJson(Gson.java:888)
+	... 14 more
+
+[07-07 12:42:50]: [FINE] SuzuMods logged in!
+[07-07 13:38:07]: [FINE] SuzuMods logged in!
+[07-07 13:39:56]: [INFO] Unhooked from Permissions!
+[07-07 13:39:56]: [INFO] Hooked into PermissionsEx!
+[07-07 13:39:56]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-07 13:39:56]: [INFO] SQLite Setup finished
+[07-07 13:41:00]: [FINE] SuzuMods logged in!
+[07-07 13:41:04]: [INFO] Unhooked from Permissions!
+[07-07 13:41:04]: [INFO] Hooked into PermissionsEx!
+[07-07 13:41:04]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-07 13:41:04]: [INFO] SQLite Setup finished
+[07-07 13:41:41]: [FINE] SuzuMods logged in!
+[07-07 14:22:59]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[07-07 14:25:51]: [INFO] SQLite Setup finished
+[07-07 14:25:51]: [INFO] Hooked into PermissionsEx!
+[07-07 14:25:51]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-07 14:25:51]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-07 14:25:51]: [INFO] Hooked successfully into Essentials
+[07-07 14:25:51]: [INFO] Hooked successfully into Multiverse-Core
+[07-07 14:25:51]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-07 14:25:52]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-07 14:25:52]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-07 14:25:52]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-07 14:26:36]: [FINE] SuzuMods logged in!
+[07-07 14:28:54]: [FINE] SuzuMods logged in!
+[07-07 14:36:40]: [FINE] SuzuMods logged in!
+[07-07 14:41:42]: [FINE] SuzuMods logged in!
+[07-07 15:02:16]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[07-07 15:11:15]: [INFO] SQLite Setup finished
+[07-07 15:11:15]: [INFO] Hooked into PermissionsEx!
+[07-07 15:11:16]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-07 15:11:16]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-07 15:11:16]: [INFO] Hooked successfully into Essentials
+[07-07 15:11:16]: [INFO] Hooked successfully into Multiverse-Core
+[07-07 15:11:16]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-07 15:11:17]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-07 15:11:17]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-07 15:11:17]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-07 15:24:07]: [FINE] SuzuMods logged in!
+[07-07 15:24:11]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[07-07 15:27:09]: [INFO] SQLite Setup finished
+[07-07 15:27:09]: [INFO] Hooked into PermissionsEx!
+[07-07 15:27:09]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-07 15:27:09]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-07 15:27:09]: [INFO] Hooked successfully into Essentials
+[07-07 15:27:09]: [INFO] Hooked successfully into Multiverse-Core
+[07-07 15:27:09]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-07 15:27:10]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-07 15:27:10]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-07 15:27:10]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-07 15:29:56]: [FINE] SuzuMods logged in!
+[07-07 15:50:15]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[07-08 20:34:47]: [INFO] SQLite Setup finished
+[07-08 20:34:48]: [INFO] Hooked into PermissionsEx!
+[07-08 20:34:48]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-08 20:34:48]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-08 20:34:48]: [INFO] Hooked successfully into Essentials
+[07-08 20:34:48]: [INFO] Hooked successfully into Multiverse-Core
+[07-08 20:34:48]: [INFO] Essentials spawn file not found: 'C:\Users\SeriesDeMods\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-08 20:34:50]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-08 20:34:50]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-08 20:34:50]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-08 21:32:13]: [FINE] SuzuMods logged in!
+[07-08 21:35:03]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[07-21 21:14:11]: [INFO] SQLite Setup finished
+[07-21 21:14:15]: [INFO] Hooked into PermissionsEx!
+[07-21 21:14:16]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-21 21:14:16]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-21 21:14:16]: [INFO] Hooked successfully into Essentials
+[07-21 21:14:16]: [INFO] Hooked successfully into Multiverse-Core
+[07-21 21:14:16]: [INFO] Essentials spawn file not found: 'C:\Users\survival1.14\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-21 21:14:20]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-21 21:14:20]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-21 21:14:20]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-29 07:05:04]: [INFO] SQLite Setup finished
+[07-29 07:05:04]: [INFO] Hooked into PermissionsEx!
+[07-29 07:05:05]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-29 07:05:05]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-29 07:05:05]: [INFO] Hooked successfully into Essentials
+[07-29 07:05:05]: [INFO] Hooked successfully into Multiverse-Core
+[07-29 07:05:05]: [INFO] Essentials spawn file not found: 'C:\Users\survival1.14\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-29 07:05:06]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-29 07:05:06]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-29 07:05:06]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-29 07:07:47]: [FINE] SuzuMods logged in!
+[07-29 07:15:54]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[07-29 07:22:11]: [INFO] SQLite Setup finished
+[07-29 07:22:11]: [INFO] Hooked into PermissionsEx!
+[07-29 07:22:11]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-29 07:22:11]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-29 07:22:11]: [INFO] Hooked successfully into Essentials
+[07-29 07:22:11]: [INFO] Hooked successfully into Multiverse-Core
+[07-29 07:22:11]: [INFO] Essentials spawn file not found: 'C:\Users\survival1.14\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-29 07:22:12]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-29 07:22:12]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-29 07:22:12]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-29 07:30:03]: [INFO] SQLite Setup finished
+[07-29 07:30:03]: [INFO] Hooked into PermissionsEx!
+[07-29 07:30:04]: [INFO] Hooked successfully into Essentials
+[07-29 07:30:04]: [INFO] Hooked successfully into Multiverse-Core
+[07-29 07:30:04]: [INFO] Essentials spawn file not found: 'C:\Users\survival1.14\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[07-29 07:30:05]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[07-29 07:30:05]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[07-29 07:30:05]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[07-29 07:30:16]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[07-29 07:30:16]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[07-29 07:32:34]: [FINE] SuzuMods used the wrong password
+[07-29 07:32:58]: [FINE] SuzuMods logged in!
+[07-29 07:33:12]: [FINE] SuzuMods logged in!
+[07-29 07:47:56]: [FINE] Coronaviruz2020 registered 192.168.0.4
+[07-29 07:47:56]: [FINE] The user Coronaviruz2020 has 2 accounts:
+[07-29 07:47:56]: [FINE] §7§aSuzuMods§7, §aCoronaviruz2020§7.
+[07-29 07:47:56]: [FINE] Coronaviruz2020 logged in!
+[07-29 07:48:19]: [FINE] The user Coronaviruz2020 has 2 accounts:
+[07-29 07:48:19]: [FINE] §7§aSuzuMods§7, §aCoronaviruz2020§7.
+[07-29 07:48:19]: [FINE] Coronaviruz2020 logged in!
+[07-29 07:52:54]: [FINE] The user Coronaviruz2020 has 2 accounts:
+[07-29 07:52:54]: [FINE] §7§aSuzuMods§7, §aCoronaviruz2020§7.
+[07-29 07:52:54]: [FINE] Coronaviruz2020 logged in!
+[07-29 22:24:30]: [INFO] AuthMe 5.4.0-b1877 disabled!
+[08-07 03:20:52]: [INFO] SQLite Setup finished
+[08-07 03:20:53]: [INFO] Hooked into PermissionsEx!
+[08-07 03:20:53]: [INFO] Hooked successfully into Essentials
+[08-07 03:20:53]: [INFO] Hooked successfully into Multiverse-Core
+[08-07 03:20:53]: [INFO] Essentials spawn file not found: 'C:\Users\survival1.14\Desktop\SuzuMods Server Configurado v10\plugins\Essentials\spawn.yml'
+[08-07 03:20:53]: [WARN] Could not download GeoLiteAPI database [UnknownHostException]: geolite.maxmind.com
+[08-07 03:20:53]: java.net.UnknownHostException: geolite.maxmind.com
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at sun.net.NetworkClient.doConnect(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.http.HttpClient.New(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at fr.xephi.authme.service.GeoIpService$1.run(GeoIpService.java:93)
+	at java.lang.Thread.run(Unknown Source)
+
+[08-07 03:20:54]: [INFO] Development builds are available on our jenkins, thanks to f14stelt.
+[08-07 03:20:54]: [INFO] Do you want a good game server? Look at our sponsor GameHosting.it leader in Italy as Game Server Provider!
+[08-07 03:20:54]: [INFO] AuthMe 5.4.0 build n.1877 correctly enabled!
+[08-07 04:45:36]: [FINE] The user SuzuMods has 2 accounts:
+[08-07 04:45:36]: [FINE] §7§aSuzuMods§7, coronaviruz2020.
+[08-07 04:45:36]: [FINE] SuzuMods logged in!
+[08-07 04:48:09]: [FINE] The user SuzuMods has 2 accounts:
+[08-07 04:48:09]: [FINE] §7§aSuzuMods§7, coronaviruz2020.
+[08-07 04:48:09]: [FINE] SuzuMods logged in!
+[08-07 05:15:59]: [FINE] The user Coronaviruz2020 has 2 accounts:
+[08-07 05:15:59]: [FINE] §7§aSuzuMods§7, §aCoronaviruz2020§7.
+[08-07 05:15:59]: [FINE] Coronaviruz2020 logged in!
+[08-07 05:37:25]: [INFO] AuthMe 5.4.0-b1877 disabled!

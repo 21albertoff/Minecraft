@@ -1,0 +1,48 @@
+Brujula:
+  name: '&e&l&oMenu &6&k:&b&k:&6&k:&6&lNaruto&b&lCraft&b&l&6&k:&b&k:&6&k:&e'
+  id: 345
+  slot: 1
+  lore:
+    - '&f&lUtiliza Para Dirigirte Al Menu Principal'
+    - '&f&lAqui Podras Dirigirte A Cualquier Mini Game'
+  command: 'menu'
+  cooldown-seconds: 5
+  permission: ''
+primero:
+  name: '&aUnranked'
+  id: 267
+  slot: 2
+  lore:
+  command: 'unranked'
+  cooldown-seconds: 0
+  permission: 'customjoinitems.test'
+segundo:
+  name: '&bRanked'
+  id: 276
+  lore: 4
+  command: 'ranked'
+  cooldown-seconds: 0
+tercero:
+  name: '&eCrear Party'
+  id: 340
+  slot: 3
+  data-value: 0
+  command: 'party create'
+  permission: 'customjoinitems.admin'
+  cooldown-seconds: 0
+cuarto:
+  name: '&4Salir de Cola'
+  id: 399
+  slot: 8
+  data-value: 0
+  command: 'battle leave'
+  permission: 'customjoinitems.admin'
+  cooldown-seconds: 0
+Septimo:
+  name: '&7Salir de Party'
+  id: 398
+  slot: 9
+  data-value: 0
+  command: 'party leave'
+  permission: 'customjoinitems.admin'
+  cooldown-seconds: 0

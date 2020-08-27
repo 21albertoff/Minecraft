@@ -1,0 +1,241 @@
+# # # # # # # # # # # # # # # # # # # # # # 
+#           Made by Wazup92               #
+#     If you really like the plugin       #
+#     Then please dont forget to leave    #
+#        A positive 5 stars review!       #
+# # # # # # # # # # # # # # # # # # # # # # 
+
+use-UUID: false
+Map-Load-Delay: 10
+Starting-Coins: 1000
+Check-For-Updates: true
+Scoreboard-Enabled: true
+Notify-When-Cooldown-Off: true
+Kill-Coins-Contribution: true
+Do-Players-Drop-Items-On-Death: false
+Can-Players-Drop-Items-On-Ground: true
+Can-Players-Pick-Items-On-Ground: true
+Do-Players-Lose-Hunger: false
+Purchaseable-Kits-Are-Permanent: true
+Starting-Amount-Of-Kit-Unlockers: 2
+Respawn-Screen-On-Death: false
+Spawn-Teleport-Countdown-Seconds: 5
+Spectate-Countdown-Seconds: 5
+Earned-Coins-Per-Kill: 8
+Minimum-Exp-Per-Kill: 2
+Maximum-Exp-Per-Kill: 5
+Sponge-Boost-Upwards: 1.5
+Update-Top-Signs-Every-In-Minutes: 60
+Sell-Value: 0.33
+Challenge-Lives: 2
+Challenge-Respawn-Protection-Seconds: 5
+Soup-Auto-Disappear: false
+Fall-Damage-Enabled: false
+Open-Kits-Menu-On-Respawn: false
+Broadcast-Rank-Up: true
+Show-Rank-In-Chat: true
+Send-Death-Message-To-Everyone: true
+Ranks-Prefix: '&6[&e%rank%&6] '
+Default-Kits:
+- Pvp
+Send-Killstreaks-To-Everyone: true
+Killstreaks-Enabled: true
+Deathstreaks-Enabled: true
+use-Vault: false
+Saving-Task:
+  Enabled: true
+  Save-Every-Minutes: 10
+use-mysql: false
+table-prefix: kitbattle_
+mysql-host: localhost
+mysql-port: 3306
+mysql-database: database
+mysql-username: root
+mysql-password: root
+Bungee-Mode: false
+Shuffle-Every-In-Minutes: 30
+Time-Shown-Before-Shuffle:
+- 60
+- 30
+- 15
+- 10
+- 5
+- 4
+- 3
+- 2
+- 1
+Kit-Lores:
+  Owned:
+  - ' '
+  - '&d&lState: %statecolor%%state%'
+  - '&d&lRequires Permission: %permissioncolor%%requirespermission%'
+  - ' '
+  - '&d- &b&nLeft click to equip &d/ &c&nRight click to sell'
+  Shop:
+  - ' '
+  - '&d&lState: %statecolor%%state%'
+  - '&d&lRequires Permission: %permissioncolor%%requirespermission%'
+  - ' '
+  - '&c&nRight click to preview this kit!'
+  - ' '
+  - '&6&lPrice: &e%price% &6coins!'
+Tournaments:
+  min-players: 7
+  grace-period: 15
+  countdown-length: 30
+  max-time: 600
+  celebration-length: 12
+  fireworks-celebration: true
+  winner-rewards:
+  - kb coins add %winner% 100
+  - kb kitunlocker give %winner% 1
+  time-shown-during-countdown:
+  - 30
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  grace-period-warnings:
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  end-warnings:
+  - 60
+  - 30
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+Challenges:
+  grace-length: 15
+  max-time: 300
+  celebration-length: 12
+  fireworks-celebration: true
+  winner-rewards:
+  - kb coins add %winner% 50
+  grace-period-warnings:
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  end-warnings:
+  - 60
+  - 30
+  - 15
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+Create-Default-Kits: false
+Create-Default-Upgrades: false
+Aliases:
+- kitpvp
+- pvp
+Allowed-Commands:
+- kb
+- kitbattle
+- tell
+- help
+- tempban
+- ban
+- kick
+- mute
+- spec
+- menu
+- balance
+- register
+- login
+- t
+- r
+Items:
+  Kit-Selector: 'CHEST : &7Kit Selector (&aRight click!&7)'
+  Shop-Opener: 'ANVIL : &7Shop (&aRight click!&7)'
+  Challenges-Item: 'BLAZE_ROD : &6Challenges'
+  Profile-Item: 'PAPER : &aStats'
+  Kit-Unlocker: 'CHEST : &7Kit Unlocker! (&aRight click!&7)'
+  Trails-Opener: 'ENCHANTED_BOOK : &eTrails &6[VIP]'
+Modifiers:
+- '2 : kitbattle.vip'
+- '3 : kitbattle.ultravip'
+Trails:
+  enabled: true
+  size: 2
+  interval: 3
+Action-Bar-Enabled: true
+Titles:
+  enabled: true
+  fadeIn: 10
+  stay: 40
+  fadeOut: 10
+Scoreboard-Title-Animation:
+  enabled: true
+  interval: 8
+  frames:
+  - '&b&l&nNarutoCraft'
+  - '&e&l&nNarutoCraft'
+  - '&b&l&nNarutoCraft'
+  - '&e&l&nNarutoCraft'
+  - '&b&l&nNarutoCraft'
+  - '&e&l&nNarutoCraft'
+  - '&b&l&nNarutoCraft'
+  - '&e&l&nN&b&l&narutoCraft'
+  - '&b&l&nN&e&l&na&b&l&nrutoCraft'
+  - '&b&l&nNa&e&l&nr&b&l&nutoCraft'
+  - '&b&l&nNar&e&l&nu&b&l&ntoCraft'
+  - '&b&l&nNaru&e&l&nt&b&l&noCraft'
+  - '&b&l&nNarut&e&l&no&b&l&nCraft'
+  - '&b&l&nNaruto&e&l&nC&b&l&nraft'
+  - '&b&l&nNarutoC&e&l&nr&b&l&naft'
+  - '&b&l&nNarutoCr&e&l&na&b&l&nft'
+  - '&b&l&nNarutoCra&e&l&nf&b&l&nt'
+  - '&b&l&nNarutoCraf&e&l&nt'
+Deathstreak-End-Commands:
+- effect %player% resistance 1 2
+- effect %player% regeneration 1 2
+- effect %player% strength 1 1
+- effect %player% speed 1 1
+Killstreaks:
+  '3':
+    Commands-Executed:
+    - kb coins add %player% 20
+  '5':
+    Commands-Executed:
+    - kb coins add %player% 30
+  '10':
+    Commands-Executed:
+    - kb coins add %player% 50
+  '20':
+    Commands-Executed:
+    - kb coins add %player% 100
+  '30':
+    Commands-Executed:
+    - kb coins add %player% 200
+Deathstreaks:
+  '5':
+    Commands-Executed:
+    - effect %player% resistance 9999 0
+  '8':
+    Commands-Executed:
+    - effect %player% resistance 9999 0
+    - effect %player% regeneration 9999 1
+  '10':
+    Commands-Executed:
+    - effect %player% resistance 9999 0
+    - effect %player% regeneration 9999 1
+    - effect %player% strength 9999 0
+    - effect %player% speed 9999 0

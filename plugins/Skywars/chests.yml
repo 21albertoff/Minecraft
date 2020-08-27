@@ -1,0 +1,149 @@
+# Simple Format: 'Item : Amount'
+# Complex Format: 'Item:Durability : Amount : name:<name> : lore:<lore> : enchant:<enchantment>:level'
+# Example (1): 'IRON_SWORD : 1' -> This will give a normal iron sword
+# Example (2): 'IRON_SWORD : 1 : name:&cSword' -> This will give a normal iron sword, but with a custom name!
+# Example (3): 'IRON_SWORD : 1 : name:&6God Sword : enchant:DAMAGE_ALL:1' -> This will give an iron sword named 'God Sword' with a sharpness 1 enchantment
+# For a list of enchantments, visit https://hub.spigotmc.org/javadocs/spigot/org/bukkit/enchantments/Enchantment.html
+# If you want to increase the chance of an item, simply add it twice or more
+# You can create new chest types, simply copy the default one, rename it, and modify its content
+# You SHOULD NOT delete or rename the Default type, only change its content
+# There is no lock on the enchantment level!
+# You can create for example OP chest category to vote for by copying the Normal category and pasting it. DO NOT DELETE THE 'NORMAL' CATEGORY
+# EVERY CHEST CATEGORY MUST HAVE THE 'DEFAULT' CHEST TYPE
+# For POTIONS, if your server is below 1.9 then use  POTION:DURABILITY to make potions like POTION:16421, otherwise you should use the form
+# POTION/SPLASH_POTION/LINGERING_POTION:POTION_TYPE:EXTENDED:UPGRADED
+# Example of the form -> 'SPLASH_POTION:INSTANT_DAMAGE:false:true : 1'
+
+Chests:
+  Normal:
+    Default:
+      min-items: 5
+      max-items: 8
+      items:
+      - 'STONE : 16'
+      - 'DIRT : 16'
+      - 'WOOD : 16'
+      - 'WOOD : 16'
+      - 'WOOD : 16'
+      - 'SAND : 16'
+      - 'WEB : 4'
+      - 'TNT : 8'
+      - 'LAVA_BUCKET : 1'
+      - 'WATER_BUCKET : 1'
+      - 'MILK_BUCKET : 1'
+      - 'BUCKET : 1'
+      - 'SNOW_BALL : 8'
+      - "MONSTER_EGG:54 : 1 : name:\xc3\u201a\xc2\xa7cZombie"
+      - 'EXP_BOTTLE : 8'
+      - 'FIREBALL : 2'
+      - 'BREAD : 3'
+      - 'GRILLED_PORK : 2'
+      - 'GOLDEN_APPLE : 1'
+      - 'CAKE : 1'
+      - 'STONE_AXE : 1'
+      - 'COMPASS : 1'
+      - 'FISHING_ROD : 1'
+      - 'WOOD_PICKAXE : 1'
+      - 'WOOD_PICKAXE : 1'
+      - 'STONE_PICKAXE : 1'
+      - 'BOW : 1'
+      - 'BOW : 1'
+      - 'ARROW : 6'
+      - 'ARROW : 6'
+      - 'WOOD_SWORD : 1'
+      - 'WOOD_SWORD : 1'
+      - 'WOOD_SWORD : 1'
+      - 'WOOD_SWORD : 1'
+      - 'WOOD_SWORD : 1'
+      - 'WOOD_SWORD : 1'
+      - 'STONE_SWORD : 1'
+      - 'LEATHER_HELMET : 1'
+      - 'LEATHER_CHESTPLATE : 1'
+      - 'LEATHER_CHESTPLATE : 1'
+      - 'LEATHER_CHESTPLATE : 1'
+      - 'LEATHER_LEGGINGS : 1'
+      - 'LEATHER_LEGGINGS : 1'
+      - 'LEATHER_BOOTS : 1'
+      - 'LEATHER_BOOTS : 1'
+      - 'CHAINMAIL_HELMET : 1'
+      - 'CHAINMAIL_CHESTPLATE : 1'
+      - 'CHAINMAIL_LEGGINGS : 1'
+      - 'CHAINMAIL_BOOTS : 1'
+      - 'IRON_HELMET : 1'
+      - 'IRON_LEGGINGS : 1'
+      - 'IRON_INGOT : 3'
+      - 'COAL : 6'
+      - 'SULPHUR : 32'
+      - 'WHEAT : 16'
+      - 'LEATHER : 16'
+      - 'EGG : 8'
+      - 'DIAMOND : 1'
+      - 'IRON_INGOT : 2'
+      - 'GOLD_INGOT : 16'
+      - 'FLINT : 1'
+      - 'INK_SACK:4 : 3'
+      - 'INK_SACK:4 : 3'
+      - 'INK_SACK:4 : 3'
+      - 'MONSTER_EGG:50 : 4'
+      - 'MONSTER_EGG:50 : 2'
+      - 'MONSTER_EGG:61 : 1'
+      - 'MONSTER_EGG:57 : 2'
+      - 'MONSTER_EGG:54 : 3'
+      - 'MONSTER_EGG:54 : 3'
+      - 'MONSTER_EGG:50 : 2'
+      - 'MONSTER_EGG:58 : 2'
+      - 'MONSTER_EGG:58 : 2'
+      - 'MONSTER_EGG:66 : 2'
+      - 'MONSTER_EGG:66 : 3'
+      - 'MONSTER_EGG:66 : 3'
+      - 'MONSTER_EGG:58 : 2'
+      - 'MONSTER_EGG:57 : 2'
+      - 'MONSTER_EGG:57 : 3'
+      - 'MONSTER_EGG:57 : 2'
+      - 'MONSTER_EGG:51 : 3'
+      - 'MONSTER_EGG:51 : 2'
+      - 'MONSTER_EGG:51 : 2'
+      - 'MONSTER_EGG:58 : 1'
+    Op:
+      min-items: 6
+      max-items: 9
+      items:
+      - 'DIAMOND_SWORD : 1 : name:SuzuyaOz : enchant:DAMAGE_ALL:5 : enchant:FIRE_ASPECT:2'
+      - 'BOW : 1 : enchant:ARROW_KNOCKBACK:2'
+      - 'DIAMOND_BOOTS : 1'
+      - 'DIAMOND_LEGGINGS : 1'
+      - 'DIAMOND_CHESTPLATE : 1'
+      - 'DIAMOND_HELMET : 1'
+      - 'DIAMOND_SWORD : 1'
+      - 'DIAMOND_HELMET : 1 : enchant:PROTECTION_ENVIRONMENTAL:4'
+      - 'DIAMOND_CHESTPLATE : 1 : enchant:PROTECTION_ENVIRONMENTAL:4'
+      - 'DIAMOND_LEGGINGS : 1 : enchant:PROTECTION_ENVIRONMENTAL:4'
+      - 'DIAMOND_BOOTS : 1 : enchant:PROTECTION_ENVIRONMENTAL:4'
+      - 'GOLDEN_APPLE : 3'
+      - 'GOLDEN_APPLE : 4'
+      - 'POTION:16457 : 1'
+      - 'MONSTER_EGG:61 : 2'
+      - 'MONSTER_EGG:61 : 1'
+      - 'MONSTER_EGG:61 : 2'
+      - 'MONSTER_EGG:61 : 1'
+      - 'MONSTER_EGG:61 : 1'
+      - 'MONSTER_EGG:61 : 2'
+      - 'MONSTER_EGG:61 : 1'
+      - 'POTION:16418 : 1'
+      - 'POTION:16427 : 1'
+      - 'POTION:16398 : 1'
+      - "WOOD_SWORD : 1 : name:Woodsword \xc3\u201a\xc2\xa7a\xc3\u201a\xc2\xa7l\xc3\
+        \u201a\xc2\xa7oCuchillo De Suzuya Juuzou : lore:\xc3\u201a\xc2\xa75\xc3\u201a\
+        \xc2\xa74\xc3\u201a\xc2\xa7c\xc3\u201a\xc2\xa7c\xc3\u201a\xc2\xa7c\xc3\u201a\
+        \xc2\xa76\xc3\u201a\xc2\xa75\xc3\u201a\xc2\xa76\xc3\u201a\xc2\xa77\xc3\u201a\
+        \xc2\xa76Effects\xc3\u201a\xc2\xa77:  : lore:\xc3\u201a\xc2\xa75\xc3\u201a\
+        \xc2\xa74\xc3\u201a\xc2\xa7c\xc3\u201a\xc2\xa7c\xc3\u201a\xc2\xa7c\xc3\u201a\
+        \xc2\xa76\xc3\u201a\xc2\xa75\xc3\u201a\xc2\xa76\xc3\u201a\xc2\xa77\xc3\u201a\
+        \xc2\xa77\xc3\u201a\xc2\xbb \xc3\u201a\xc2\xa73Absorption \xc3\u201a\xc2\xa7\
+        7\xc3\u201a\xc2\xbb \xc3\u201a\xc2\xa7cII : lore:\xc3\u201a\xc2\xa7b\xc3\u201a\
+        \xc2\xa7oSe Dice Que Este Es Uno De Los : lore:\xc3\u201a\xc2\xa7b\xc3\u201a\
+        \xc2\xa7oCuchillos Que Suzuya Juuzou Uso En : lore:\xc3\u201a\xc2\xa7b\xc3\
+        \u201a\xc2\xa7oLa Pelea Contra El Buho! : enchant:KNOCKBACK:3"
+      - 'COBBLESTONE : 32'
+      - 'COBBLESTONE : 32'
+      - 'DIAMOND_SWORD : 1 : name:SuzuyaOz : enchant:DAMAGE_ALL:5 : enchant:FIRE_ASPECT:2'

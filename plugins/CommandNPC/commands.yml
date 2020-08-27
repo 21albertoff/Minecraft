@@ -1,0 +1,276 @@
+NPCS:
+  '0':
+    Commands:
+    - warp survival~~false
+  '1':
+    Commands:
+    - warp parcelas~~false
+  '2':
+    Commands:
+    - warp nether~~false
+  '3':
+    Commands:
+    - warp end~~false
+  '4':
+    Commands:
+    - warp creativo~~false
+  '6':
+    Commands:
+    - kb join kitpvp~~false
+  '7':
+    Commands:
+    - kb leave~~false
+  '8':
+    Commands:
+    - warp skywars~~false
+  '9':
+    Commands:
+    - warp luckyblocks~~false
+  '23':
+    Commands:
+    - kb leave~~false
+  '24':
+    Commands:
+    - skypvp~~false
+    - skypvp~~false
+    - kb join skypvp~~false
+  '25':
+    Commands:
+    - kb join skypvp~~false
+  '26':
+    Commands:
+    - is~~false
+    - fly off~~false
+  '5':
+    Commands:
+    - warp gamemaker~~false
+  '27':
+    Commands:
+    - is~~false
+  '22':
+    Commands:
+    - warp fullpvp~~false
+  '10':
+    Commands:
+    - warp tntrun~~false
+  '28':
+    Commands:
+    - warp fullpvp~~false
+  '29':
+    Commands:
+    - warp fullpvp~~false
+  '32':
+    Commands:
+    - teams~~false
+  '31':
+    Commands:
+    - rpg~~false
+  '33':
+    Commands:
+    - kb leave~~false
+  '48':
+    Commands:
+    - teams~~false
+  '49':
+    Commands:
+    - rpg~~false
+  '51':
+    Commands:
+    - kb join kitpvp~~false
+  '52':
+    Commands:
+    - warp gamemaker~~false
+    - kb leave~~false
+  '50':
+    Commands:
+    - warp skywars~~false
+    - kb leave~~false
+  '53':
+    Commands:
+    - kb join spawn~~false
+  '56':
+    Commands:
+    - is~~false
+  '57':
+    Commands:
+    - warp fullpvp~~false
+    - kb leave~~false
+  '55':
+    Commands:
+    - warp tntrun~~false
+    - kb leave~~false
+  '54':
+    Commands:
+    - warp creativo~~false
+  '60':
+    Commands:
+    - kb leave~~false
+    - warp skywars~~false
+  '61':
+    Commands:
+    - kb leave~~false
+    - warp creativo~~false
+  '62':
+    Commands:
+    - kb leave~~false
+    - is~~false
+  '63':
+    Commands:
+    - kb leave~~false
+    - warp fullpvp~~false
+  '64':
+    Commands:
+    - kb leave~~false
+    - warp gamemaker~~false
+  '65':
+    Commands:
+    - kb leave~~false
+    - warp tntrun~~false
+  '66':
+    Commands:
+    - warp gamemaker~~false
+  '67':
+    Commands:
+    - warp creativo~~false
+  '68':
+    Commands:
+    - warp tntrun~~false
+  '70':
+    Commands:
+    - warp survival~~false
+  '71':
+    Commands:
+    - warp skywars~~false
+  '72':
+    Commands:
+    - kb join kitpvp~~false
+  '73':
+    Commands:
+    - warp fullpvp~~false
+  '74':
+    Commands:
+    - warp luckyblocks~~false
+  '75':
+    Commands:
+    - is~~false
+  '164':
+    Commands:
+    - kb leave~~false
+  '69':
+    Commands:
+    - kb join skypvp~~false
+  '165':
+    Commands:
+    - kb leave~~false
+  '166':
+    Commands:
+    - kb leave~~false
+  '169':
+    Commands:
+    - warp survival~~false
+  '172':
+    Commands:
+    - warp survival~~false
+  '174':
+    Commands:
+    - is~~false
+    - is go~~false
+  '173':
+    Commands:
+    - skywars join~~false
+  '199':
+    Commands:
+    - sw join~~false
+  '200':
+    Commands:
+    - kb join kitpvp~~false
+  '208':
+    Commands:
+    - sw leave~~false
+  '207':
+    Commands:
+    - warp fullpvp~~false
+  '206':
+    Commands:
+    - kb join skypvp~~false
+  '202':
+    Commands:
+    - warp gamemaker~~false
+  '203':
+    Commands:
+    - warp tntrun~~false
+  '205':
+    Commands:
+    - warp creativo~~false
+  '204':
+    Commands:
+    - warp creativo~~false
+  '209':
+    Commands:
+    - spawn~~false
+  '211':
+    Commands:
+    - tntrun join Arena1~~false
+  '212':
+    Commands:
+    - tntrun join Arena2~~false
+  '214':
+    Commands:
+    - tntrun join Arena3~~false
+  '216':
+    Commands:
+    - tntrun join Arena4~~false
+  '218':
+    Commands:
+    - spawn~~false
+  '220':
+    Commands:
+    - warp thebridge~~false
+  '221':
+    Commands:
+    - thebridge join arena1~~false
+  '222':
+    Commands:
+    - thebridge join arena3~~false
+    - thebridge join arena4~~false
+    - thebridge join arena2~~false
+    - thebridge join arena1~~false
+    - thebridge join arena5~~false
+    - thebridge join arena6~~false
+    - thebridge join arena7~~false
+  '223':
+    Commands:
+    - spawn~~false
+  '224':
+    Commands:
+    - spawn~~false
+  '225':
+    Commands:
+    - creativo~~false
+  '229':
+    Commands:
+    - warp survival~~false
+  '235':
+    Commands:
+    - spawn~~false
+  '236':
+    Commands:
+    - teams~~false
+  '238':
+    Commands:
+    - warp presurvival~~false
+  '239':
+    Commands:
+    - spawn~~false
+  '240':
+    Commands:
+    - spawn~~false
+  '241':
+    Commands:
+    - kb leave~~false
+  '242':
+    Commands:
+    - warp practice~~false
+  '243':
+    Commands:
+    - spawn~~false
