@@ -1,4 +1,4 @@
-# Citizens Configuration
+# Configuracion Citizens 
 
 npc:
   chat:
@@ -26,7 +26,7 @@ npc:
       enabled: false
       range: 5
     text:
-      '0': Hi, I'm <npc>!
+      '0': Hola, Soy <npc>!
   limits:
     default-limit: 10
     max-permission-checks: 100
@@ -51,7 +51,7 @@ npc:
   selection:
     quick-select: false
     item: '280'
-    message: <b>You selected <a><npc><b>!
+    message: <b>Has seleccionado <a><npc><b>!
   player:
     remove-from-list: true
   server-ownership: false
