@@ -1,13 +1,13 @@
-# This is the commands configuration file for Bukkit.
-# For documentation on how to make use of this file, check out the Bukkit Wiki at
+# Este es el archivo de configuración de comandos para Bukkit.
+# Para la documentación sobre cómo hacer uso de este archivo, mira el Wiki de Bukkit en
 # http://wiki.bukkit.org/Commands.yml
 # 
-# If you need help on this file, feel free to join us on irc or leave a message
-# on the forums asking for advice.
+# Si necesitas ayuda con este archivo, siéntete libre de unirte a nosotros en el IRC o deja un mensaje.
+# en los foros pidiendo consejo.
 # 
 # IRC: #spigot @ irc.spi.gt
-#    (If this means nothing to you, just go to http://www.spigotmc.org/pages/irc/ )
-# Forums: http://www.spigotmc.org/
+# (Si esto no significa nada para ti, sólo ve a http://www.spigotmc.org/pages/irc/ )
+# Foros: http://www.spigotmc.org/
 # Bug tracker: http://www.spigotmc.org/go/bugs
 
 command-block-overrides: []

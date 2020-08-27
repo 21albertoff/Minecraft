@@ -1,24 +1,20 @@
 #
-# WEPIF Configuration File
+# ARCHIVO DE CONFIGURACION WEPIF
 #
-# This file handles permissions configuration for every plugin using WEPIF
+# Este archivo maneja la configuracion de permisos para cada plugin usando WEPIF
 #
-# About editing this file:
-# - DO NOT USE TABS. You MUST use spaces or Bukkit will complain. If
-#   you use an editor like Notepad++ (recommended for Windows users), you
-#   must configure it to "replace tabs with spaces." In Notepad++, this can
-#   be changed in Settings > Preferences > Language Menu.
-# - Don't get rid of the indents. They are indented so some entries are
-#   in categories (like "enforce-single-session" is in the "protection"
-#   category.
-# - If you want to check the format of this file before putting it
-#   into WEPIF, paste it into http://yaml-online-parser.appspot.com/
-#   and see if it gives "ERROR:".
-# - Lines starting with # are comments and so they are ignored.
+# Acerca de la ediciOn de este archivo:
+# - NO UTILICE TABULADORES. DEBES usar espacios o Bukkit tendra problemas. Si
+#   tu usas un editor como Notepad++ (recomendado para usuarios de Windows), tu
+#   debes configurarlo para "remplazar los tabuladores por espacios" en Notepad++, esto se
+#   puede cambiar en Configuracion > Preferencias > Lenguaje.
+# - Si quieres comprobar el formato de este archivo antes de ponerlo
+#   en WEPIF, pégalo en http://yaml-online-parser.appspot.com/
+#   y ver si da algun "ERROR:".
+# - Las lineas que comienzan con # son comentarios y por lo tanto son ignoradas.
 #
-# About Configuration Permissions
-# - See http://wiki.sk89q.com/wiki/WorldEdit/Permissions/Bukkit
-# - Now with multiworld support (see example)
+# Acerca de los permisos de configuracion
+# - Ver http://wiki.sk89q.com/wiki/WorldEdit/Permissions/Bukkit
 
 
 ignore-nijiperms-bridges: true
@@ -42,7 +38,7 @@ permissions:
             permissions:
             - '*'
     users:
-        sk89q:
+        bensicraft:
             permissions:
             - worldedit
             groups:

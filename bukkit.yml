@@ -1,14 +1,14 @@
-# This is the main configuration file for Bukkit.
-# As you can see, there's actually not that much to configure without any plugins.
-# For a reference for any variable inside this file, check out the Bukkit Wiki at
+# Este es el archivo de configuración principal de Bukkit.
+# Como puedes ver, no hay mucho que configurar sin ningún plugin.
+# Para una referencia de cualquier variable dentro de este archivo, revisa el Wiki de Bukkit en
 # http://wiki.bukkit.org/Bukkit.yml
 # 
-# If you need help on this file, feel free to join us on irc or leave a message
-# on the forums asking for advice.
+# Si necesitas ayuda con este archivo, siéntete libre de unirte a nosotros en el IRC o deja un mensaje.
+# en los foros pidiendo consejo.
 # 
 # IRC: #spigot @ irc.spi.gt
-#    (If this means nothing to you, just go to http://www.spigotmc.org/pages/irc/ )
-# Forums: http://www.spigotmc.org/
+# (Si esto no significa nada para ti, sólo ve a http://www.spigotmc.org/pages/irc/ )
+# Foros: http://www.spigotmc.org/
 # Bug tracker: http://www.spigotmc.org/go/bugs
 
 
@@ -21,7 +21,7 @@ settings:
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: Servidor apagado
   ping-packet-limit: 100
   use-exact-login-location: false
 spawn-limits:

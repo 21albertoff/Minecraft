@@ -1,56 +1,56 @@
-# This is the help configuration file for Bukkit.
+# Este es el archivo de configuración de la ayuda para Bukkit.
 # 
-# By default you do not need to modify this file. Help topics for all plugin commands are automatically provided by
-# or extracted from your installed plugins. You only need to modify this file if you wish to add new help pages to
-# your server or override the help pages of existing plugin commands.
+# Por defecto no es necesario modificar este archivo. Los temas de ayuda para todos los comandos de los plugins son proporcionados automáticamente por
+# o extraídos de sus plugins instalados. Sólo necesitas modificar este archivo si deseas añadir nuevas páginas de ayuda a
+# tu servidor o anular las páginas de ayuda de los comandos de los plugins existentes.
 # 
-# This file is divided up into the following parts:
-# -- general-topics: lists admin defined help topics
-# -- index-topics:   lists admin defined index topics
-# -- amend-topics:   lists topic amendments to apply to existing help topics
-# -- ignore-plugins: lists any plugins that should be excluded from help
+# Este archivo está dividido en las siguientes partes:
+# -- temas generales: lista de temas de ayuda definidos por el administrador
+# -- temas de índice: lista de temas de índice definidos por el administrador
+# -- temas de enmienda: lista de enmiendas de temas para aplicar a los temas de ayuda existentes
+# -- ignore-plugins: lista de los plugins que deben ser excluidos de la ayuda
 # 
-# Examples are given below. When amending command topic, the string <text> will be replaced with the existing value
-# in the help topic. Color codes can be used in topic text. The color code character is & followed by 0-F.
+# A continuación se dan ejemplos. Al modificar el tema del comando, la cadena <texto> será reemplazada por el valor existente
+# en el tema de la ayuda. Los códigos de color pueden ser usados en el texto del tema. El carácter del código de color es & seguido por 0-F.
 # ================================================================
 # 
-# Set this to true to list the individual command help topics in the master help.
-# command-topics-in-master-index: true
+# Ponga esto en true para listar los temas de ayuda de los comandos individuales en la ayuda maestra.
+# Tópicos de comandos en el índice maestro: true
 # 
-# Each general topic will show up as a separate topic in the help index along with all the plugin command topics.
-# general-topics:
-#     Rules:
-#         shortText: Rules of the server
-#         fullText: |
-#             &61. Be kind to your fellow players.
-#             &B2. No griefing.
-#             &D3. No swearing.
-#         permission: topics.rules
+# Cada tema general se mostrará como un tema separado en el índice de ayuda junto con todos los temas de comandos del plugin.
+# Tópicos generales:
+# Reglas:
+# Texto corto: Reglas del servidor
+# fullText: |
+# &61. Sé amable con tus compañeros de juego.
+# &B2. No te apenes.
+# &D3. No digas palabrotas.
+# permiso: temas.reglas
 # 
-# Each index topic will show up as a separate sub-index in the help index along with all the plugin command topics.
-# To override the default help index (displayed when the user executes /help), name the index topic "Default".
-# index-topics:
-#     Ban Commands:
-#         shortText: Player banning commands
-#         preamble: Moderator - do not abuse these commands
-#         permission: op
-#         commands:
-#             - /ban
-#             - /ban-ip
-#             - /banlist
+# Cada tema del índice aparecerá como un subíndice separado en el índice de ayuda junto con todos los temas del comando del plugin.
+# Para anular el índice de ayuda por defecto (que se muestra cuando el usuario ejecuta /help), nombre el tema del índice "Default".
+# temas del índice:
+# Comandos de prohibición:
+# shortText: Comandos de prohibición del reproductor
+# Preámbulo: Moderador - no abuse de estos comandos
+# permiso: op
+# Comandos:
+# - /ban
+# - /ban-ip
+# - /banista
 # 
-# Topic amendments are used to change the content of automatically generated plugin command topics.
-# amended-topics:
-#     /stop:
-#         shortText: Stops the server cold....in its tracks!
-#         fullText: <text> - This kills the server.
-#         permission: you.dont.have
+# Las enmiendas de los temas se usan para cambiar el contenido de los temas de los comandos de los plugins generados automáticamente.
+# Temas modificados:
+# /stop:
+# shortText: Detiene el servidor en frío... ¡en su camino!
+# fullText: <texto> - Esto mata al servidor.
+# Permiso: no tienes
 # 
-# Any plugin in the ignored plugins list will be excluded from help. The name must match the name displayed by
-# the /plugins command. Ignore "Bukkit" to remove the standard bukkit commands from the index. Ignore "All"
-# to completely disable automatic help topic generation.
-# ignore-plugins:
-#    - PluginNameOne
-#    - PluginNameTwo
-#    - PluginNameThree
+# Cualquier plugin en la lista de plugins ignorados será excluido de la ayuda. El nombre debe coincidir con el nombre mostrado por
+# el comando /plugins. Ignora "Bukkit" para eliminar los comandos estándar de bukkit del índice. Ignorar "Todos"
+# para desactivar completamente la generación automática de temas de ayuda.
+# ignorando los plugins:
+# - PluginNameOne
+# - PluginNameTwo
+# - PluginNameThree
 
