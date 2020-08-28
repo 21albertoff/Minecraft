@@ -172,7 +172,7 @@ general:
    # Lenguaje por defecto para los nuevos jugadores.
    # Este es el nombre de archivo en la carpeta de la locale sin .yml.
    # Si no existe, se usará el en-US por defecto.
-   defaultlanguage: en-US
+   defaultlanguage: es-ES
    
    # Buscar actualizaciones - esto le dirá a Operaciones y a la consola si hay una nueva
    # versión disponible. Contacta con dev.bukkit.org para solicitar la última versión
