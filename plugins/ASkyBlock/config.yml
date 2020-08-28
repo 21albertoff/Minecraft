@@ -1,273 +1,275 @@
 #############################################################################
-# Config for ASkyBlock V3.0.9.4
-# Maintainer: tastybento
-# It is recommended that you check at least these settings:
+# Configurar para ASkyBlock V3.0.9.4
+# Traducido : BensiCraft
+# Mantenedor: tastybento
+# Se recomienda que compruebe al menos estos ajustes:
 #
-# 1. island distance - the distance between islands. If upgrading set to what you had.
-#    If you change island distance, you MUST reset the world.
-# 2. resetmoney (general section) - set to true so that everyone starts with nothing
-# 3. islandLevel (general section) - the height you want your islands to float
-# 4. protectionRange - how big a player's island is at the start
+# 1. Distancia entre islas - la distancia entre las islas. Si la mejora se establece a lo que tenías.
+# Si cambias la distancia entre islas, DEBES reiniciar el mundo.
+# 2. Resetmoney (sección general) - se ajusta a true para que todos empiecen con nada
+# 3. Nivel de la isla (sección general) - la altura a la que quieres que tus islas floten
+# 4. protectionRange - qué tan grande es la isla de un jugador al comienzo
 #
 ##############################################################################
 
-##### Island Related Settings #####
+##### Ajustes relacionados con la isla #####
 
 island:
-   # Space between islands in blocks - NEVER change this mid-game.
-   # Values for a new world:
-   # 400 - puts players distance enough that they usually cannot see each other
-   # 200 - allows some expansion of the protected zone (recommended)
-   # 110 - for compatibility with established worlds. Cozy.
-   # 50 - minimum - not recommended
-   # IF YOU ARE UPGRADING YOU MUST USE YOUR OLD VALUE EXACTLY, E.G., 110
-   # OR RESET YOUR WORLD
-   # Value must be an even number
+   # Espacio entre islas en bloques - NUNCA cambies este medio juego.
+   # Valores para un nuevo mundo:
+   # 400 - pone a los jugadores a una distancia tal que normalmente no pueden verse entre sí
+   # 200 - permite cierta expansión de la zona protegida (recomendado)
+   # 110 - para la compatibilidad con los mundos establecidos. Acogedor.
+   # 50 - mínimo - no recomendado
+   # SI ESTÁS MEJORANDO DEBES USAR TU ANTIGUO VALOR EXACTAMENTE, POR EJEMPLO, 110
+   # O REINICIAR TU MUNDO
+   # El valor debe ser un número par
    distance: 200
 
-   # Default protection range (even number). Min = 0, Recommended = 100
-   # Larger values will take longer to calculate the island level
-   # Admins can change protection sizes for players individually using /asadmin setrange
-   # or set this permission: askyblock.island.range.<number>
-   # For optimal performance, keep protection range at leat 16 blocks less than distance.
+   # Rango de proteccion por defecto (numero par). Mínimo = 0, Recomendado = 100
+   # Los valores más grandes tomarán más tiempo para calcular el nivel de la isla
+   # Los administradores pueden cambiar el tamaño de la protección para los jugadores individualmente usando /asadmin setrange
+   # o establecer este permiso: askyblock.island.range.<número>
+   # Para un rendimiento óptimo, mantenga el rango de protección a 16 bloques menos que la distancia.
    protectionRange: 100
 
-   # Start islands at these coordinates. This is where new islands will start in the
-   # world. These must be a factor of your island distance, but the plugin will auto
-   # calculate the closest location on the grid. Islands develop around this location
-   # both positively and negatively in a square grid.
-   # If none of this makes sense, leave it at 0,0.
+   # Iniciar las islas en estas coordenadas. Aquí es donde las nuevas islas comenzarán en el
+   # mundo. Estos deben ser un factor de la distancia de su isla, pero el plugin se auto
+   # calcula la ubicación más cercana en la cuadrícula. Las islas se desarrollan alrededor de esta ubicación
+   # tanto positiva como negativamente en una cuadrícula cuadrada.
+   # Si nada de esto tiene sentido, déjalo en 0,0.
    startx: 0
    startz: 0
 
-   # Sea level height (don't changes this mid-game unless you delete the world)
-   # Minimum is 0, which means you are playing sky block!
-   # If sea level is less than about 10, then players will drop right through it
-   # if it exists. Makes for an interesting variation on skyblock.
+   # Altura del nivel del mar (no cambies esto a mitad del juego a menos que borres el mundo)
+   # El mínimo es 0, lo que significa que estás jugando al sky block!
+   # Si el nivel del mar es inferior a 10, entonces los jugadores caerán a través de él.
+   # si existe. Es una interesante variación del bloque del cielo.
    sealevel: 0
 
-   # Island level - the height of the island.
-   # Lowest level is 5
+   # Nivel de la isla - la altura de la isla.
+   # El nivel más bajo es 5
    islandlevel: 120
 
-   #How many resets a player is allowed (override with /asadmin clearreset <player>
-   #Value of -1 means unlimited, 0 means hardcore - no resets.
-   #Example, 2 resets means they get 2 resets or 3 islands lifetime
+   #¿Cuántos reinicios se le permiten a un jugador (anular con /asadmin clearreset <jugador>)?
+   #Valor de -1 significa ilimitado, 0 significa hardcore - no hay restablecimientos.
+   #Ejemplo, 2 resets significa que tienen 2 resets o 3 islas de por vida
    resetlimit: 2
 
-   #How long a player must wait before they can reset their island again in second
+   #Cuánto tiempo debe esperar un jugador antes de que pueda reiniciar su isla de nuevo en segundo lugar#
    resetwait: 300
 
-   #The number of seconds to wait for confirmation of a reset
+   #El número de segundos para esperar la confirmación de un reinicio
    resetconfirmwait: 10
 
-   #How long a player must wait until they can rejoin a team island after being
-   #kicked in minutes. This slows the effectiveness of players repeating challenges
-   #by repetitively being invited to a team island.
+   #Cuánto tiempo debe esperar un jugador hasta que pueda volver a la isla del equipo después de haber sido
+   #pateado en minutos. Esto reduce la efectividad de los jugadores que repiten los desafíos
+   #al ser repetidamente invitado a una isla de equipo.
    invitewait: 60
 
-   #Invite timeout in seconds. Invites will lapse if not accepted within this time
+   #Invita a un tiempo muerto en segundos. Las invitaciones caducarán si no son aceptadas dentro de este tiempo
    invitetimeout: 60
    
-   # Default max team size
-   # Use this permission to set for specific user groups: askyblock.team.maxsize.<number> 
-   # Permission size cannot be less than the default. 
+   # Tamaño máximo del equipo por defecto
+   # Use este permiso para establecer para grupos de usuarios específicos: askyblock.team.maxsize.<number> 
+   # El tamaño del permiso no puede ser menor que el predeterminado. 
    maxteamsize: 4
    
-   # Island level calculation cool down in seconds
+   # El cálculo del nivel de la isla se enfría en segundos
    levelwait: 60
    
-   # Items that will be in the chest when the player starts an island
-   # Must be in Bukkit Materials format. Format is <Material>:<Qty>
-   # or <Material>:<Data>:<Qty>
-   # Use <Data> to set the durability of a item or to select sub-items/colors.
+   # Artículos que estarán en el cofre cuando el jugador empiece una isla
+   # Debe estar en el formato de los materiales de Bukkit. El formato es <Material>:<Qty>
+   # o <Material>:<Datos>:<Qty>
+   # Usar <Datos> para establecer la durabilidad de un artículo o para seleccionar subítems/colores.
    # 
-   # Spawn Eggs must be defined by name, e.g., MONSTER_EGG:PIG
+   # Los huevos de desove deben ser definidos por su nombre, por ejemplo, MONSTER_EGG:PIG
    #
-   # The format for POTIONS is as follows:
+   # El formato de las POCIONES es el siguiente:
    #
-   # Format POTION:NAME:<LEVEL>:<EXTENDED>:<SPLASH/LINGER>:QTY
-   # LEVEL, EXTENDED, SPLASH, LINGER are optional.
-   # LEVEL is a number, 1 or 2
-   # LINGER is for V1.9 servers and later
-   # Examples:
+   # Formato POCIÓN:NOMBRE:<NIVEL>:<EXTENDIDO>:<SPLASH/LINGER>:QTY
+   # LEVEL, EXTENDED, SPLASH, LINGER son opcionales.
+   # NIVEL es un número, 1 o 2
+   # LINGER es para los servidores V1.9 y posteriores
+   # Ejemplos:
    # POTION:STRENGTH:1:EXTENDED:SPLASH:1
-   # POTION:INSTANT_DAMAGE:2::LINGER:2
-   # POTION:JUMP:2:::1
-   # POTION:WEAKNESS::::1   -  any weakness potion
+   # POTION:INSTANT_DAMAGE:2::PERSIST:2
+   # POTION:JUMP:2:EXTENDED NOTE:SPLASH:1
+   # POTION:WEAKNESS:::1 - cualquier poción de debilidad
    # 
-   # Valid potion names are:
-   # WATER, REGEN, SPEED, FIRE_RESISTANCE, POISON, INSTANT_HEAL, NIGHT_VISION, WEAKNESS,
-   # STRENGTH, SLOWNESS, JUMP, INSTANT_DAMAGE, WATER_BREATHING, INVISIBILITY
-   # For V1.9 these are also available:
-   # LUCK, MUNDANE, THICK, AWKWARD
+   # Los nombres válidos de las pociones son:
+   # WATER, REGENERATION, SPEED, FIRE RESISTANCE, POISON, INSTANT HEALING, NIGHT VISION, WEAKNESS,
+   # STRENGTH, SLOWNESS, JUMPING, INSTANT DAMAGE, WATER BREATHING, INVISIBILITY #
+   # Para la V1.9 también están disponibles:
+   # LUCKY, WORLDLY, THICK, CLUMSY
    #
-   # Check console for errors and guidance after reloading configuration
-   # Schematics can override this - see schematicsection
+   # Revisar la consola por si hay errores y orientación después de recargar la configuración
+   # Los esquemas pueden anular esto - ver sección de esquemas
 
    chestItems: 'ICE:2 MELON:1 TORCH:2 BONE:1 LAVA_BUCKET:1 PUMPKIN_SEEDS:1 SUGAR_CANE:1 RED_MUSHROOM:1 BROWN_MUSHROOM:1 CACTUS:1 BREAD:1 WHEAT:1 LEATHER_BOOTS:1 LEATHER_HELMET:1 LEATHER_CHESTPLATE:1 LEATHER_LEGGINGS:1'
 
-   # Default island companion. Set schematic-specific companions in the schematicsection
-   # Recommended are: COW, PIG, SHEEP, CHICKEN, VILLAGER, HORSE, IRON_GOLEM, OCELOT,
-   # RABBIT, WOLF, LLAMA or NOTHING. Default is COW.
+   # Compañero de la isla por defecto. Establecer compañeros específicos del esquema en la sección de esquemas
+   # Se recomienda son: VACA, CERDO, OVEJA, POLLO, ALDEANO, CABALLO, GÓLEM DE HIERRO, OCELOTE,
+   # RABBIT, WOLF, LLAMA o NADA. Por defecto es VACA.
 
    companion: COW
 
-   # Default list of names, picked at random that will apply to the companion
-   # You can add more if you like. If none are listed, the companion will not be
-   # named.
-   # Set schematic-specific companion names in the schematicsection
+   # Lista predeterminada de nombres, elegidos al azar que se aplicará al compañero
+   # Puedes añadir más si quieres. Si no hay ninguno en la lista, el compañero no será
+   # nombrados.
+   # Establece los nombres de los acompañantes específicos del esquema en la sección de esquemas
    companionnames:
-   - "&9[player]'s cow"
-   - "&cEmergency &fFood?"
-   - "&aD&6a&di&6s&9y"
+   - "&f Vaca de [player]"
+   - "&fComida de &cEmergencia?"
+   - "&aMargarita"
    
-   # Island naming
-   # Only players with the askyblock.island.name permission can name their island
-   # It is displayed in the top ten and enter and exit announcements
-   # It replaces the owner's name. Players can use & for color coding.
-   # These set the minimum and maximum size of a name. 
+   # Nombre de la isla
+   # Sólo los jugadores con el permiso de askyblock.island.name pueden nombrar su isla
+   # Se muestra en el top ten y entra y sale de los anuncios
+   # Reemplaza el nombre del propietario. Los jugadores pueden usar & para el código de colores.
+   # Estos establecen el tamaño mínimo y máximo de un nombre. 
    minnamelength: 0
    maxnamelength: 20
       
-   # Players with askyblock.islandfly permission can fly on their island. This setting is
-   # how many seconds the player keeps fly mode while flying outside his island before it
-   # is removed (and they fall).
-   # Negative value will be considered as 0.
+   # Los jugadores con permiso de askyblock.islandfly pueden volar en su isla. Esta configuración es
+   # ¿Cuántos segundos mantiene el jugador el modo de vuelo mientras vuela fuera de su isla antes de que
+   # se quita (y se caen).
+   # El valor negativo se considerará como 0.
    flytimeoutside: 1
    
-   # The permissions listed below will be given to the player while he is inside his island.
-   # They will be automatically revoked when he leaves his island.
+   # Los permisos listados a continuación se le darán al jugador mientras esté dentro de su isla.
+   # Serán automáticamente revocados cuando deje su isla.
    islandtemporaryperms:
    #- "amazing.permission"
    
-   # System settings - these cannot be changed by players, only viewed
-   # Allow Enderman Griefing (default is to allow, see next setting)
+   # Ajustes del sistema - estos no pueden ser cambiados por los jugadores, sólo se ven
+   # Allow Enderman Griefing (por defecto es permitir, ver la siguiente configuración)
    allowendermangriefing: true
-   # Make enderman drop the block he is holding if he dies (recommended)
+   # Hacer que Enderman deje caer el bloque que sostiene si muere (recomendado) # Permitir a Enderman Griefing (por defecto es permitir, ver la siguiente configuración)
    endermandeathdrop: true
-   # Allow creeper explosion damage to block (explosion still hurts)
+   # Permitir que el daño de la explosión del creeper se bloquee (la explosión todavía duele)
    allowcreeperdamage: true
-   # Allow visitors to use creeper explosions to grief islands
+   # Permitir a los visitantes usar explosiones de creeper para dañar la isla
    allowcreepergriefing: false 
-   # Allow TNT damage to blocks (stops players using TNT to destroy other's islands)
+   # Permitir el daño de TNT a los bloques (impide que los jugadores usen TNT para destruir las islas de otros)
    allowtntdamage: false
-   # Allow fire extinguishing by visitors
+   # Permitir la extinción de incendios por parte de los visitantes
    allowfireextinguish: false
-   # Allow chests to be blown up by creepers or TNT
+   # Permitir que los cofres sean volados por las creepers o el TNT
    allowchestdamage: false
-   # Allow visitors to keep their items if they die
+   # Permitir que los visitantes conserven sus artículos si mueren
    allowvisitorkeepinvondeath: false
-   # Allow pistons to push outside of the protected area (maybe to make bridges)
+   # Permitir que los pistones empujen fuera del área protegida (tal vez para hacer puentes)
    allowpistonpush: true
-   # Allow mob projectiles to damage item frames (skeleton arrows, shulker shots)
+   # Permitir que los proyectiles de los mobs dañen los marcos de los objetos (flechas de esqueleto, disparos de shulker)
    allowitemframedamage: false
 
-# General Settings
+# Ajustes generales
 general:
-   # Name of the world - if it does not exist then it will be generated
+   # Nombre del mundo - Si no existe, se autogenerara
    worldName: ASkyBlock
 
-   # Default language for new players.
-   # This is the filename in the locale folder without .yml.
-   # If this does not exist, the default en-US will be used.
+   # Lenguaje por defecto para los nuevos jugadores.
+   # Este es el nombre de archivo en la carpeta de la locale sin .yml.
+   # Si no existe, se usará el en-US por defecto.
    defaultlanguage: en-US
    
-   # Check for updates - this will tell Ops and the console if there is a new
-   # version available. It contacts dev.bukkit.org to request the latest version
-   # info. It does not download the latest version or change any files
+   # Buscar actualizaciones - esto le dirá a Operaciones y a la consola si hay una nueva
+   # versión disponible. Contacta con dev.bukkit.org para solicitar la última versión
+   # info. No descarga la última versión ni cambia ningún archivo
    checkupdates: true
    
-   # ASkyBlock uses commands for some of its fonctionnalities (action bar, titles).
-   # It used to silence them automatically by executing "/minecraft:gamerule sendCommandFeedback false",
-   # however, you can toggle here this feature.
+   # ASkyBlock usa comandos para algunas de sus funciones (barra de acción, títulos).
+   # Solía silenciarlos automáticamente ejecutando "/minecraft:gamerule sendCommandFeedback false",
+   # Sin embargo, puedes cambiar aquí esta característica.
    silencecommandfeedback: true
    
-   # Show enter/exit notices in Action Bar (11.1+)
-   # Only shows if notices are enabled in settings
+   # Mostrar avisos de entrada/salida en la Barra de Acción (11.1+)
+   # Sólo muestra si las notificaciones están habilitadas en la configuración
    showinactionbar: true
    
-   # Maximum number of islands. Set to 0 for unlimited. 
-   # If the number of islands is greater than this number, no new islands will be
-   # allowed
+   # Número máximo de islas. Ponga 0 para ilimitado. 
+   # Si el número de islas es mayor que este número, no habrá nuevas islas
+   # permitido
    maxIslands: 0 
    
-   # Use the control panel as the default display for /island
-   # /island will always create an island if one does not exist
-   # If the control panel is not used, then /island will teleport the player home
-   # Players can change this setting using /island cp on or /island cp off
+   # Usar el panel de control como la pantalla por defecto para /islandia
+   # La isla siempre creará una isla si no existe una.
+   # Si el panel de control no se usa, entonces /islandia teletransportará al jugador a casa
+   # Los jugadores pueden cambiar esta configuración usando /island cp on o /island cp off
    usecontrolpanel: false
 
-   # Create Nether - if this is false, the nether world will not be made and access to
-   # the nether will not occur. Other plugins may still enable
-   # portal usage.
-   # Note: Some challenges will not be possible if there is no nether.
-   # Note that with a standard nether all players arrive at the same portal and entering a
-   # portal will return them back to their islands.
+   # Crear el Nether - si esto es falso, el mundo de las tinieblas no se hará y el acceso a
+   # el bajo no se producirá. Otros plugins pueden todavía habilitar
+   # uso del portal.
+   # Nota: Algunos desafíos no serán posibles si no hay un portal.
+   # Nota que con un bajo estándar todos los jugadores llegan al mismo portal y entran en un
+   # El portal los devolverá a sus islas.
    createnether: true
 
-   # New island-style nether. Change to false for standard nether
+   # New island-style nether. Cambiar a falso para el estilo estándar de las tumbas.
    newnether: true
    # Nether trees are made if a player grows a tree in the nether (gravel and glowstone)
    nethertrees: true  
-   # Make the new nether roof, if false, there is nothing up there
-   # Change to false if lag is a problem from the generation
+   # Hacer el nuevo techo bajo, si es falso, no hay nada allí arriba
+   # Cambiar a falso si el retraso es un problema de la generación
    netherroof: true 
-   # Nether spawn protection radius - this is the distance around the nether spawn
-   # that will be protected from player interaction (breaking blocks, pouring lava etc.)
-   # Minimum is 0 (not recommended), maximum is 100. Default is 25.
-   # Only applies to standard nether.
+   # Radio de protección de la prole inferior - esta es la distancia alrededor de la prole inferior
+   # que será protegido de la interacción del jugador (rompiendo bloques, vertiendo lava, etc.)
+   # El mínimo es 0 (no recomendado), el máximo es 100. Por defecto es 25.
+   # Sólo se aplica a los bajos estándares.
    netherspawnradius: 25
    
-   # Calculate level on login
-   # If true, the plugin will run the level command for the player when they login
-   # If the command is busy, it will fail silently
+   # Calcular el nivel en el inicio de sesión
+   # Si es cierto, el plugin ejecutará el comando de nivel para el jugador cuando se registre
+   # Si el comando está ocupado, fallará silenciosamente
    loginlevel: false
 
-   #Commands to run when the player resets their island (uncomment and customize)
-   # [player] is the player name of who is reseting
-   # If the command is proceeded by [SELF] the command will be run as that player
-   # E.g., - "[SELF] kit tools"
+   #Comanda que se ejecute cuando el jugador reinicia su isla (descomentar y personalizar)
+   # [jugador] es el nombre de jugador de quien está reseteando
+   # Si el comando es procesado por [SELF] el comando se ejecutará como ese jugador
+   # Por ejemplo, - "[SELF] kit de herramientas"
    resetcommands:
-   #- "kit tools [player]"
-   #- "some other command"
+   #- "kit de herramientas [jugador]"
+   #- "algún otro comando"
 
-   # Commands to execute when player leaves a team, either by leaving or being kicked
-   # Commands will execute even if the player is offline, so may cause errors in
-   # the console if the commands doesn't make sense
+   # Comandos a ejecutar cuando el jugador deja un equipo, ya sea dejando o siendo pateado
+   # Los comandos se ejecutarán incluso si el jugador está fuera de línea, por lo que puede causar errores en
+   # la consola si los comandos no tienen sentido
    leavecommands:
-   #- "kit tools [player]"
-   #- "some other command"
+   #- "kit de herramientas [jugador]"
+   #- "algún otro comando"
 
-   # Commands to execute when a player starts a new island for the first time - NOT a reset
+
+   # Comandos a ejecutar cuando un jugador comienza una nueva isla por primera vez - NO un reset
    startcommands:
-   #- "asadmin lock [player]"
+   #- "asadmin lock [jugador]"
    #- "[SELF] balance"
-   #- "some other command"
+   #- "algún otro comando"
 
-   # Commands to execute when a player joins a new team island (does /island accept)
+   # Comandos a ejecutar cuando un jugador se une a una nueva isla del equipo (¿acepta la isla?)
    teamstartcommands:
    #- "[SELF] balance"
-   #- "some other command"
+   #- "algún otro comando"
    
    coopscancreatewarps: false
 
-   # Visitor banned commands: Visitors to islands cannot use these commands
+   # Comandos prohibidos para los visitantes: Los visitantes de las islas no pueden usar estos comandos
    visitorbannedcommands:
    - spawner
    - spawnmob
 
-   # PVP cooldown in seconds. Players cannot toggle PVP off and on until this timeout
+   # Enfriamiento del PVP en segundos. Los jugadores no pueden apagar y encender el PVP hasta este tiempo límite
    pvpcooldown: 60
 
-   # Invincible visitors - Prevent players from killing them (intentionally or by accident)
-   # If they fall to the void, they get TP'd to their island.
+   # Visitantes invencibles - Evitar que los jugadores los maten (intencionalmente o por accidente)
+   # Si caen en el vacío, se les envía a su isla.
    invinciblevisitors: false
    
-   # Only used if invinciblevisitors is set to TRUE
-   # This allow you to customize what kind of damage visitors should not receive
-   # If you want visitors to receive a listed damage, put a "#" at the start of the line
-   # See this for more info about options : https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
+   # Sólo se utiliza si visitantes invencibles se establece como VERDADERO
+   # Esto te permite personalizar qué tipo de daño no deben recibir los visitantes
+   # Si quieres que los visitantes reciban un daño listado, pon un "#" al principio de la línea
+   # Vea esto para más información sobre las opciones: https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
    invinciblevisitorsoptions:
    - BLOCK_EXPLOSION
    - CONTACT
@@ -288,98 +290,98 @@ general:
    - SUFFOCATION
    - THORNS
    - WITHER
-   # 1.9+ only
+   # solo para 1.9+
    - DRAGON_BREATH
    - FLY_INTO_WALL
-   # 1.10+ only
+   # solo para 1.10+ 
    - HOT_FLOOR
-   # 1.11+ only
+   # solo para 1.11+ 
    - CRAMMING
 
-   # Acid Section - for AcidIsland, but can be used in ASkyBlock as well.
+   # Seccion acida - para AcidIsland, pero puede ser usada en ASkyBlock también.
    #
-   # Acid damage to player per second by being in acid if they have no armor on.
-   # A fully health player has 20 health points. Players will regen some health
-   # so the default will give players about 3 seconds to get out the acid
-   # 0 = no damage, 10 = default damage, 20 = instant death
+   # El ácido daña al jugador por segundo al estar en el ácido si no tienen puesta una armadura.
+   # Un jugador con plena salud tiene 20 puntos de salud. Los jugadores recuperarán algo de salud
+   # así que el valor por defecto le dará a los jugadores unos 3 segundos para sacar el ácido
+   # 0 = ningún daño, 10 = daño por defecto, 20 = muerte instantánea
    aciddamage: 0
-   # Damage that monsters will experience.
+   # El daño que los monstruos experimentarán.
    mobaciddamage: 0
-   # Damage that rain does.
+   # El daño que hace la lluvia.   
    raindamage: 0
-   # Damage that animals will experience in acid.
+   # El daño que los animales experimentarán en el ácido.
    animaldamage: 0
-   # Damage chickens in acid - true or false - chickens tend to go swimming...
+   # Dañar a los pollos en el ácido - verdadero o falso - los pollos tienden a ir a nadar...
    damagechickens: false
-   # Destroy items in water after this many seconds. Timing is variable and may occur
-   # up to 2x this time. If 0, items will not be removed. Acid damage does not need to
-   # be on for this setting to work. i.e., it'll work with water too.
-   # Items fizz when they are destroyed.
+   # Destruye los objetos en el agua después de tantos segundos. El tiempo es variable y puede ocurrir
+   # hasta 2 veces esta vez. Si es 0, los artículos no serán removidos. El daño por ácido no necesita
+   # Estar encendido para que este ajuste funcione. Es decir, funcionará también con agua.
+   # Los artículos se efervescencia cuando son destruidos.
    itemdestroyafter: 0
-   # Ops receive damage from acid (Set to true if you want Ops to play properly)
+   # Las operaciones reciben el daño del ácido (Ponlo en verdadero si quieres que las operaciones jueguen bien)
    damageops: false
-   # Armor protection.
-   # Protect players from acid rain if they have a helmet on
+   # Protección de la armadura.
+   # Proteger a los jugadores de la lluvia ácida si tienen un casco puesto
    helmetprotection: true
-   # Protect players from all acid if they have a full set of armor on
+   # Proteger a los jugadores de todo el ácido si tienen una armadura completa en
    fullarmorprotection: false
-   # Damage type to apply in addition to acid damage
-   # Types can be : SLOW, SLOW_DIGGING, CONFUSION,BLINDNESS, HUNGER, WEAKNESS and POISON
-   # If you just want these to act, then make the acid damage 0 above
-   # Note - these are potion effects and so can be cured by milk
+   # Tipo de daño a aplicar además del daño por el ácido
+   # Los tipos pueden ser : LENTO, LENTO_CANAL, CONFUSIÓN, CEGUERA, HAMBRE, DEBILIDAD y VENENO
+   # Si sólo quieres que esto actúe, entonces haz que el daño del ácido sea 0 arriba
+   # Nota - estos son efectos de la poción y por lo tanto pueden ser curados por la leche
    damagetype:
-   #-confusion
+   #-confusión
    
-   # Removing mobs - this kills all monsters in the vicinity. Benefit is that it helps
-   # players return to their island if the island has been overrun by monsters
-   # Con is that it kills any mob grinders 
-   # Remove mobs when logging in
+   # Removiendo las turbas - esto mata a todos los monstruos en la vecindad. El beneficio es que ayuda
+   # Los jugadores vuelven a su isla si la isla ha sido invadida por monstruos
+   # La estafa es que mata a todos los molineros de la mafia 
+   # Eliminar las turbas al entrar en el sistema
    loginremovemobs: true
 
-   # Remove mobs when /island.
+   # Eliminar las turbas cuando la isla.
    islandremovemobs: false
    
-   # Mob white list - these mobs will NOT be removed when logging in or doing /island
+   # Lista blanca de la mafia - estas mafias no serán eliminadas cuando se conecten o hagan la isla
    mobwhitelist:
    - WITHER
    - ENDERMAN
    - PIG_ZOMBIE
    #- ZOMBIE_VILLAGER
 
-   # Sets the limit for number of monsters that can spawn in a chunk in this world. 
-   # Note: this does not limit the number of monsters, just how many spawn naturally.
-   # Note: If set to a negative number the world will use the server-wide spawn limit instead.
+   # Establece el límite para el número de monstruos que pueden engendrar en un trozo en este mundo. 
+   # Nota: esto no limita el número de monstruos, sólo cuántos desovan naturalmente.
+   # Nota: Si se establece un número negativo el mundo usará el límite de desove del servidor en su lugar.
    monsterspawnlimit: 100
    
-   # Sets the limit for number of animals that can spawn in a chunk in this world. 
-   # Note: If set to a negative number the world will use the server-wide spawn limit instead.
+   # Establece el límite para el número de animales que pueden desovar en un trozo en este mundo. 
+   # Nota: Si se establece un número negativo el mundo utilizará el límite de desove del servidor en su lugar.
    animalspawnlimit: 15
    
-   # Animal breeding limits - if this is set to more than 0, then players will not be able
-   # to breed more animals than that number on their island. A value of zero means no
-   # limit. Note that animals will not be killed or reduced to this limit.
-   # This WILL affect mobspawn blocks AND spawn egg use. Note that hearts will
-   # still appear, but breeding will not happen.
-   # Limit includes nether island if nether islands are active.
+   # Límites de cría de animales - si esto se establece en más de 0, entonces los jugadores no podrán
+   # para criar más animales que ese número en su isla. Un valor de cero significa que no
+   # Límite. Tengan en cuenta que los animales no serán matados o reducidos a este límite.
+   # Esto afectará a los bloques de desove de la mafia y al uso de huevos de desove. Tengan en cuenta que los corazones
+   # todavía aparecen, pero la reproducción no se producirá.
+   # El límite incluye las islas bajas si las islas bajas están activas.
    breedinglimit: 0
    
-   # Sets the limit for number of water animals [squid] that can spawn in a chunk in this world. 
-   # Note: If set to a negative number the world will use the server-wide spawn limit instead.
-   # Max is 100
+   # Establece el límite para el número de animales acuáticos (calamares) que pueden desovar en un trozo en este mundo. 
+   # Nota: Si se establece un número negativo el mundo utilizará el límite de desove del servidor en su lugar.
+   # Max es 100
    wateranimalspawnlimit: 15
 
-   # Villager limit - this is per team player, so an island of 4 will have 4x this number
-   # Note that 10 villagers minimum are required to create an iron farm. Zero is unlimited.
+   # Límite de aldeanos - esto es por jugador de equipo, así que una isla de 4 tendrá 4 veces este número
+   # Tenga en cuenta que se requiere un mínimo de 10 aldeanos para crear una granja de hierro. Cero es ilimitado.
    villagerlimit: 10
       
-   # General entity limiting
-   # Use this section to limit how many entities can be added to an island.
-   # 0 means the item will be blocked from placement completely.
-   # Uncomment to set the limit. The numbers are just suggested values.
-   # The limit is per-world, so a hopper limit of 30 means up to 30 in the overworld and
-   # up to 30 in the nether.
+   # Entidad general que limita
+   # Usa esta sección para limitar el número de entidades que se pueden añadir a una isla.
+   # 0 significa que el ítem será bloqueado de la colocación completamente.
+   # Descompromiso para establecer el límite. Los números son sólo valores sugeridos.
+   # El límite es por mundo, así que un límite de 30 significa hasta 30 en el mundo y...
+   # hasta 30 en el bajo.
    entitylimits:
-     # Mobs, animals and other living entities
+     # Mobs, los animales y otras entidades vivientes
      #BAT: 10
      #BLAZE: 10
      #BOAT: 10
@@ -416,7 +418,7 @@ general:
      #ZOMBIE: 10
      #ZOMBIE_HORSE: 10
      #ZOMBIE_VILLAGER: 10     
-     # These are the ONLY blocks that can be limited (because they are entities).
+     # Estos son los ÚNICOS bloques que pueden ser limitados (porque son entidades).
      #BANNER: 20
      #ITEM_FRAME: 30
      #FURNACE: 10
@@ -440,218 +442,218 @@ general:
      #ARMOR_STAND: 5
      #BREWING_STAND: 20
 
-   # Islands below this level will be removed if they are abandoned and admins issue the purge command
+   # Las islas por debajo de este nivel serán eliminadas si son abandonadas y los administradores emiten el comando de purga
    abandonedislandlevel: 10
-   # Maximum number of islands to purge in one go. Don't make this too big because if you
-   # stop the server mid run, you may end up with incompletely deleted islands
+   # Número máximo de islas a purgar de una sola vez. No hagas esto demasiado grande porque si
+   # Detener el servidor a mitad de la ejecución, puede terminar con islas incompletamente borradas   
    maxpurge: 500
    
-   # Delete protected range only
-   # When set, only the protected area of an island will be deleted.
-   # If you want all of the island distance deleted change to false, but be careful
-   # because large island distances may timeout the server.
+   # Borrar sólo el rango protegido
+   # Cuando se establece, sólo el área protegida de una isla será eliminada.
+   # Si quieres que toda la distancia de la isla borrada cambie a falsa, pero ten cuidado
+   # porque las grandes distancias de la isla pueden agotar el tiempo del servidor.
    deleteprotectedonly: true
 
-   ##### Economy ######
-   # Use economy or not. If true, an economy plugin is required. If false,
-   # no money is used or give and the mini-shop is disabled.
-   # If there is no economy plugin present anyway, money will be automatically
-   # disabled.
+   ##### Economía #####
+   # Usar la economía o no. Si es cierto, se requiere un plugin económico. Si es falso,
+   # No se usa ni se da dinero y la mini tienda está deshabilitada.
+   # Si no hay ningún plugin económico presente de todos modos, el dinero será automáticamente
+   # Desactivado.
    useeconomy: true
 
-   # Reset Money - if this is true, will reset the player's money to
-   # the starting money (see below) when they start an island or reset
-   # Recommendation is that this is set to true, but if you run multi-worlds
-   # make sure your economy handles multi-worlds too.
+   # Reajustar el dinero - si esto es cierto, reajustará el dinero del jugador a
+   # el dinero inicial (ver abajo) cuando empiezan una isla o se reinician
+   # La recomendación es que esto es cierto, pero si usted ejecuta varios mundos
+   # Asegúrate de que tu economía maneje también los mundos múltiples.
    resetmoney: false
    
-   # Use the minishop or not
+   # Usar la mini-tienda o no
    useminishop: true
 
-   # Starting money - this is how much money new players will have as their
-   # balance at the start of an island. 
+   # Dinero inicial - este es el dinero que los nuevos jugadores tendrán como su
+   # Balance al comienzo de una isla. 
    startingmoney: 10.00
 
-   # Reset Challenges - if this is true, player's challenges will reset when they
-   # reset an island or if they are kicked or leave a team. Prevents exploiting the
-   # challenges by doing them repeatedly.
+   # Reajustar los desafíos - si esto es cierto, los desafíos del jugador se restablecerán cuando
+   # reiniciar una isla o si son pateados o dejan un equipo. Evita que se explote el
+   # desafía haciéndolos repetidamente.
    resetchallenges: false
 
-   # Reset inventory - if true, the player's inventory will be cleared when they start
-   # or restart and island. Default is true.
-   # Note: if you have MultiInv running or a similar inventory control plugin, that
-   # plugin may still reset the inventory when the world changes.
+   # Reajustar el inventario - si es cierto, el inventario del jugador se limpiará cuando empiece
+   # o reiniciar y la isla. Por defecto es cierto.
+   # Nota: si tienes MultiInv ejecutándose o un plugin de control de inventario similar, que
+   # El plugin aún puede reiniciar el inventario cuando el mundo cambie.
    resetinventory: true
 
-   # Allow kicked players to keep their inventory.
-   # If false, kicked player's inventory will be thrown at the island leader if the
-   # kicked player is online and in the island world.
+   # Permitir que los jugadores pateados mantengan su inventario.
+   # Si es falso, el inventario del jugador pateado será lanzado al líder de la isla si el
+   # El jugador pateado está en línea y en el mundo de la isla.
    kickedkeepinv: false
 
-   # Kicked or leaving players lose resets
-   # Players who leave a team will lose an island reset chance
-   # If a player has zero resets left and leaves a team, they cannot make a new
-   # island by themselves and can only join a team.
-   # Leave this true to avoid players exploiting free islands
+   # Los jugadores pateados o que se van pierden los reinicios
+   # Los jugadores que dejen un equipo perderán una oportunidad de reiniciar la isla
+   # Si a un jugador le quedan cero reinicios y deja un equipo, no puede hacer un nuevo
+   # Isla por sí mismos y sólo pueden unirse a un equipo.
+   # Deje esto así para evitar que los jugadores exploten las islas libres
    leaversloseresets: true
    
-   # Reset Ender Chest - if true, the player's Ender Chest will be cleared when they
-   # start or restart their island. Default is false.
-   # NOTE: Ender Chests span worlds, so it will clear ALL chests. In general,
-   # Enderchests should not be allowed in ASkyblock unless you only run the ASkyblock
-   # world. Ender Chest crafting and use is governed by the askyblock.craft.enderchest
-   # permission.
+   # Reajustar Ender Chest - si es cierto, el Ender Chest del jugador será despejado cuando
+   # empezar o reiniciar su isla. El valor por defecto es falso.
+   # NOTA: Los cofres del final abarcan mundos, así que limpiará TODOS los cofres. En general,
+   # Los Enderchests no deben ser permitidos en el ASkyblock a menos que sólo corras el ASkyblock
+   # mundo. La creación y el uso de Ender Chest se rige por el askyblock.craft.enderchest
+   # permiso.
    resetenderchest: false
 
-   # Allow /island teleport when falling. If set to false, all teleporting is
-   # disabled until death from the void or until you hit something.
-   # See commands that this will block too
-   # Using "*" (with quotes) will block ALL commands when falling
+   # Permitir el teletransporte a la isla cuando caiga. Si se establece en falso, todo el teletransporte es
+   # Incapacitado hasta la muerte del vacío o hasta que golpees algo.
+   # Ver los comandos que esto bloqueará también
+   # Usando "*" (con comillas) bloqueará TODOS los comandos al caer
    allowfallingteleport: true
    blockingcommands:
    - home
-   #- anotherCommand
-   #- andAnotherOne
+   #- otro Comando
+   #- y otro
    #- "*"
 
-   # Broadcast 1st time challenge completion messages to all players.
-   # Change to false if the spam becomes too much.
+   # Transmitir mensajes de finalización del desafío por primera vez a todos los jugadores.
+   # Cambiar a falso si el spam se vuelve demasiado.
    broadcastmessages: true
 
-   # Remove non-repeatable challenges from the challenge GUI when complete
+   # Eliminar los desafíos no repetibles del desafío GUI cuando se complete
    removecompleteonetimechallenges: false
 
-   # Add enchanted glow to completed challenges
+   # Agrega un brillo encantado a los desafíos completados
    addcompletedglow: true
    
-   # Default maximum number of homes a player can have. Min = 1
-   # Accessed via sethome <number> or go <number>
-   # Use this permission to set for specific user groups: askyblock.island.maxhomes.<number>  
+   # Por defecto, el número máximo de casas que un jugador puede tener. Mínimo = 1
+   # Se accede a través de sethome <número> o ir <número>
+   # Use este permiso para establecer para grupos de usuarios específicos: askyblock.island.maxhomes.<number>  
    maxhomes: 1
 
-   # Make island if player teleports to the island world and does not have one
+   # Hacer isla si el jugador se teletransporta al mundo de la isla y no tiene una
    makeislandifnone: false
 
-   # Immediately teleport player to their island (home 1 if it exists) when 
-   # entering the world
+   # Teletransportar inmediatamente al jugador a su isla (casa 1 si existe) cuando 
+   # Entrando en el mundo
    immediateteleport: false
 
-   # Have player's respawn on their island if they die
+   # Que el jugador respire en su isla si muere
    respawnonisland: false
 
-   # Team Chat
-   # This enables player to set is so their chat goes to their team mates only
-   # using the /island teamchat command.
-   # The prefix [Team Chat] that goes in front of team chats is in the locale files
+   # Chat del equipo
+   # Esto permite al jugador establecer es por lo que su chat va a sus compañeros de equipo solamente
+   # usando el comando de charla de equipo de la isla.
+   # El prefijo [Team Chat] que va delante de los chats de equipo está en los archivos de localización
    teamchat: true
 
-   # Set this to true will log all messages sent in TeamChats to console
-   # If set to false, it won't be logged.
+   # Poner esto en true registrará todos los mensajes enviados en TeamChats a la consola
+   # Si se establece en falso, no se registrará.
    logteamchat: true
 
-   # Variables to use as chat prefixes. You can change them to be what you want.
-   # {ISLAND_LEVEL} is replaced by the player's island level.
-   # {ISLAND_CHALLENGE_LEVEL} is replaced by the player's challenge level.
-   # {ISLAND_PLAYER} is replaced by the player's display name
-   # Confirmed to work with Essentials Chat, Multiverse Core.
-   # Do not use these in PEX prefixes - it doesn't work.
+   # Variables para usar como prefijos en el chat. Puedes cambiarlos para que sean lo que tú quieras.
+   # {ISLAND_LEVEL} es reemplazado por el nivel de la isla del jugador.
+   # {ISLAND_CHALLENGE_LEVEL} es reemplazado por el nivel de desafío del jugador.
+   # {ISLAND_PLAYER} es reemplazado por el nombre del jugador.
+   # Confirmado para trabajar con Essentials Chat, Multiverse Core.
+   # No uses estos en prefijos PEX - no funciona.
    chatlevelprefix: "{ISLAND_LEVEL}"
    chatchallengelevelprefix: "{ISLAND_CHALLENGE_LEVEL}"
    chatislandplayer: "{ISLAND_PLAYER}"
-   # Displays the island level {ISLAND_LEVEL} with a XX.Xk pattern in chat
-   # e.g : [23.5k] instead of [23562]
+   # Muestra el nivel de la isla {ISLAND_LEVEL} con un patrón XX.Xk en el chat
+   # Por ejemplo: [23.5k] en lugar de [23562]
    fancylevelinchat: true
      
-   # Restrict Wither and other flying mobs
-   # Any flying mobs that exit the island space where they were spawned will be removed.
-   # Includes blaze and ghast. 
+   # Restringir la marchitez y otras turbas voladoras
+   # Cualquier turba voladora que salga del espacio de la isla donde fue desovado será eliminada.
+   # Incluye el fuego y el espectro. 
    restrictwither: true
    
-   # Warp Restriction - needed levels to be able to create a warp
-   # 0 or negative values will disable this restriction
-   # 10 is default
+   # Restricción de Warp - niveles necesarios para poder crear un warp
+   # 0 o valores negativos deshabilitarán esta restricción
+   # El número 10 es el predeterminado
    warplevelrestriction: 10
    
-   # Warp panel - GUI for welcome warp signs. If set to false, old-style
-   # text will be used
+   # Panel warp - GUI para las señales warp de bienvenida. Si se establece en falso, al viejo estilo
+   # El texto será usado
    usewarppanel: true
    
-   # Mute death messages
+   # Mensajes de muerte mudos
    mutedeathmessages: false
    
-   # How often the grid will be saved to file in mins. Default is 5 minutes.
-   # This helps prevent issues if the server crashes. Grid is also saved at important
-   # points in the game
+   # Cuantas veces la cuadrícula se guardará en un archivo en minutos. Por defecto son 5 minutos.
+   # Esto ayuda a prevenir problemas si el servidor se cae. La cuadrícula también se guarda en importantes
+   # puntos en el juego
    backupduration: 5
    
-   # Allow pushing - only applicable in 1.9 and above. Setting is for all worlds!
-   # If you have another scoreboard plugin, it may not work.
-   # If true, players can push each other (default 1.9 behavior) if false,
-   # players will not be able to push. Recommendation is to leave this true.
+   # Permitir el empuje - sólo aplicable en 1.9 y superior. ¡El ajuste es para todos los mundos!
+   # Si tienes otro plugin de marcador, puede que no funcione.
+   # Si es verdadero, los jugadores pueden empujarse entre sí (comportamiento por defecto 1.9) si es falso,
+   # Los jugadores no podrán empujar. La recomendación es dejar esto como está.
    allowpushing: true
 
-   # Recover super flat - if the generator does not run for some reason, you can get
-   # super flat chunks (grass). To remove automatically, select this option. Turn off
-   # if there are no more because it may cause lag.
-   # This will regenerate any chunks with bedrock at y=0 when they are loaded
+   # Recuperar súper plano - si el generador no funciona por alguna razón, puedes conseguir
+   # trozos súper planos (hierba). Para eliminarlos automáticamente, seleccione esta opción. Apagar
+   # si no hay más porque puede causar retraso.
+   # Esto regenerará cualquier trozo de roca con el lecho de roca en y=0 cuando se cargue
    recoversuperflat: false
    
-   # Allow coops to be permanent
-   # If you change this, change the text in the locale files about coop ending due to
-   # log out.
+   # Permitir que las cajas sean permanentes
+   # Si cambias esto, cambia el texto en los archivos de localización sobre la finalización de la cooperación debido a
+   # desconectarse.
    persistentcoops: false
    
-   # Only allow the island leader to coop players.
-   # Island members wont be able to coop other players.
+   # Sólo permiten al líder de la isla a los jugadores de la cooperativa.
+   # Los miembros de la isla no podrán cooptar a otros jugadores.
    onlyleadercancoop: false
 
-   # Set whether or not players can reject coop requests.
-   # If set to false players are just directly added as a coop player.
+   # Establecer si los jugadores pueden o no rechazar las solicitudes de cooperación.
+   # Si se establece que los jugadores falsos se añaden directamente como un jugador de cooperación.
    coopisrequest: true
 
-   # Below you can list all account names that ASkyBlock will ignore for some protection.
-   # Configure it at your own risk!!
-   # This option is mainly for compatibility with mods.
+   # Abajo puedes listar todos los nombres de cuentas que ASkyBlock ignorará para alguna protección.
+   # ¡Configúralo bajo tu propio riesgo! #
+   # Esta opción es principalmente para la compatibilidad con los mods.
    fakeplayers:
    # - [CoFH]
    # - [BuildCraft]
    
-   # Allow obsidian to be scooped up with an empty bucket back into lava
-   # This only works if there is a single block of obsidian (no obsidian within 10 blocks)
-   # Recommendation is to keep this true so that newbies don't bother you or reset their
-   # island unnecessarily.
+   # Permitir que la obsidiana sea recogida con un cubo vacío de vuelta a la lava
+   # Esto sólo funciona si hay un solo bloque de obsidiana (no hay obsidiana en 10 bloques)
+   # La recomendación es mantener esto cierto para que los novatos no te molesten o reinicien su
+   # Isla innecesaria.
    allowobsidianscooping: true
    
-   # By default, island top ten (/is top) is displayed as a GUI.
-   # If this option is set to TRUE, the top ten will be displayed
-   # in chat, like in older versions (up to V3.0.3.3), which can
-   # be a little spammy.
-   # Recommendation is to keep this false.
+   # Por defecto, el top ten de la isla (/es superior) se muestra como una GUI.
+   # Si esta opción está configurada como TRUE, las diez primeras se mostrarán
+   # en el chat, como en las versiones anteriores (hasta la V3.0.3.3), que pueden
+   # ser un poco spammy.
+   # La recomendación es mantener esto falso.
    islandtopteninchat: false
    
-   # Toggle Magic Cobblestone Generator
-   # If set to true, a cobble generator will not just generate cobblestone, but
-   # also blocks you have specified.
-   # Default is false, because it highly changes the gameplay.
+   # Generador de adoquines mágicos de Toggle
+   # Si se ajusta a la realidad, un generador de adoquines no sólo generará adoquines, sino que
+   # también bloqueos que has especificado.
+   # Por defecto es falso, porque cambia mucho el juego.
    usemagiccobblegen: false
    
-   # If set to true, Magic Cobblestone Generator will only work at spawn
-   # Beware! Spawn MUST be in the same world that islands to work.
+   # Si se hace realidad, el Generador de adoquines mágicos sólo funcionará en el desove
+   # Cuidado! El desove DEBE estar en el mismo mundo que las islas para trabajar.
    magiccobblegenonlyatspawn: false
    
-   # This won't be considered if usemagiccobblegen is set to false.
-   # You can add, remove a block or modify its probability to be generated.
-   # You can also set different probabilities from specified minimum levels
+   # Esto no será considerado si el usemagiccobblegen es puesto en falso.
+   # Puedes añadir, eliminar un bloque o modificar su probabilidad de ser generado.
+   # También puedes establecer diferentes probabilidades de niveles mínimos especificados
    magiccobblegenchances:
-     # These probabilities will apply by default
-     default:
+   # Estas probabilidades se aplicarán por defecto
+   default:
        COBBLESTONE: 75.0
        STONE: 10.0
        COAL_ORE: 7.5
        IRON_ORE: 5.0
        DIAMOND_ORE: 2.0
        EMERALD_ORE: 0.5
-     #These probabilities will apply if island level is higher than 500.
+     # Estas probabilidades se aplicarán si el nivel de la isla es superior a 500.
      500:
        COBBLESTONE: 50.0
        STONE: 20.0
@@ -661,218 +663,218 @@ general:
        DIAMOND_ORE: 4.0
        EMERALD_ORE: 1.0
    
-   # Disable redstone operation on islands unless a team member is online.
-   # This may reduce lag but it can cause problems with visitors needing to use a redstone system.
-   # Default is false
+   # Deshabilitar la operación Redstone en las islas a menos que un miembro del equipo esté en línea.
+   # Esto puede reducir el retraso pero puede causar problemas con los visitantes que necesitan usar un sistema de redstone.
+   # Por defecto es falso
    disableofflineredstone: false
    
-   # Disable piston pushing of TNT. There is a glitch in 1.9.4 that enables unlimited
-   # TNT creation with this. Default is allowed, set to false if you need it off.
+   # Deshabilitar el empuje del pistón de TNT. Hay un fallo en 1.9.4 que permite una ilimitada
+   # Creación de TNT con esto. El valor por defecto está permitido, configúralo en falso si lo necesitas.
    allowTNTpushing: true
    
-   # Config.yml version. DO NOT EDIT. This number only changes if the latest
-   # plugin config has been updated. If a new config is detected, it will be
-   # auto-saved to config.new.yml.
+   # Versión Config.yml. NO EDITAR. Este número sólo cambia si el último
+   # La configuración del plugin ha sido actualizada. Si se detecta una nueva configuración, será
+   # auto-guardado en config.new.yml.
    version: 3.0.9.4
    
-# Protection settings
+# Configuración de protección
 protection:
-   # Protection Setting Flags:
-   # ACID_DAMAGE, ANVIL, ARMOR_STAND, BEACON, BED, BREAK_BLOCKS, BREEDING, BREWING, 
-   # BUCKET, COLLECT_LAVA, COLLECT_WATER, CHEST, CHORUS_FRUIT, CRAFTING, CROP_TRAMPLE, 
-   # DOOR, EGGS, ENCHANTING, ENDER_PEARL, ENTER_EXIT_MESSAGES, FIRE, FIRE_EXTINGUISH, 
-   # FIRE_SPREAD, FURNACE, GATE, HORSE_INVENTORY, HORSE_RIDING, HURT_MOBS, LEASH,
-   # LEVER_BUTTON, MOB_SPAWN, MUSIC, PLACE_BLOCKS, PORTAL, PRESSURE_PLATE, PVP,
-   # MILKING, NETHER_PVP, REDSTONE, SPAWN_EGGS, SHEARING, VILLAGER_TRADING,
+   # Banderas de protección:
+   # DAÑOS POR ÁCIDO, YUNQUE, ARMADURA, BALIZA, CAMA, ROMPER BLOQUES, CRÍA, ELABORACIÓN DE CERVEZA, 
+   # CUBO, RECOGER_LAVA, RECOGER_AGUA, PECHO, CORO_FRUTA, ARTESANÍA, COSECHA_TRAMPA, 
+   # PUERTA, HUEVOS, ENCANTADOR, ENDER_PERLA, ENTRAR_SALIR_MENSAJES, FUEGO, FUEGO_EXTINGUIDO, 
+   # ESPARCIR FUEGO, HORNO, PUERTA, INVENTARIO DE CABALLOS, MONTAR A CABALLO, MADRIGUERAS, CORREA,
+   # BOTÓN_DE_PALANCA, MAFIOSO, MÚSICA, BLOQUEOS, PORTAL, PLACA_DE_PRESIÓN, PVP,
+   # ORDEÑAR, PVP INFERIOR, PIEDRA ROJA, HUEVOS DE DESOVE, ESQUILA, COMERCIO DE ALDEANOS,
    # VISITOR_ITEM_DROP, VISITOR_ITEM_PICKUP
    #
-   # Players can be given the ability to change settings in the GUI with permissions
-   # e.g. askyblock.settings.PVP or all settings with askyblock.settings.*
-   # Permissions are not case sensitive.
+   # Se puede dar a los jugadores la posibilidad de cambiar la configuración de la interfaz gráfica de usuario con permisos
+   # Por ejemplo, askyblock.settings.PVP o todos los ajustes con askyblock.settings.*
+   # Los permisos no distinguen entre mayúsculas y minúsculas.
    #
-   # -- World defaults --
-   # Applies everywhere and are the default for islands and spawn.
-   # If not listed, default is false.
-   # Changing a setting here will only affect new islands. Use /asadmin settingsreset
-   # to reset individual or all settings across all islands. See /asadmin settingsreset help.
+   # -- El mundo se atrasa --
+   # Se aplica en todas partes y es el valor por defecto para las islas y el desove.
+   # Si no está en la lista, el valor por defecto es falso.
+   # Cambiar una configuración aquí sólo afectará a las nuevas islas. Usa /asadmin settingsreset
+   # para restablecer los ajustes individuales o todos los ajustes en todas las islas. Ver la ayuda para restablecer la configuración de /asadmin.
    world:
-     # Acid causes damage above sea-level (if acid is active)
+     # El ácido causa daños por encima del nivel del mar (si el ácido está activo)
      ACID_DAMAGE: true
-     # Allow anvil use
+     # Permitir el uso del yunque
      ANVIL: false
-     # Allow armor stand use (1.8+ only)
+     # Permitir el uso del soporte de la armadura (sólo 1.8+)
      ARMOR_STAND: false
-     # Allow beacon use
+     # Permitir el uso de la baliza
      BEACON: false
-     # Allow bed use
+     # Permitir el uso de la cama
      BED: false
-     # Players can break blocks or generally damage things
+     # Los jugadores pueden romper bloques o generalmente dañar cosas
      BREAK_BLOCKS: false
-     # Allow animal breeding
+     # Permitir la cría de animales
      BREEDING: false
-     # Allow use of cauldrons and brewing stands
+     # Permitir el uso de calderas y puestos de cerveza
      BREWING: false
-     # Allow use of buckets, either fill or dump them
+     # Permitir el uso de los cubos, ya sea llenarlos o tirarlos
      BUCKET: false
-     # Collect Lava (overrides BUCKET setting for collecting lava)
+     # Recoger la lava (anula la configuración del cubo para recoger la lava)
      COLLECT_LAVA: false
-     # Collect water (overrides BUCKET setting for collecting water)
+     # Recoger agua (anula la configuración de BUCKET para recoger agua)
      COLLECT_WATER: false
-     # Allow access chests of any kind, droppers, dispensers and hoppers
+     # Permitir el acceso a los cofres de cualquier tipo, goteros, dispensadores y tolvas
      CHEST: false
-     # Allow eating or use of chorus fruit
+     # Permitir comer o usar la fruta del coro
      CHORUS_FRUIT: false
-     # Allow use of crafting benches
+     # Permitir el uso de los bancos de artesanía
      CRAFTING: true
-     # Allow creepers to hurt players (but not damage blocks)
+     # Permitir que las enredaderas lastimen a los jugadores (pero no dañar los bloques)
      CREEPER_PAIN: true
-     # Allow crop trampling
+     # Permitir el pisoteo de los cultivos
      CROP_TRAMPLE: false
-     # Allow use of doors or trapdoors. Not including redstone activations.
+     # Permitir el uso de puertas o trampillas. Sin incluir las activaciones de la piedra roja.
      DOOR: true
-     # Allow chicken egg throwing
+     # Permitir el lanzamiento de huevos de gallina
      EGGS: false
-     # Allow use of enchanting tables
+     # Permitir el uso de mesas encantadoras
      ENCHANTING: true
-     # Allow enderpearl throwing
+     # Permitir el lanzamiento de perlas
      ENDER_PEARL: false
-     # Enable or disable join/leave messages from the player's island
+     # Habilitar o deshabilitar unir/dejar mensajes de la isla del jugador
      ENTER_EXIT_MESSAGES: true
-     # Allow fire (flint & steel use, TNT priming) Making portals is allowed.
+     # Permitir el fuego (uso de sílex y acero, cebado de TNT) Hacer portales está permitido.
      FIRE: false
-     # Can extinguish fires by punching them
+     # Puede extinguir los incendios golpeándolos
      FIRE_EXTINGUISH: false
-     # Allow fire spreading
+     # Permitir la propagación del fuego
      FIRE_SPREAD: false
-     # Allow furnace use
+     # Permitir el uso del horno
      FURNACE: true
-     # Allow gate use
+     # Permitir el uso de la puerta
      GATE: false
-     # Allow horse/llama inventory use - only works when riding is enabled     
+     # Permitir el uso del inventario de caballos/llamas - sólo funciona cuando la equitación está habilitada     
      HORSE_INVENTORY: false
-     # Allow riding of horses/llamas
+     # Permitir la monta de caballos/llamas
      HORSE_RIDING: false
-     # Allow friendly mob hurting(cows etc.)
+     # Permitir que la muchedumbre amistosa haga daño (a las vacas, etc.)
      HURT_MOBS: false
-     # Allow monsters hurting
+     # Permitir que los monstruos que sufren
      HURT_MONSTERS: true
-     # Allow leash use
+     # Permitir el uso de la correa
      LEASH: false
-     # Allow lever or button use
+     # Permitir el uso de la palanca o el botón
      LEVER_BUTTON: true
-     # Cows can be milked
+     # Las vacas pueden ser ordeñadas
      MILKING: true
-     # Animals, etc. can spawn naturally
+     # Los animales, etc. pueden desovar naturalmente
      MOB_SPAWN: true
-     # Allow monsters to spawn naturally
+     # Permitir que los monstruos desoven naturalmente
      MONSTER_SPAWN: true
-     # Allow use of jukeboxes and note blocks
+     # Permitir el uso de tocadiscos y bloques de notas
      MUSIC: false
-     # Allow PVP in the nether world
+     # Permitir la PVP en el mundo inferior
      NETHER_PVP: false
-     # Players can place blocks
+     # Los jugadores pueden colocar bloques
      PLACE_BLOCKS: false
-     # Allow portal use
+     # Permitir el uso del portal
      PORTAL: true
-     # Allow pressure plate activation by players
+     # Permitir la activación de la placa de presión por los jugadores
      PRESSURE_PLATE: true
-     # Allow PVP in the overworld
+     # Permitir el PVP en el mundo
      PVP: false
-     # Allow adjustment of diodes or comparators
+     # Permitir el ajuste de los diodos o comparadores
      REDSTONE: false
-     # Spawn eggs can be used
+     # Se pueden usar huevos de desove
      SPAWN_EGGS: false
-     # Allow sheep shearing
+     # Permitir la esquila de ovejas
      SHEARING: false
-     # Allow trading with villagers
+     # Permitir el comercio con los aldeanos
      VILLAGER_TRADING: true
-     # Allow item drop
+     # Permitir que el artículo caiga
      VISITOR_ITEM_DROP: true
-     # Allow item pickup
+     # Permitir la recogida de artículos
      VISITOR_ITEM_PICKUP: true
-   # -- Island Settings --
-   # Settings for islands. Some are for visitors, some for the island itself.
-   # If setting is not listed, it will not show in GUI and the world default will be used.
-   # Add settings here to give the player the ability to see them in the GUI. Give the
-   # player the permission for the setting for them to be able to change the setting.
+   # - Ajustes de la isla #
+   # Configuración de las islas. Algunos son para los visitantes, otros para la propia isla.
+   # Si la configuración no está en la lista, no se mostrará en el GUI y se usará el valor por defecto del mundo.
+   # Añade ajustes aquí para que el jugador pueda verlos en la GUI. Dale a la
+   # El jugador tiene el permiso para el ajuste para que pueda cambiar el ajuste.
    island:
-     # Allow visitor anvil use
+     # Permitir el uso del yunque de los visitantes
      ANVIL: true
-     # Allow visitor armor stand use (1.8+ only)
+     # Permitir el uso del puesto de armas de los visitantes (sólo 1.8+)
      ARMOR_STAND: false
-     # Allow visitor beacon use
+     # Permitir el uso del BEACON de visitantes
      BEACON: false
-     # Allow visitor bed use
+     # Permitir el uso de la cama de los visitantes
      BED: false
-     # Allow visitor block breaking, or other damage
+     # Permitir la ruptura del bloque de visitantes, u otros daños
      BREAK_BLOCKS: false
-     # Allow visitor animal breeding
+     # Permitir la cría de animales de visita
      BREEDING: false
-     # Allow visitor use of cauldrons and brewing stands
+     # Permitir el uso de calderas y puestos de cerveza a los visitantes
      BREWING: false
-     # Allow visitor access chests of any kind, droppers, dispensers and hoppers
+     # Permitir el acceso de los visitantes a los cofres de cualquier tipo, goteros, dispensadores y tolvas
      CHEST: false
-     # Allow visitors to use crafting benches
+     # Permitir a los visitantes usar los bancos de artesanía
      CRAFTING: true
-     # Allow visitor use of doors or trapdoors. Not including redstone activations.
+     # Permitir a los visitantes el uso de puertas o trampillas. Sin incluir las activaciones de la piedra roja.
      DOOR: true
-     # Allow visitor chicken egg throwing
+     # Permitir a los visitantes tirar huevos de gallina
      EGGS: false
-     # Allow visitors to use enchanting tables
+     # Permitir a los visitantes usar mesas encantadoras
      ENCHANTING: true
-     # Allow visitor furnace use
+     # Permitir el uso de los hornos de visita
      FURNACE: true
-     # Allow gate use
+     # Permitir el uso de la puerta
      GATE: true
-     # Allow use of jukeboxes and note blocks
+     # Permitir el uso de tocadiscos y bloques de notas
      MUSIC: false
-     # Allow portal use by visitors
+     # Permitir el uso del portal a los visitantes
      PORTAL: true
-     # Allow pressure plate activation by visitors (players only)
+     # Permitir la activación de la placa de presión por los visitantes (sólo jugadores)
      PRESSURE_PLATE: false
-     # Allow adjustment of diodes or comparators
+     # Permitir el ajuste de los diodos o comparadores
      REDSTONE: false
-     # Allow visitors to shear sheep
+     # Permitir a los visitantes esquilar ovejas
      SHEARING: false
 
-# This section contains the biomes that can be bought or used
+# Esta sección contiene los biomas que pueden ser comprados o usados
 biomesettings:
-  # The default cost for changing biome. Can be over-ridden by the Biome settings
-  # Default is 100 if this is not set. Cannot be <0.
+  # El costo por defecto para cambiar de bioma. Puede ser anulado por la configuración del bioma
+  # El valor por defecto es 100 si esto no está configurado. No puede ser <0.
   defaultcost: 100
 
-  # Default biome - what every player will start with. Default is PLAINS. See below
-  # for other options
+  # Bioma predeterminado - con lo que cada jugador comenzará. Por defecto es PLAINS. Ver más abajo
+  # para otras opciones
   defaultbiome: PLAINS
 
-# List of biomes and their settings.
-# Cost - cost in currency to change to that biome
-# permission - the permission required to use that biome
-# If the biome is not listed, it is not available
-# icon = icon used in control panel
-# friendlyname = A friendly name for the biome. If it does not exist, the official
-# biome name will be used with pretty formatting. Mostly this is just used to convert
-# Hell to Nether
-# description = a description of the biome and what it gives the player
-# remove ice/water/snow - will be done once when the biome is made
+# Lista de biomas y su configuración.
+# Costo - costo en moneda para cambiar a ese bioma
+# permiso - el permiso necesario para usar ese bioma
+# Si el bioma no está en la lista, no está disponible
+# Icono = icono usado en el panel de control
+# Nombre amistoso = Un nombre amistoso para el bioma. Si no existe, el oficial
+# El nombre del bioma se usará con un bonito formato. La mayoría de esto se usa para convertir
+# Infierno a Nether
+# Descripción = una descripción del bioma y lo que le da al jugador
+# Remover el hielo/agua/nieve - se hará una vez cuando se haga el bioma
 
 biomes:
   COLD_BEACH:
     icon: SAPLING
-    friendlyname: "&bCold &eBeach"
-    description: "&bSnowy and cold.|&bBrrr."
-    # Perms can be any string you like!
-    #permission: any.perm.you.want
+    friendlyname: "&bFria &eAntartida"
+    description: "&bFrio y Nieve.|&bBrrr."
+    # Las permanentes pueden ser cualquier cuerda que quieras!
+    #Permiso: cualquier.permanente.que.quieras
   DESERT:
     icon: DEAD_BUSH
-    friendlyname: "&eDesert"
-    description: "&eA dry desert.|&eWarning - Ice or|&esnow have to go."
-    #permission: any.perm.you.want
-  # Change MUTATED_FOREST to FLOWER_FOREST if you use an old server version
+    friendlyname: "&eDesierto"
+    description: "&eUn desierto seco.|&eAdvertencia - El hielo o la|&enieve desaparecera."
+    #permiso: cualquier.permiso.que.quieras
+    # Cambiar MUTATED_FOREST a FLOWER_FOREST si usas una versión antigua del servidor
   MUTATED_FOREST:
     icon: RED_ROSE
-    friendlyname: "&aFlower Forest"
-    description: "Trees and flowers!"
+    friendlyname: "&aBosque de Flores"
+    description: "Arboles y flores!"
     #permission: any.perm.you.want
   HELL:
     icon: LAVA_BUCKET
@@ -880,203 +882,150 @@ biomes:
     # Note, this permission can be anything you like
     permission: askyblock.biomes.hell
     friendlyname: "&cNether"
-    description: "&eWarning - all water,|&esnow and ice will|&ebe removed."
+    description: "&eAdvertencia - Todo el agua,|&enieve y hielo sera|&eeliminada."
   JUNGLE:
     icon: VINE
-    friendlyname: "&2Jungle"
-    description: "&aLush jungle.|&aWarning - Ice or|&asnow have to go."
+    friendlyname: "&2Jungla"
+    description: "&aSelva exhuberante.|&aWarning - El hielo o la|&enieve desaparecera."
     #permission: any.perm.you.want
   MUSHROOM_ISLAND:
     icon: RED_MUSHROOM
     # Note, this permission can be anything you like
     permission: askyblock.biomes.mushroom_island
-    friendlyname: "&cMushroom island"
+    friendlyname: "&cIsla de setas"
     description: "&cMushrooms"
   PLAINS:
     icon: GRASS
-    description: Plain plains!
+    description: LLanuras llanas!
     cost: 0
     #permission: any.perm.you.want
   SWAMPLAND:
     icon: WATER_LILY
-    friendlyname: "&eSwampland"
-    description: "&2Swampy.|&eWarning - Ice or|&esnow have to go."
+    friendlyname: "&eTierra pantanosa"
+    description: "&2Lleno de barro.|&aWarning - El hielo o la|&enieve desaparecera."
     #permission: any.perm.you.want
   MESA:
     icon: HARD_CLAY
     friendlyname: "&eMesa"
-    description: "&4Rare dry, desert biome.|&4Warning - Ice or|&4snow have to go."
+    description: "&4Raramente llueve, bioma desertico.|&aWarning - El hielo o la|&enieve desaparecera."
     #permission: any.perm.you.want
     cost: 500
   SAVANNA:
     icon: LONG_GRASS
     friendlyname: "&eSavanna"
-    description: "&eFlat and dry, no rain.|&eWarning - Ice or|&esnow have to go."
+    description: "&ePlano y seco sin lluvia.|&aWarning - El hielo o la|&enieve desaparecera."
     #permission: any.perm.you.want
   ROOFED_FOREST:
     icon: LOG
-    friendlyname: "&l&eBlack Forest"
-    description: "&6Woods and trees"
+    friendlyname: "&l&eBosque negro"
+    description: "&6Madera y arboles"
     #permission: any.perm.you.want
 
 
 schematicsection:
-   # All schematics should be put in the schematics folder
+   # Todos los esquemas deben ser puestos en la carpeta de esquemas
 
-   # Schematic panel - if more than one schematic is available to the player
-   # Show a panel to choose. If this is false, no panel is shown and the starter 
-   # island is picked by permission. If a player has more than one permission
-   # the island selected is undefined - the plugin will pick one.
-   # Permissions are taken from the below schematics section even if the GUI is
-   # not used.
+   # Panel esquemático - si más de un esquema está disponible para el jugador
+   # Mostrar un panel para elegir. Si esto es falso, no se muestra ningún panel y el iniciador 
+   # La isla se elige con permiso. Si un jugador tiene más de un permiso
+   # La isla seleccionada no está definida - el plugin elegirá una.
+   # Los permisos son tomados de la sección de esquemas de abajo, incluso si el GUI es
+   # no se usa.
   useschematicspanel: true
 
-   # Random island, only apply when useschematicspanel is false - if set to false
-   # the plugin will choose the first island it found with the user permissions
-   # to generate a new island. If set to true, the plugin will generate an island
-   # randomly from the list of all islands available to the player.
+   # Isla aleatoria, sólo se aplica cuando el useschematicspanel es falso - si se establece en falso
+   # El plugin elegirá la primera isla que encuentre con los permisos de usuario
+   # para generar una nueva isla. Si se establece en true, el plugin generará una isla
+   # al azar de la lista de todas las islas disponibles para el jugador.
   chooseislandrandomly: false
 
-  # Hack skeleton spawners to also spawn wither skeletons in 1.11. This helps with
-  # older schematics that do not have explicit wither skeleton spawners. This setting
-  # is ignored by older servers.
+  # Los desovadores de esqueletos de hachís también desovarán esqueletos de marchitamiento en 1.11. Esto ayuda a
+  # esquemas más antiguos que no tienen reproductores explícitos de esqueletos marchitos. Este escenario
+  # es ignorado por los servidores más antiguos.
   hackskeletonspawners: false
   
-  # This section lists all the schematics available
-  # Settings are:
-  # show - whether this island will show in the GUI or not. Typically used for partner
-  #        schematics, but can be used to temporarily hide schematics.
-  # icon - the icon to show in the GUI. It must be a known Material
-  # order - the priority for showing in the GUI. Lower numbers are shown first.
-  # name - a friendly short name for the schematic. Color codes okay.
-  # description - a longer description. Use | to split lines. Color codes okay.
-  # filename - the filename of the schematic in the schematic folder
-  # useDefaultChest - fill a chest on the island with the items in this config. If false
-  #                   the contents will come from the schematic.
-  # partnerSchematic - the island that will be pasted in the Nether.
-  # biome - the biome this island should have. All pasted blocks will have this biome.
-  # These next settings may cause lag if true. Default is false. Use judiciously.
-  # pasteentities - if the schematic has entities in it (mobs) this will paste them.
-  # usephysics - if true, causes lava or water to flow after being pasted.
-  # pasteair - Only set to true if you need to paste below sea level.
-  # permission - the permission required to use this schematic. It can be anything you like
-  # You can add or remove from this list. If this section is missing, only the default
-  # island works.
+  # Esta sección enumera todos los esquemas disponibles
+  # Los ajustes son:
+  # mostrar - si esta isla se mostrará en el GUI o no. Típicamente se usa para la pareja
+  # esquemas, pero puede ser usado para ocultar temporalmente los esquemas.
+  # Icono - el icono que se muestra en el GUI. Debe ser un material conocido
+  # Orden - la prioridad para mostrar en el GUI. Los números inferiores se muestran primero.
+  # nombre - un nombre corto amistoso para el esquema. Los códigos de color están bien.
+  # descripción - una descripción más larga. Usa | para dividir las líneas. Códigos de color, bien.
+  # nombre de archivo - el nombre de archivo del esquema en la carpeta del esquema.
+  # useDefaultChest - llene un cofre en la isla con los elementos de esta configuración. Si es falso
+  # el contenido vendrá del esquema.
+  # socioEsquemático - la isla que será pegada en el Nether.
+  # bioma - el bioma que esta isla debería tener. Todos los bloques pegados tendrán este bioma.
+  # Estos próximos ajustes pueden causar un retraso si es cierto. Por defecto es falso. Úsalo con criterio.
+  # pasteentities - si el esquema tiene entidades en él (mobs) esto las pegará.
+  # Usefísica - si es verdadera, causa que la lava o el agua fluya después de ser pegada.
+  # pasteair - sólo se establece como verdadero si se necesita pegar por debajo del nivel del mar.
+  # permiso - el permiso necesario para usar este esquema. Puede ser cualquier cosa que quieras
+  # Puedes añadir o quitar de esta lista. Si falta esta sección, sólo el valor predeterminado
+  # La isla funciona.
   schematics:
-    # default heading is required
+    # Se requiere un encabezamiento por defecto
     default:
-      # Icon - if this is missing or wrong, it will be a MAP
+      # Icono - si esto falta o está mal, será un MAPA
       icon: DIRT
-      # Order of preference in listing
+      # Orden de preferencia en la lista
       order: 1
-      # Short name - color codes with & okay
-      name: "The Original"
-      # Longer description. Use | for new lines. Color codes okay.
+      # Nombre corto - códigos de color con & ok
+      name: "El Original"
+      # Una descripción más larga. Usar | para las nuevas líneas. Los códigos de color están bien.
       description: "Challenging|starter|island!"
-      # Filename of the schematic in the schematic folder
+      # Nombre de archivo del esquema en la carpeta de esquemas
       filename: island.schematic
-      # Use default chest if true, or use schematic chest contents if false
+      # Usar el pecho por defecto si es verdadero, o usar el contenido del pecho esquemático si es falso
       useDefaultChest: true
-      # Which schematic will be used in the opposite world if newnether:true
-      # If there is no partner, this island will be used
+      # ¿Qué esquema se usará en el mundo opuesto si newnether: true
+      # Si no hay pareja, esta isla será utilizada
       partnerSchematic: nether
-      #Level handicap zeros the initial island level. 
+      # El handicap de nivel cero el nivel inicial de la isla. 
       levelHandicap: 3
 
-    # This is the default nether island - do not remove this section!
     nether:
-      # Hide or show this schematic to players in the GUI
       show: false
       icon: NETHERRACK
-      # If the biome is HELL it is assumed this island goes in the Nether
       biome: HELL
-      name: "NetherBlock Island"
-      description: "An island in the nether|overlooked by a mob tower"
+      name: "Isla NetherBlock"
+      description: Una isla en las profundidades| dominada por una torre de la mafia"
       filename: nether.schematic
-      # Nether schematics should generally use the schematic chest contents
       useDefaultChest: false
-      # The partner to this schematic is the default island
       partnerSchematic: default
-      # Schematics can include entities (mobs) in them and if pasteentities is true,
-      # mobs will be pasted. 
       pasteentities: true
-      # Usephysics causes lava or water to flow after being pasted. Change to false
-      # if it lags
       usephysics: true
-      #Level handicap zeros the initial island level. 
       levelHandicap: 93
   
-    # Additional heading names can be anything you like, but must be unique
     island1:
-      # Credit to Antal1609 for this schematic!
       icon: RED_ROSE
       order: 2
-      name: "Island Duo"
-      description: "Two close islands!|Double the fun,|but a little easier.|&a[Credit] Antal1609"
+      name: "Duo de islas"
+      description: "Dos islas muy cerca!|Doble de diversion,|pero demasiado cerca."
       filename: double.schematic
-      # Schematics can have biomes set when they are created
       biome: FOREST
-      # If useDefaultChest is false, the items in the schematic will be used
-      # If false, the default chest items will be used, or the list below
       useDefaultChest: true
-      # Chest items defined here will override the default chest items.
-      # You can set the chest items here in this list
-      # Material:Qty, or Material:Data:Qty
-      #chestItems:
-      #- MELON:1
-      #- ICE:1
-      # Your island companion. Overrides the default setting. If more than one is
-      # listed, one will be chosen at random.
-      # Recommended choices: COW, PIG, SHEEP, CHICKEN, VILLAGER, HORSE, IRON_GOLEM, OCELOT,
-      # RABBIT, WOLF, LLAMA or NOTHING.
       companion:
       - CHICKEN 
-      # This is a list of names, picked at random that will apply to the companion
-      # You can add more if you like. If none are listed, the companion will not be
-      # named.
       companionnames:
-      - "&9[player]'s chicken"
-      - "&dFree-Range Eggs"
+      - "&9pollo de [player]"
+      - "&dRango gratuito de huevos"
       partnerSchematic: nether
-      #permission: any.perm.you.like
-      #Level handicap zeros the initial island level. 
       levelHandicap: 9
-      # Cost - if an economy is in use, this can be used to require a fee
-      # Only works with the schematic panel
-      # The cost is a double and displayed in the description if [cost] is there
       cost: 0
 
-    # New snowy schematic
     extrahard:
       icon: OBSIDIAN
       order: 3
-      # Ski theme - a black diamond run is hard.
-      name: "&lBlack &bDiamonds"
-      description: "Experts only!|&aMinimal resources|&awith a few diamonds."
+      name: "&lOscuro &bDiamante"
+      description: "Solo expertos!|&aRecursos minimos|&acon muy poco diamante."
       filename: harder.schematic
       biome: COLD_BEACH
       useDefaultChest: false
-      # Chest items defined here will override the default chest items.
-      # You can set the chest items here in this list
-      # Material:Qty, or Material:Data:Qty
-      #chestItems:
-      #- MELON:1
-      #- ICE:1
-      # Schematics that require water or lava to hover can prevent physics when pasting
       usephysics: false
-      # Schematics may include entities (mobs) in them and if pasteentities is true,
-      # mobs will be pasted.
-      # Example: Setting this to true for this schematic will give a wolf.
       pasteentities: false
       partnerSchematic: nether
-      #permission: any.perm.you.like
-      # This optional block determines where the player will spawn. It must be unique in
-      # the schematic and will be replaced by air when pasted.
-      #spawnblock: SPONGE
-      #Level handicap zeros the initial island level. 
       levelHandicap: 1
-      # Cost - if an economy is in use, this can be used to require a fee
-      # Only works with the schematic panel
-      # The cost is a double and displayed in the description if [cost] is there
       cost: 0
 

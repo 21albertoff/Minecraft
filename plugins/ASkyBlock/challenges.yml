@@ -37,16 +37,16 @@
 # NIVEL es un número, 1 o 2
 # LINGER es para los servidores V1.9 y posteriores
 # Ejemplos:
-# POCIÓN:FUERZA:1:EXTENDIDA:SALPICADURA:1
-# POCIÓN:DAÑO_INSTANTÁNEO:2::PERSISTIR:2
-# POCIÓN:SALTO:2:NOTA EXTENDIDA:SALPICADURA:1
-# POCIÓN:DEBILIDAD:::1 - cualquier poción de debilidad
+# POTION:STRENGTH:1:EXTENDED:SPLASH:1
+# POTION:INSTANT_DAMAGE:2::PERSIST:2
+# POTION:JUMP:2:EXTENDED NOTE:SPLASH:1
+# POTION:WEAKNESS:::1 - cualquier poción de debilidad
 # 
 # Los nombres válidos de las pociones son:
-# AGUA, REGENERACIÓN, VELOCIDAD, RESISTENCIA AL FUEGO, VENENO, CURACIÓN INSTANTÁNEA, VISIÓN NOCTURNA, DEBILIDAD,
-# FUERZA, LENTITUD, SALTO, DAÑO INSTANTÁNEO, RESPIRACIÓN DE AGUA, INVISIBILIDAD #
+# WATER, REGENERATION, SPEED, FIRE RESISTANCE, POISON, INSTANT HEALING, NIGHT VISION, WEAKNESS,
+# STRENGTH, SLOWNESS, JUMPING, INSTANT DAMAGE, WATER BREATHING, INVISIBILITY #
 # Para la V1.9 también están disponibles:
-# SUERTE, MUNDANA, GRUESA, TORPE
+# LUCKY, WORLDLY, THICK, CLUMSY
 #
 #
 # Reajustar islas y desafíos - normalmente los desafíos se reajustan cuando un jugador se reajusta
@@ -57,26 +57,26 @@
 challenges:
   # Niveles de desafío - enumera todos los que quieras. Si el nivel de un desafío es '' puede
   # se hará en cualquier momento. No puedes nombrar un desafío igual que un nivel.
-  levels: 'Novice Competent Expert Advanced Elite'
+  levels: 'Novatoo Competidor Expertoo Avanzado Elite'
     
   # El número de tareas deshechas que pueden dejarse en un nivel antes de desbloquear el siguiente nivel #
   waiveramount: 1
   
   # Niveles libres - que los niveles superiores deben hacerse automáticamente cuando se alcanza, por lo tanto desbloquear el siguiente nivel.
   # Ejemplo:
-  # Niveles libres: "Novato" pondrá inmediatamente al jugador en desafíos de nivel competente 
-  # freelevels: 'Novato competente' hará que todos los retos de novato, competente y experto estén disponibles inmediatamente.
-  # freelevels: 'Competente' abrirá los niveles de Competente y Experto una vez que el Novato esté completo
+  # Niveles libres: "Novatoo" pondrá inmediatamente al jugador en desafíos de nivel Competidore 
+  # freelevels: 'Novatoo Competidore' hará que todos los retos de Novatoo, Competidore y Expertoo estén disponibles inmediatamente.
+  # freelevels: 'Competidore' abrirá los niveles de Competidore y Expertoo una vez que el Novatoo esté completo
   freelevels: ''
   
   # Esta sección determina lo que pasa cuando un jugador desbloquea un nuevo nivel
   # El subnombre debe corresponder a los niveles listados arriba
   # Note que no hay sección para el primer nivel ya que se desbloquea automáticamente
   levelUnlock:
-    Competent:
+    Competidor:
       # Mensaje adicional para enviar al jugador
-      message: 'Enhorabuena - has desbloqueado el nivel &9Competent!'
-      rewardDesc: 'Un diamante'
+      message: 'Enhorabuena - has desbloqueado el nivel &9Competidor!'
+      rewardDesc: 'Recompensa: 1 diamante'
       itemReward: 'DIAMOND:1'
       moneyReward: 100
       expReward: 100
@@ -86,10 +86,10 @@ challenges:
       commands:
       #- herramientas del kit [player]
       #- algun otro comando
-    Expert:
+    Expertoo:
       # Mensaje adicional para enviar al jugador
-      message: 'Enhorabuena - has desbloqueado el nivel &9Expert!'
-      rewardDesc: '3 diamantes'
+      message: 'Enhorabuena - has desbloqueado el nivel &9Expertoo!'
+      rewardDesc: 'Recompensa: 3 diamantes'
       itemReward: 'DIAMOND:3'
       moneyReward: 100
       expReward: 100
@@ -98,10 +98,10 @@ challenges:
       commands:
       #- herramientas del kit [player]
       #- algun otro comando
-    Advanced:
+    Avanzado:
       # Mensaje adicional para enviar al jugador
-      message: 'Enhorabuena - has desbloqueado el nivel &9Advanced!'
-      rewardDesc: '5 diamantes'
+      message: 'Enhorabuena - has desbloqueado el nivel &9Avanzado!'
+      rewardDesc: 'Recompensa: 5 diamantes'
       itemReward: 'DIAMOND:5'
       moneyReward: 100
       expReward: 100
@@ -113,7 +113,7 @@ challenges:
     Elite:
       # Mensaje adicional para enviar al jugador
       message: 'Enhorabuena - has desbloqueado el nivel &9Elite!'
-      rewardDesc: '7 diamantes'
+      rewardDesc: 'Recompensa: 7 diamantes'
       itemReward: 'DIAMOND:7'
       moneyReward: 100
       expReward: 100
@@ -126,11 +126,11 @@ challenges:
   # Lista de desafíos
   # Los nombres de los desafíos deben estar en minúsculas. ¡No uses el mismo nombre que un nivel!
   challengeList:
-    glassmaker:
-      friendlyname: 'Fabricante de vidrio'
+    Cristalero:
+      friendlyname: 'Fabricante de cristal'
       description: 'Crear un bloque de vidrio'
       icon: GLASS
-      level: 'Novice'
+      level: 'Novato'
       type: inventory
       requiredItems: 'GLASS:1'
       # Puedes requerir que el jugador tenga una cierta cantidad de dinero para los desafíos de inventario.
@@ -140,7 +140,7 @@ challenges:
       # requeridoDinero: 10
       takeItems: true
       itemReward: 'ICE:1'
-      rewardText: '1 bloque de hielo'
+      rewardText: 'Recompensa: 1 bloque de hielo'
       #recompensación de comandos:
       #- herramientas del kit [jugador]
       moneyReward: 10
@@ -158,111 +158,111 @@ challenges:
       # El defecto es cierto. Ponlo en falso para mantener este desafío completado.
       # Los administradores siempre pueden reiniciar los desafíos incluso si está configurado en falso.
       resetallowed: true
-    breadmaker:
+    Panadero:
       friendlyname: 'Panadero'
       description: 'Hornea 21 barras de pan'
       icon: BREAD
-      level: 'Novice'
+      level: 'Novato'
       type: inventory
       requiredItems: 'BREAD:21'
       takeItems: true
       itemReward: 'DIRT:5'
-      rewardText: '5 dirt'
+      rewardText: 'Recompensa: 5 bloques de tierra'
       moneyReward: 10
       expReward: 30
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'DIRT:1'
-      repeatRewardText: '1 dirt'
+      repeatRewardText: 'Recompensa: 1 bloque de tierra'
       repeatMoneyReward: 5
       repeatExpReward: 10
       # El máximo de veces limita la cantidad de veces que se puede hacer un desafío. Comentar para hacer ilimitado
       maxtimes: 100
-    dyemaker:
+    Fabricante de tintes:
       friendlyname: 'Fabricante de tintes'
       description: 'Crafteo 32 tintes de cactus verde'
       icon: INK_SACK:2
-      level: 'Novice'
+      level: 'Novato'
       type: inventory
       requiredItems: 'INK_SACK:2:32'
       takeItems: true
       itemReward: 'SAPLING:0:2 SAPLING:1:2 SAPLING:2:2 SAPLING:3:2'
-      rewardText: '2 oak, 2 birch, 2 jungle and 2 spruce saplings'
+      rewardText: 'Recompensa: 2 semillas de robles, abedules, selvas y abeto'
       moneyReward: 10
       expReward: 30
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'SAPLING:0:1 SAPLING:1:1 SAPLING:2:1 SAPLING:3:1 SAPLING:4:1 SAPLING:5:1'
-      repeatRewardText: '1 of each kind of sapling'
+      repeatRewardText: 'Recompensa: 1 semilla de roble, abedul, selva y abeto'
       repeatMoneyReward: 5
       repeatExpReward: 10
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    papermaker:
-      friendlyname: 'Paper Maker'
-      description: 'Create 21 pages of paper'
+    Papelero:
+      friendlyname: 'Fabricante de papel'
+      description: 'Crear 21 paginas de papel'
       icon: PAPER
-      level: 'Novice'
+      level: 'Novato'
       type: inventory
       requiredItems: 'PAPER:21'
       takeItems: true
       itemReward: 'DIRT:5 CLAY:15'
-      rewardText: '5 dirt and 15 clay blocks'
+      rewardText: 'Recompensa: 5 bloques de tierra y 15 de arcilla'
       moneyReward: 15
       expReward: 30
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'SAND:2'
-      repeatRewardText: '2 sand blocks'
+      repeatRewardText: 'Recompensa: 2 bloques de arena'
       repeatMoneyReward: 5
       repeatExpReward: 10
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    cobblemaker:
-      friendlyname: 'Cobble Maker'
-      description: 'Create a cobblestone generator and mine 64 cobblestone.'
+    Cantero:
+      friendlyname: 'Fabricante de roca'
+      description: 'Crea 64 bloques de Roca.'
       icon: COBBLESTONE
-      level: 'Novice'
+      level: 'Novato'
       type: inventory
       requiredItems: 'COBBLESTONE:64'
       takeItems: true
       itemReward: 'LEATHER:4'
       permissionReward: ''
-      rewardText: '4 leather - boots or a book perhaps?'
+      rewardText: 'Recompensa: 4 pieles'
       moneyReward: 10
       expReward: 30
       repeatable: true
       repeatItemReward: 'LEATHER:1'
-      repeatRewardText: '1 leather'
+      repeatRewardText: 'Recompensa: 1 piel'
       repeatMoneyReward: 5
       repeatExpReward: 10
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    seedbank:
-      friendlyname: 'Seedbank'
-      description: 'Collect 64 melon seeds, 64 pumpkin seeds and 64 wheat seeds'
+    Agricultor:
+      friendlyname: 'Agricultor'
+      description: 'Recoge 64 semillas de melon, 64 semillas de calabaza y 64 semillas de trigo'
       icon: PUMPKIN_SEEDS
-      level: 'Novice'
+      level: 'Novato'
       type: inventory
       requiredItems: 'MELON_SEEDS:64 PUMPKIN_SEEDS:64 SEEDS:64'
       takeItems: true
       itemReward: 'DIRT:5 VINE:20'
-      rewardText: '5 dirt blocks and 20 vines'
+      rewardText: 'Recompensa: 5 bloques de tierra y 20 enredaderas'
       moneyReward: 15
       expReward: 30
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'DIRT:2 VINE:20'
-      repeatRewardText: '2 dirt blocks and 5 vines'
+      repeatRewardText: 'Recompensa 2 bloques de tierra and 5 enredaderas'
       repeatMoneyReward: 5
       repeatExpReward: 10
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    stewmaker:
-      friendlyname: 'Stew Maker'
-      description: 'Cook up 18 bowls of mushroom stew'
+    Cocinero:
+      friendlyname: 'Cocinero'
+      description: 'Cocina 18 tazones de guiso de champiñones'
       icon: MUSHROOM_SOUP
-      level: 'Novice'
+      level: 'Novato'
       type: inventory
       requiredItems: 'MUSHROOM_SOUP:18'
       takeItems: true
@@ -278,16 +278,16 @@ challenges:
       repeatExpReward: 10
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    builder:
-      friendlyname: 'Builder'
-      description: 'Reach island level 10 (/[label] level).'
+    Constructor:
+      friendlyname: 'Constructor'
+      description: 'Llegar al nivel 10 de la isla (/[label] level).'
       icon: WOOD
-      level: 'Novice'
+      level: 'Novato'
       type: level
       requiredItems: 10
       takeItems: false
       itemReward: 'IRON_PICKAXE:1 DIRT:5 SPONGE:1'
-      rewardText: '1 iron pickaxe, 5 dirt and a Sponge'
+      rewardText: 'Recompensa: 1 pico de hierro, 5 de tierra y una esponja'
       moneyReward: 50
       expReward: 50
       permissionReward: ''
@@ -296,114 +296,114 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    grinder:
-      description: 'Kill monsters and collect 64 rotten flesh, 32 skeleton bones, 32 string, 32 arrows, 16 gunpowder, 5 spider eyes'
+    CazaFantasma:
+      description: 'Matar monstruos y recoger 64 carne podrida, 32 huesos de esqueleto, 32 cuerdas, 32 flechas, 16 polvora y 5 ojos de araña'
       icon: BONE
-      level: 'Competent'
+      level: 'Competidor'
       type: inventory
       requiredItems: 'ROTTEN_FLESH:64 STRING:32 SULPHUR:16 ARROW:32 BONE:32 SPIDER_EYE:5'
       takeItems: true
       itemReward: 'REDSTONE:16 IRON_ORE:5 FLINT:1 POTION:WATER_BREATHING:1 POTION:NIGHT_VISION:1'
-      rewardText: '16 redstone dust, 1 flint, 1 water breathing potion, 1 night vision potion and 5 iron(ore)'
+      rewardText: 'Recompensa: 16 de polvo de redstone, 1 pedernal, 1 pocion para respirar agua, 1 pocion para la vision nocturna y 5 de hierro'
       moneyReward: 75
       expReward: 75
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'REDSTONE:2 IRON_ORE:1 FLINT:1 POTION:WATER_BREATHING:1'
-      repeatRewardText: '2 redstone dust, 1 flint, 1 water breathing potion and 1 iron(ore)'
+      repeatRewardText: 'Recompensa: 2 de polvo de redstone, 1 pedernal, 1 pocion para respirar agua y 1 de hierro'
       repeatMoneyReward: 15
       repeatExpReward: 15
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    farmer:
-      description: 'Harvest 64 units of the following: wheat, sugar, melon, carrots, potatoes, pumpkin'
+    Granjero:
+      description: 'Cosecha 64 unidades de lo siguiente: trigo, azucar, melon, zanahorias, patatas, calabaza'
       icon: WHEAT
-      level: 'Competent'
+      level: 'Competidor'
       type: inventory
       requiredItems: 'WHEAT:64 SUGAR:64 MELON:64 CARROT_ITEM:64 POTATO_ITEM:64 PUMPKIN:64'
       takeItems: true
       itemReward: 'REDSTONE:16 INK_SACK:3:1 MONSTER_EGG:PIG:1 MONSTER_EGG:COW:1 MONSTER_EGG:CHICKEN:1'
-      rewardText: '16 redstone dust, 1 cocoa bean, 1 spawn egg(chicken,cow,pig)'
+      rewardText: 'Recompensa: 16 de polvo de redstone , 1 grano de cacao, 1 huevo spawn(pollo,vaca,cerdo)'
       moneyReward: 75
       expReward: 75
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'INK_SACK:3:1 MONSTER_EGG:PIG:1 MONSTER_EGG:COW:1 MONSTER_EGG:CHICKEN:1'
-      repeatRewardText: '1 cocoa bean, 1 spawn egg(chicken,cow,pig)'
+      repeatRewardText: 'Recompensa: 1 grano de cacao, 1 huevo spawn(pollo,vaca,cerdo)'
       repeatMoneyReward: 20
       repeatExpReward: 20
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    angler:
-      friendlyname: 'Angler'
-      description: 'Catch and cook 10 standard fish (no salmon)'
+    Pescador:
+      friendlyname: 'Pescador'
+      description: 'Captura y cocina 10 peces estándar (no salmon)'
       icon: COOKED_FISH
-      level: 'Competent'
+      level: 'Competidor'
       type: inventory
       requiredItems: 'COOKED_FISH:10'
       takeItems: true
       itemReward: 'REDSTONE:16 IRON_ORE:5 INK_SACK:5'
-      rewardText: '16 redstone dust, 5 inksacs, 5 iron (ore)'
+      rewardText: 'Recompensa: 16 polvos de redstone, 5 sacos de tinta, 5 de hierro'
       moneyReward: 75
       expReward: 75
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'REDSTONE:2 IRON_ORE:1 INK_SACK:1'
-      repeatRewardText: '2 redstone dust, 1 inksac, 1 iron (ore)'
+      repeatRewardText: 'Recompensa: 2 polvos de redstone, 1 saco de tinta, 1 de hierro'
       repeatMoneyReward: 15
       repeatExpReward: 15
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    treecutter:
-      friendlyname: 'Treecutter'
-      description: 'Create a tree farm and collect 16 oak, birch, jungle, and spruce logs'
+    Talador:
+      friendlyname: 'Talador'
+      description: 'Crear una granja de arboles y recoger 16 troncos de roble, abedul, jungla y abeto.'
       icon: LOG
-      level: 'Competent'
+      level: 'Competidor'
       type: inventory
       requiredItems: 'LOG:0:16 LOG:1:16 LOG:2:16 LOG:3:16'
       takeItems: true
       itemReward: 'REDSTONE:16 IRON_ORE:5 MONSTER_EGG:WOLF:1'
-      rewardText: '16 redstone dust, 5 iron (ore), 1 wolf spawn egg'
+      rewardText: 'Recompensa: 16 polvos de redstone, 5 de hierro, 1 huevo spawn de lobo'
       moneyReward: 75
       expReward: 75
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'REDSTONE:2 IRON_ORE:1'
-      repeatRewardText: '2 redstone dust, 1 iron (ore)'
+      repeatRewardText: 'Recompensa: 2 polvos de redstone, 1 de hierro)'
       repeatMoneyReward: 15
       repeatExpReward: 15
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    cookiemaker:
-      friendlyname: 'Cookie Maker'
-      description: 'Make 128 cookies and a bucket of milk'
+    Pastelero:
+      friendlyname: 'Fabricante de galletas'
+      description: 'Hacer 128 galletas y un cubo de leche'
       icon: COOKIE
-      level: 'Competent'
+      level: 'Competidor'
       type: inventory
       requiredItems: 'MILK_BUCKET:1 COOKIE:128'
       takeItems: true
       itemReward: 'REDSTONE:16 IRON_ORE:5'
-      rewardText: '16 redstone dust, 5 iron (ore)'
+      rewardText: 'Recompensa: 16 polvos de redstone, 5 de hierro'
       moneyReward: 75
       expReward: 75
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'REDSTONE:2 IRON_ORE:1'
-      repeatRewardText: '2 redstone dust, 1 iron (ore)'
+      repeatRewardText: 'Recompensa: 2 polvos de redstone, 1 de hierro'
       repeatMoneyReward: 15
       repeatExpReward: 15
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    craftsman:
-      friendlyname: 'Craftsman'
-      description: 'Reach island level 75 (/[label] level).'
+    ConstructorII:
+      friendlyname: 'Artesano'
+      description: 'Llegar al nivel 75 de la isla (/[label] level).'
       icon: IRON_BLOCK
-      level: 'Competent'
+      level: 'Competidor'
       type: level
       requiredItems: 75
       takeItems: false
       itemReward: 'OBSIDIAN:10'
-      rewardText: '10 obsidian blocks'
+      rewardText: 'Recompensa: 10 bloques de obsidiana'
       moneyReward: 50
       expReward: 50
       permissionReward: ''
@@ -412,11 +412,11 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    homestead:
-      friendlyname: 'Homestead'
-      description: 'Build a house that contains at least 1 wooden door, bed, bookshelf, crafting table, furnace, glass-block window, and torch.'
+    Arquitecto:
+      friendlyname: 'Arquitecto'
+      description: 'Construye una casa que contenga al menos una puerta de madera, cama, estanteria, mesa de artesania, horno, ventana de bloque de vidrio y una antorcha.'
       icon: BED
-      level: 'Competent'
+      level: 'Competidor'
       type: island
       requiredItems: 'BED_BLOCK:1 WORKBENCH:1 GLASS:1 WOODEN_DOOR:1 FURNACE:1 BOOKSHELF:1 TORCH:1'
       # Search radius - the number of blocks that will be searched around the player
@@ -425,7 +425,7 @@ challenges:
       searchRadius: 10
       takeItems: false
       itemReward: 'JUKEBOX:1 RECORD_12:1 LAPIS_BLOCK:10'
-      rewardText: '1 jukebox, 1 music disk, 10 lapis lazuli blocks'
+      rewardText: 'Recompensa: 1 caja de musica, 1 disco de musica, 10 bloques de lapislazuli'
       moneyReward: 100
       expReward: 100
       permissionReward: ''
@@ -434,16 +434,16 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    nether:
-      friendlyname: 'Nether'
-      description: 'Build a nether portal on your island and activate it.'
+    Caronte:
+      friendlyname: 'De camino al infierno'
+      description: 'Construye un portal del nether y activalo.'
       icon: NETHERRACK
-      level: 'Expert'
+      level: 'Experto'
       type: island
       requiredItems: 'OBSIDIAN:10 PORTAL:1'
       takeItems: false
       itemReward: 'DIAMOND_SWORD:1'
-      rewardText: '1 diamond sword'
+      rewardText: 'Recompensa: 1 espada de diamante'
       moneyReward: 100
       expReward: 100
       permissionReward: ''
@@ -452,96 +452,96 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    enderpearls:
+    Teletrasportacion:
       friendlyname: 'Enderpearls'
-      description: 'Collect 15 enderpearls from endermen'
+      description: 'Colecciona 15 enderperls'
       icon: ENDER_PEARL
-      level: 'Expert'
+      level: 'Experto'
       type: inventory
       requiredItems: 'ENDER_PEARL:15'
       takeItems: true
       itemReward: 'GOLD_INGOT:5 BLAZE_ROD:1'
-      rewardText: '5 gold ingots and 1 blaze rod'
+      rewardText: 'Recompensa: 5 lingotes de oro y 1 barra de blaze'
       moneyReward: 50
       expReward: 100
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'GOLD_INGOT:1 BLAZE_ROD:1'
-      repeatRewardText: '1 gold ingot and 1 blaze rod'
+      repeatRewardText: 'Recompensa: 1 lingotes de oro y 1 barra de blaze'
       repeatMoneyReward: 15
       repeatExpReward: 15
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    slimeballfarmer:
-      friendlyname: 'Slimeball Farmer'
-      description: 'Collect 40 slimeballs from slimes'
+    Recolector:
+      friendlyname: 'Recolector'
+      description: 'Colecciona 40 bolas de slime'
       icon: SLIME_BALL
-      level: 'Expert'
+      level: 'Experto'
       type: inventory
       requiredItems: 'SLIME_BALL:40'
       takeItems: true
       itemReward: 'GOLD_INGOT:5 IRON_ORE:5'
-      rewardText: '5 gold ingots and 5 blocks of iron ore'
+      rewardText: 'Recompensa: 5 lingotes de oro y 5 de hierro'
       moneyReward: 50
       expReward: 100
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'REDSTONE:8'
-      repeatRewardText: '8 redstone dust'
+      repeatRewardText: 'Recompensa: 8 polvos de redstone'
       repeatMoneyReward: 15
       repeatExpReward: 15
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    baker:
-      friendlyname: 'baker'
-      description: 'Bake 5 cakes and 5 pumpkin pies'
+    Repostero:
+      friendlyname: 'Repostero'
+      description: 'Hagan 5 tartas y 5 pasteles de calabaza'
       icon: CAKE
-      level: 'Expert'
+      level: 'Experto'
       type: inventory
       requiredItems: 'CAKE:5 PUMPKIN_PIE:5'
       takeItems: true
       itemReward: 'GOLD_INGOT:5 DIAMOND:1'
-      rewardText: '5 gold ingots and 1 diamond'
+      rewardText: 'Recompensa: 5 lingotes de oro y 1 diamante'
       moneyReward: 50
       expReward: 100
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'IRON_ORE:1'
-      repeatRewardText: '1 iron (ore)'
+      repeatRewardText: 'Recompensa: 1 lingote de oro'
       repeatMoneyReward: 15
       repeatExpReward: 15
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    pioneer:
-      friendlyname: 'Pioneer'
-      description: 'Make 1 map and use it, a compass, a clock and collect 64 netherrack, 16 soulsand, and 1 ghast tear'
+    Cartografo:
+      friendlyname: 'Cartografo'
+      description: 'Haz un mapa y usalo, una brujula, un reloj y recoge 64 netherrack, 16 soulsand, y 1 lagrima de ghast'
       icon: MAP
-      level: 'Expert'
+      level: 'Experto'
       type: inventory
       requiredItems: 'NETHERRACK:64 SOUL_SAND:16 GHAST_TEAR:1 MAP:1 COMPASS:1 WATCH:1'
       takeItems: true
       itemReward: 'POWERED_RAIL:32 RAILS:256 DIAMOND:1 MONSTER_EGG:OCELOT:1'
-      rewardText: '256 rails, 32 powered rails, 1 ocelot spawn egg, 1 diamond'
+      rewardText: 'Recompensa: 256 railes, 32 railes potenciadores, 1 huevo de ocelote, 1 diamante'
       moneyReward: 100
       expReward: 100
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'IRON_ORE:1'
-      repeatRewardText: '1 iron (ore)'
+      repeatRewardText: 'Recomenpsa: 1 de hierro'
       repeatMoneyReward: 20
       repeatExpReward: 20
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    mason:
-      friendlyname: 'Mason'
-      description: 'Reach island level 150 (/[label] level).'
+    ConstructorIII:
+      friendlyname: 'Jefe de obra'
+      description: 'Llegar al nivel 150 de la isla (/[label] level).'
       icon: GOLD_BLOCK
-      level: 'Expert'
+      level: 'Experto'
       type: level
       requiredItems: 150
       takeItems: false
       itemReward: 'DIAMOND:1 DIRT:20 GOLD_BLOCK:2'
-      rewardText: '1 diamond, 20 dirt, and 2 gold blocks'
+      rewardText: 'Recompensa: 1 diamante, 20 bloques de tierra y dos bloques de oro'
       moneyReward: 150
       expReward: 150
       permissionReward: ''
@@ -550,116 +550,116 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    shepherd:
-      friendlyname: 'Shepherd'
-      description: 'Collect 5 of every color of wool'
+    Pastor:
+      friendlyname: 'Pastor'
+      description: 'Recoge 5 de cada color de lana'
       icon: WOOL:2
-      level: 'Advanced'
+      level: 'Avanzado'
       type: inventory
       requiredItems: 'WOOL:0:5 WOOL:1:5 WOOL:2:5 WOOL:3:5 WOOL:4:5 WOOL:5:5 WOOL:6:5 WOOL:7:5 WOOL:8:5 WOOL:9:5 WOOL:10:5 WOOL:11:5 WOOL:12:5 WOOL:13:5 WOOL:14:5 WOOL:15:5' 
       takeItems: true
       itemReward: 'DIAMOND:2 RECORD_7:1 RECORD_8:1 RECORD_6:1 MONSTER_EGG:SHEEP:1 EMERALD:5'
-      rewardText: '2 diamonds, 5 emeralds, 3 music disks, 1 sheep spawn egg'
+      rewardText: 'Recompensa: 2 diamantes, 5 esmeraldas, 3 discos de musica, 1 huevo spawn de oveja'
       moneyReward: 200
       expReward: 200
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'EMERALD:1 MONSTER_EGG:SHEEP:1'
-      repeatRewardText: '1 emerald, 1 sheep spawn egg'
+      repeatRewardText: 'Recompensa: 1 esmeralda, 1 huevo spawn de oveja'
       repeatMoneyReward: 20
       repeatExpReward: 20
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    alchemist:
+    Quimico:
       friendlyname: 'Alchemist'
-      description: 'Brew 1 potion of Fire Resistance, Slowness, Swiftness, Healing, Harming, Invisibility, Strength and Regeneration'
+      description: 'Prepara 1 pocion de resistencia al fuego, lentitud, rapidez, curacion, dolor, invisibilidad, fuerza y ​​regeneracion.'
       icon: BREWING_STAND_ITEM
-      level: 'Advanced'
+      level: 'Avanzado'
       type: inventory
       requiredItems: 'POTION:FIRE_RESISTANCE::::1 POTION:SLOWNESS::::1 POTION:SPEED::::1 POTION:INSTANT_HEAL::::1 POTION:INSTANT_DAMAGE::::1 POTION:INVISIBILITY::::1 POTION:STRENGTH::::1 POTION:REGEN::::1'
       takeItems: true
       itemReward: 'ENCHANTMENT_TABLE:1'
-      rewardText: 'Enchantment Table'
+      rewardText: 'Recompensa: Mesa de encantamiento'
       moneyReward: 200
       expReward: 200
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'DIAMOND:1'
-      repeatRewardText: '1 diamond'
+      repeatRewardText: 'Recompensa: 1 diamante'
       repeatMoneyReward: 20
       repeatExpReward: 20
-    dj:
-      friendlyname: 'DJ'
-      description: 'Craft a jukebox and collect all music discs'
+    Dj:
+      friendlyname: 'Dj'
+      description: 'Hacer una caja de musica y coleccionar todos los discos de musica'
       icon: RECORD_5
-      level: 'Advanced'
+      level: 'Avanzado'
       type: inventory
       requiredItems: 'GOLD_RECORD:1 GREEN_RECORD:1 RECORD_3:1 RECORD_4:1 RECORD_5:1 RECORD_6:1 RECORD_7:1 RECORD_8:1 RECORD_9:1 RECORD_10:1 RECORD_11:1 RECORD_12:1 JUKEBOX:1' 
       takeItems: true
       itemReward: 'DIAMOND:3 EMERALD:10 GOLD_INGOT:5'
-      rewardText: '3 diamonds, 10 emeralds and 5 gold ingots'
+      rewardText: 'Recompensa: 3 diamantes, 10 esmeraldas y 5 lingotes de oro'
       moneyReward: 200
       expReward: 200
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'DIAMOND:1 EMERALD:5 GOLD_INGOT:2'
-      repeatRewardText: '1 diamond, 5 emeralds and 2 gold bars'
+      repeatRewardText: 'Recompensa: 1 diamante, 5 esmeraldas y 2 lingotes de oro'
       repeatMoneyReward: 20
       repeatExpReward: 20
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    gemcollector:
-      friendlyname: 'Gem Collector'
-      description: 'Collect 50 emeralds'
+    Banquero:
+      friendlyname: 'Colector de esmeraldas'
+      description: 'Colecciona 50 esmeraldas'
       icon: EMERALD
-      level: 'Advanced'
+      level: 'Avanzado'
       type: inventory
       requiredItems: 'EMERALD:50' 
       takeItems: true
       itemReward: 'DIAMOND:10'
-      rewardText: '10 diamonds'
+      rewardText: 'Recompensa: 10 diamantes'
       moneyReward: 200
       expReward: 200
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'GOLD_INGOT:2'
-      repeatRewardText: '2 gold ingots'
+      repeatRewardText: 'Recompensa: 2 lingotes de oro'
       repeatMoneyReward: 20
       repeatExpReward: 20
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    culinaryartist:
-      friendlyname: 'Culinary Artist'
-      description: 'Collect 1 of every kind of cooked or crafted edible food (no raw food, zombie flesh, or super golden apples)'
+    Culinario:
+      friendlyname: 'Culinario'
+      description: 'Recoge 1 de cada tipo de comida comestible cocinada o elaborada (no comida cruda, carne de zombi o manzanas super doradas)'
       icon: GOLDEN_APPLE
-      level: 'Advanced'
+      level: 'Avanzado'
       type: inventory
       requiredItems: 'BAKED_POTATO:1 BREAD:1 CAKE:1 COOKED_CHICKEN:1 COOKED_FISH:1 GRILLED_PORK:1 COOKIE:1 GOLDEN_APPLE:0:1 GOLDEN_CARROT:1 MUSHROOM_SOUP:1 PUMPKIN_PIE:1 COOKED_BEEF:1'
       # If you are running 1.8 change to this:
       # requiredItems: 'BAKED_POTATO:1 BREAD:1 CAKE:1 COOKED_CHICKEN:1 COOKED_FISH:1 GRILLED_PORK:1 COOKIE:1 GOLDEN_APPLE:0:1 GOLDEN_CARROT:1 MUSHROOM_SOUP:1 PUMPKIN_PIE:1 COOKED_BEEF:1 COOKED_RABBIT:1 RABBIT_STEW:1 COOKED_MUTTON:1'
       takeItems: true
       itemReward: 'GOLD_BLOCK:2 GREEN_RECORD:1 RECORD_3:1 RECORD_5:1 MONSTER_EGG:MUSHROOM_COW:1 EMERALD:5'
-      rewardText: '2 gold blocks, 3 music discs, 1 mooshroom spawn egg, and 5 emeralds'
+      rewardText: 'Recompensa: 2 bloques de oro, 3 discos de musica, 1 huevo spawn de vacaSeta y 5 esmeraldas'
       moneyReward: 200
       expReward: 200
       permissionReward: ''
       repeatable: true
       repeatItemReward: 'GOLD_INGOT:10 MONSTER_EGG:MUSHROOM_COW:1 EMERALD:1'
-      repeatRewardText: '10 gold ingots, 1 mooshroom spawn egg, 1 emerald'
+      repeatRewardText: 'Recompensa: 10 lingotes de hierro, 1 huevo spawn de vacaSeta y 1 esmeralda'
       repeatMoneyReward: 20
       repeatExpReward: 20
       # Max times limits how many times a challenge can be done. Comment out to make unlimited
       maxtimes: 100
-    beaconator:
-      friendlyname: 'Beaconator'
-      description: 'Build a beacon and let it shine!'
+    Farero:
+      friendlyname: 'Farero'
+      description: 'Construye un faro (faro de luz) y haz que brille.'
       icon: BEACON
-      level: 'Advanced'
+      level: 'Avanzado'
       type: island
       requiredItems: 'BEACON:1'
       takeItems: false
       itemReward: 'SMOOTH_BRICK:20 SMOOTH_BRICK:1:20 SMOOTH_BRICK:2:20 SMOOTH_BRICK:3:20'
-      rewardText: '20 blocks of every kind of stone brick'
+      rewardText: 'Recompensa: 20 bloques de todo tipo de ladrillo de piedra'
       moneyReward: 300
       expReward: 300
       permissionReward: ''
@@ -668,16 +668,16 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    ittakesavillage:
-      friendlyname: 'It Takes A Village'
-      description: 'Hold a village meeting with 10 villagers!'
+    Alcalde:
+      friendlyname: 'Propietario de un pueblo'
+      description: 'Celebrar una reunión de la aldea con 10 aldeanos...'
       icon: STONE
-      level: 'Advanced'
+      level: 'Avanzado'
       type: island
       requiredItems: 'VILLAGER:10'
       takeItems: false
       itemReward: 'HOPPER:4'
-      rewardText: '4 hoppers'
+      rewardText: 'Recompensa: 4 tolvas'
       moneyReward: 300
       expReward: 300
       permissionReward: ''
@@ -686,16 +686,16 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    myprecious:
-      friendlyname: 'My Precious'
-      description: 'Build an iron golem'
+    Guardaespalda:
+      friendlyname: 'Guardaespalda'
+      description: 'Construye un golem de iron'
       icon: NAME_TAG
-      level: 'Advanced'
+      level: 'Avanzado'
       type: island
       requiredItems: 'IRON_GOLEM:1'
       takeItems: false
       itemReward: 'NAME_TAG:1 ANVIL:1 CAULDRON_ITEM:1 IRON_BLOCK:2'
-      rewardText: 'A name tag, an anvil, a cauldron and 2 iron blocks'
+      rewardText: 'Recompensa: Una etiqueta con el nombre, un yunque, un caldero y 2 bloques de hierro'
       moneyReward: 300
       expReward: 300
       permissionReward: ''
@@ -704,16 +704,16 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    snowplay:
-      friendlyname: 'Snow Play!'
-      description: 'Build a snow golem'
+    Monigote de nieve:
+      friendlyname: 'Juego de nieve'
+      description: 'Construye un monigote de nieve'
       icon: SNOW_BALL
-      level: 'Advanced'
+      level: 'Avanzado'
       type: island
       requiredItems: 'SNOWMAN:1'
       takeItems: false
       itemReward: 'DIAMOND_SPADE:1'
-      rewardText: 'A diamond spade - get shoveling!'
+      rewardText: 'Recompensa: 1 pala de diamante'
       moneyReward: 300
       expReward: 300
       permissionReward: ''
@@ -722,16 +722,16 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    itsaparty:
-      friendlyname: "It's a party"
-      description: 'Have a party! Invite 4 friends.'
+    Famoso:
+      friendlyname: "Esto es una fiesta"
+      description: 'Que empiece la fiesta. Invita a 4 amigos.'
       icon: PUMPKIN_PIE
-      level: 'Advanced'
+      level: 'Avanzado'
       type: island
       requiredItems: 'PLAYER:5'
       takeItems: false
       itemReward: 'EMERALD:6 PUMPKIN_PIE:6'
-      rewardText: '6 Emeralds, 6 pumpkin pies'
+      rewardText: 'Recompensa: 6 esmeraldas y 6 pasteles de calabaza'
       moneyReward: 200
       expReward: 200
       permissionReward: ''
@@ -740,16 +740,16 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    itsamonsterparty:
-      friendlyname: "It's a Monster Party"
-      description: 'Have a party - all monsters invited! Get close to a Skeleton, Zombie, Spider, Creeper and Enderman all at the same time.'
+    Zombi:
+      friendlyname: "Es una fiesta de monstruos"
+      description: 'Tengan una fiesta - todos los monstruos estan invitados. Acercate a un esqueleto, zombi, tarantulas, enredadera y enderman, todos al mismo tiempo.'
       icon: SKULL_ITEM
-      level: 'Advanced'
+      level: 'Avanzado'
       type: island
       requiredItems: 'SKELETON:1 ZOMBIE:1 SPIDER:1 CREEPER:1 ENDERMAN:1'
       takeItems: false
       itemReward: 'SKULL_ITEM:0:2 SKULL_ITEM:2:2 SKULL_ITEM:3:2'
-      rewardText: 'Skulls!'
+      rewardText: 'Recompensa: Craneos de todos los monstruos'
       moneyReward: 200
       expReward: 400
       permissionReward: ''
@@ -758,16 +758,16 @@ challenges:
       repeatRewardText: ''
       repeatMoneyReward: 0
       repeatExpReward: 0
-    acidduke:
-      friendlyname: 'Arch Duke'
-      description: 'Achieve an island level of 1000'
+    Dios:
+      friendlyname: 'Dios'
+      description: 'Alcanzar un nivel de isla de 1000'
       icon: DIAMOND_BLOCK
       level: 'Elite'
       type: level
       requiredItems: 1000
       takeItems: false
-      itemReward: 'DIAMOND:1'
-      rewardText: '1 diamond'
+      itemReward: 'DIAMOND:50'
+      rewardText: 'Recompensa: 50 diamantes'
       moneyReward: 250
       expReward: 250
       permissionReward: ''

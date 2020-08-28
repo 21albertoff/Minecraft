@@ -1,73 +1,68 @@
-HELP_SKIN_CLEAR: Clears your skin.
-HELP_SKIN_CLEAR_OTHER: Clears the skin of another player.
-HELP_SKIN_UPDATE: Updates your skin.
-HELP_SKIN_UPDATE_OTHER: Updates the skin of another player.
-HELP_SKIN_SET: Sets your skin.
-HELP_SKIN_SET_OTHER: Sets the skin of another player.
-HELP_SR_RELOAD: Reloads the configuration file.
-HELP_SR_STATUS: Checks plugin needed API services
-HELP_SR_DROP: Drops the players skin data.
-HELP_SR_PROPS: Displays the players current skin as properties.
-PLAYER_HAS_NO_PERMISSION_SKIN: '&e[&2SkinsRestorer&e] &4Error&8: &cYou don''t have
-  permission to set this skin.'
-PLAYER_HAS_NO_PERMISSION_URL: '&e[&2SkinsRestorer&e] &4Error&8: &cYou don''t have
-  permission to set skins by URL.'
-SKIN_DISABLED: '&e[&2SkinsRestorer&e] &4Error&8: &cThis skin is disabled by an administrator.'
-NOT_PREMIUM: '&e[&2SkinsRestorer&e] &4Error&8: &cPremium player with that name does
-  not exist.'
-INVALID_PLAYER: '&e[&2SkinsRestorer&e] &4Error&8: &c%player is not a valid username
-  or URL.'
-SKIN_COOLDOWN_NEW: '&e[&2SkinsRestorer&e] &4Error&8: &cYou can change your skin again
-  in &e%s &cseconds.'
-SKIN_CHANGE_SUCCESS: '&e[&2SkinsRestorer&e] &2Your skin has been changed.'
-SKIN_CLEAR_SUCCESS: '&e[&2SkinsRestorer&e] &2Your skin has been cleared.'
-SKIN_CLEAR_ISSUER: '&e[&2SkinsRestorer&e] &2Skin cleared for player %player.'
-MS_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &2Uploading skin, please wait...'
-SUCCESS_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &2Your skin has been updated.'
-SUCCESS_UPDATING_SKIN_OTHER: '&e[&2SkinsRestorer&e] &2Skin updated for player %player.'
-ERROR_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &4Error&8: &cAn error occurred while updating
-  your skin. Please try again later!'
-ERROR_MS_FULL: '&e[&2SkinsRestorer&e] &4MS Error&8: &cAPI timed out while uploading
-  your skin. Please try again later. (MineSkin)'
+##############################
+# SkinsRestorer Config.yml   #
+# Generado en 13.7.2         #    
+# Traducido: BensiCraft      #
+##############################
+HELP_SKIN_CLEAR: Eliminar tu skin.
+HELP_SKIN_CLEAR_OTHER: Eliminar la skin de otro jugador.
+HELP_SKIN_UPDATE: Actualizar tu skin.
+HELP_SKIN_UPDATE_OTHER: Actualizar la skin de otro jugador.
+HELP_SKIN_SET: Establecer tu skin.
+HELP_SKIN_SET_OTHER: Establecer la skin a otro jugador.
+HELP_SR_RELOAD: Actualizar el archivo de configuracion.
+HELP_SR_STATUS: Actualizar plugin.
+HELP_SR_DROP: Eliminar los datos de la skin de los jugadores.
+HELP_SR_PROPS: Muestra la skin actual de los jugadores que tiene skin propia.
+PLAYER_HAS_NO_PERMISSION_SKIN: '&e[&2SkinsRestorer&e] &4Error&8: &cNo tienes permisos para establecer esta skin.'
+PLAYER_HAS_NO_PERMISSION_URL: '&e[&2SkinsRestorer&e] &4Error&8: &cNo tienes permisos para establecer esta skin mediante URL.'
+SKIN_DISABLED: '&e[&2SkinsRestorer&e] &4Error&8: &cEsta skin esta deshabilitada por un administrador.'
+NOT_PREMIUM: '&e[&2SkinsRestorer&e] &4Error&8: &cEl jugador premiun con este nombre no existe.'
+INVALID_PLAYER: '&e[&2SkinsRestorer&e] &4Error&8: &c%player no es un nickuser o URL valido.'
+SKIN_COOLDOWN_NEW: '&e[&2SkinsRestorer&e] &4Error&8: &cPodras cambiar tu skin en 
+   &e%s &csegundos.'
+SKIN_CHANGE_SUCCESS: '&e[&2SkinsRestorer&e] &2Tu skin ha sido cambiada.'
+SKIN_CLEAR_SUCCESS: '&e[&2SkinsRestorer&e] &2Tu skin ha sido eliminada.'
+SKIN_CLEAR_ISSUER: '&e[&2SkinsRestorer&e] &2La skin de %player ha sido eliminada'
+MS_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &2Actualizando skin, espera por favor...'
+SUCCESS_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &2Tu skin ha sido actualizado.'
+SUCCESS_UPDATING_SKIN_OTHER: '&e[&2SkinsRestorer&e] &2La skin ha sido actualizada para el jugador %player.'
+ERROR_UPDATING_SKIN: '&e[&2SkinsRestorer&e] &4Error&8: &cOcurrio un error cuando actualizabamos tu skin. Por favor intentalo mas tarde.'
+ERROR_MS_FULL: '&e[&2SkinsRestorer&e] &4MS Error&8: &cLa API no funciona correctamente en tu
+  skin. Por favor intentalo mas tarde.'
 ERROR_MS_GENERIC: '&e[&2SkinsRestorer&e] &4MS Error&8: &c%error%'
-GENERIC_ERROR: '&e[&2SkinsRestorer&e] &4Error&8: &cAn error occurred while requesting
-  skin data, please try again later!'
-WAIT_A_MINUTE: '&e[&2SkinsRestorer&e] &4Error&8: &cPlease wait a minute before requesting
-  that skin again. (Rate Limited)'
-MENU_OPEN: '&2Opening the skins menu...'
-NEXT_PAGE: '&a&l»&7 Next Page&a&l »'
-PREVIOUS_PAGE: '&e&l«&7 Previous Page&e&l «'
-REMOVE_SKIN: '&c&l[ &7Remove Skin&c&l ]'
-SELECT_SKIN: '&2Click to select this skin'
-ADMIN_SET_SKIN: '&e[&2SkinsRestorer&e] &2You set %player''s skin.'
-SKIN_DATA_DROPPED: '&e[&2SkinsRestorer&e] &2Skin data for player %player dropped.'
-STATUS_OK: '&e[&2SkinsRestorer&e] &2Mojang API connection successful!'
-ALT_API_FAILED: '&e[&2SkinsRestorer&e] &4Error&8: &cSkin Data API is overloaded, please
-  try again later!'
-MS_API_FAILED: '&e[&2SkinsRestorer&e] &4Error&8: &cMineSkin API is overloaded, please
-  try again later!'
-NO_SKIN_DATA: '&e[&2SkinsRestorer&e] &4Error&8: &cNo skin data acquired! Does this
-  player have a skin?'
-RELOAD: '&e[&2SkinsRestorer&e] &2Config and Locale has been reloaded!'
-OUTDATED: "&e[&2SkinsRestorer&e] &4You are running an outdated version of SkinsRestorer!\n\
-  &cPlease update to the latest version on Spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
+GENERIC_ERROR: '&e[&2SkinsRestorer&e] &4Error&8: &cUn error ocurrido hacediendo a la base de datos de las skins, por favor intentalo mas tarde.'
+WAIT_A_MINUTE: '&e[&2SkinsRestorer&e] &4Error&8: &cPor favor espera unos minutos antes de solicitar la skin de nuevo.'
+MENU_OPEN: '&2Abriendo menu de skins...'
+NEXT_PAGE: '&a&l»&7 Siguiente pagina&a&l »'
+PREVIOUS_PAGE: '&e&l«&7 Pagina anterior&e&l «'
+REMOVE_SKIN: '&c&l[ &7Eliminar skin&c&l ]'
+SELECT_SKIN: '&2Clic para seleccionar esta skin'
+ADMIN_SET_SKIN: '&e[&2SkinsRestorer&e] &2Tu establecistes la skin de %player.'
+SKIN_DATA_DROPPED: '&e[&2SkinsRestorer&e] &2Datos de la piel del jugador %player .'
+STATUS_OK: '&e[&2SkinsRestorer&e] &2Mojang API - conexion exitosa.'
+ALT_API_FAILED: '&e[&2SkinsRestorer&e] &4Error&8: &cEl API de datos de la skin esta sobrecargado, por favor intentelo de nuevo mas tarde'
+MS_API_FAILED: '&e[&2SkinsRestorer&e] &4Error&8: &cEl API de datos de la skin esta sobrecargado, por favor intentelo de nuevo mas tarde'
+NO_SKIN_DATA: '&e[&2SkinsRestorer&e] &4Error&8: &cNo se ha establecido ninguna skin. No hemos podido encontrar ninguna skin con ese nick'
+RELOAD: '&e[&2SkinsRestorer&e] &2La configuracion ha sido actualizada'
+OUTDATED: "&e[&2SkinsRestorer&e] &4La version del plugin esta desfasada\n\
+  &cActualiza la ultima version de spigot: \n&ehttps://www.spigotmc.org/resources/skinsrestorer.2124/"
 SR_LINE: '&7&m----------------------------------------'
 HELP_PLAYER: |2-
     &2&lSkinsRestorer &7- &f&lv%ver%
-     &2/skin <skinname> &7-&f Changes your skin.
-      &2/skin update &7-&f Updates your skin.
-      &2/skin clear &7-&f Clears your skin.
+     &2/skin <skinname> &7-&f Cambiar tu skin.
+      &2/skin update &7-&f Actualizar tu skin.
+      &2/skin clear &7-&f Eliminar tu skin.
 PREFIX: '&e[&2SkinsRestorer&e] '
-ERROR_UPDATING_URL: "&4Error&8: &cYou can't update custom url skins! \n&cRequest again\
-  \ using /skin url"
-ERROR_INVALID_URLSKIN: "&4Error&8: &cInvalid skin url or format, \n&c try uploading\
-  \ your skin to imgur and right click copy imgurl \n&cFor guide see: \n&c&o skinsrestorer.net/skinurl"
-ERROR_MOJANG_outage: "&4Error&8: &4&nMojang skin service is down. \n&cWe can only\
-  \ provide already recently requested skins. \n&cNew ones will fail to request..."
-SKINSMENU_OPEN: '&2Opening the skins menu...'
-SKINSMENU_TITLE: '&9Skins Menu - Page '
-SKINSMENU_NEXT_PAGE: '&a&l�&7 Next Page&a&l �'
-SKINSMENU_PREVIOUS_PAGE: '&e&l�&7 Previous Page&e&l �'
-SKINSMENU_REMOVE_SKIN: '&c&l[ &7Remove Skin&c&l ]'
-SKINSMENU_SELECT_SKIN: '&2Click to select this skin'
-ERROR_NO_SKIN: '&4Error&8: &cThis player has no skin set.'
+ERROR_UPDATING_URL: "&4Error&8: &cNo puedes actualizar la skin de las urls personalizadas. \n&cSolicite de nuevo\
+  \ usando /skin url"
+ERROR_INVALID_URLSKIN: "&4Error&8: &cFormato o url invalido, \n&c intenta subir\
+  \ tu skin a imgur y haz clic con el boton derecho del raton para copiar imgurl \n&cMas informacion: \n&c&o skinsrestorer.net/skinurl"
+ERROR_MOJANG_outage: "&4Error&8: &4&nMojang esta caido. \n&cNosotros solo podemos\
+  \ establecer tu skin anterior. \n&cLa nueva skin no se solicitara..."
+SKINSMENU_OPEN: '&2Abriendo el menu de skins...'
+SKINSMENU_TITLE: '&9Skins Menu - Paginas '
+SKINSMENU_NEXT_PAGE: '&a&l�&7 Pagina siguiente&a&l �'
+SKINSMENU_PREVIOUS_PAGE: '&e&l�&7 Pagina anterior&e&l �'
+SKINSMENU_REMOVE_SKIN: '&c&l[ &7Eliminar Skin&c&l ]'
+SKINSMENU_SELECT_SKIN: '&2Clic para seleccionar esta skin'
+ERROR_NO_SKIN: '&4Error&8: &cEste jugador no tiene skin establecida.'
